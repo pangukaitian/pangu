@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -105,7 +105,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: Source Sans Pro;
   font-size: 1em;
 }
 button,
@@ -261,7 +261,7 @@ th {
   }
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
+  font-family: 'Source Sans Pro', sans-serif;
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
@@ -270,7 +270,7 @@ th {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -1082,7 +1082,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -1302,6 +1302,7 @@ h6,
 p
 .p {
   margin: 0 0 10px;
+  font-size: 14px;
 }
 .position{
   -webkit-margin-before: 2px;
@@ -1312,12 +1313,12 @@ p
 {
   -webkit-margin-before: 2px;
   -webkit-margin-after: 2px;
-  font-size: 13px;
+  font-size: 14px;
 }
 .research-contents{
   -webkit-margin-before: 2px;
   -webkit-margin-after: 2px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .lead {
@@ -1562,7 +1563,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 code {
   padding: 2px 4px;
@@ -6067,7 +6068,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: normal;
@@ -6186,7 +6187,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
@@ -6454,7 +6455,7 @@ button.close {
 .carousel-control .icon-next {
   width: 20px;
   height: 20px;
-  font-family: serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 1;
 }
 .carousel-control .icon-prev:before {
