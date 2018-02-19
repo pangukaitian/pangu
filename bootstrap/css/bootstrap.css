@@ -1083,7 +1083,7 @@ html {
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -1278,7 +1278,7 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 20px;
 }
 .member{
 	background-color: #dbefff;
@@ -1302,23 +1302,22 @@ h6,
 p
 .p {
   margin: 0 0 10px;
-  font-size: 14px;
 }
 .position{
   -webkit-margin-before: 2px;
   -webkit-margin-after: 2px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .profile
 {
   -webkit-margin-before: 2px;
   -webkit-margin-after: 2px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .research-contents{
   -webkit-margin-before: 2px;
   -webkit-margin-after: 2px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .lead {
