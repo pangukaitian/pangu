@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <title>Zhao Yan</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="http://d3js.org/d3.v3.min.js" type="text/javascript"></script>
+    <script src="js/paperPage.js"></script>
+    <script src="js/titleEdit.js"></script>
+    <script src="js/insertData.js"></script>
+    <link rel="stylesheet" href="css/paperPage.css">
+</head>
+<body>
+<div id="headTitle" style="width: 100%; height: 25%;">
+    <img src="img/homeImg.jpg" width="135" height="135" align="absmiddle">
+    <div id="headTitle1"></div>
+    <div id = "abInfo"></div>
+</div>
+<div id="qs" style="display: block;">
+    <form action="">
+        <p>Global Quick Search: <input type="text" name="qsfield" id="qsfield" autocomplete="off" title="Allows plain text as well as RegExp searches (rowbased)"><input type="button" onclick="clearQS()" value="clear">&nbsp; Numbers: <span id="stat">/</span></p>
+    </form>
+    <div id = "authorDiv"></div>
+    <div id = "bibDiv"></div>
+</div>
+<table id="qstable" class="sortable">
+    <thead title="Click on any column header to sort">
+    <tr>
+        <th width="15%"  class="input">Time Stamp</th>
+        <th width="15%"  class="input">Author</th>
+        <th width="25%"  class="input">Title</th>
+        <th width="15%"  class="dropd">Year</th>
+        <th width="15%"  class="dropd">Type</th>
+        <th width="15%"  class="dropd">Application</th>
+    </tr>
+    </thead>
+    <tbody id="tbody1">
+    </tbody>
+</table>
+</body></html>
