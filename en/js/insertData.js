@@ -1,10 +1,9 @@
-function insertData(id,timeStamp,author,title,url,date,type,application,abstract) {
+function insertData(id,timeStamp,author,title,url,type,application,abstract) {
     // id: 论文id
     // timeStamp: 时间戳
     // author：作者
     // title：文章标题
     // url：链接
-    // date： 发表时间
     // type：文章类型
     // application： 应用
     // abstract：简介
@@ -35,7 +34,7 @@ function insertData(id,timeStamp,author,title,url,date,type,application,abstract
     titleLink.append("a").attr("href",url).html("URL");
     titleLink.append("span").html("]");
 
-    tr.append("td").html(date);
+    // tr.append("td").html(date);
     tr.append("td").html(type);
     tr.append("td").html(application);
 
@@ -43,5 +42,5 @@ function insertData(id,timeStamp,author,title,url,date,type,application,abstract
         "id":"abs_" + id,
         "class":"abstract noshow"
     });
-    absTr.append("td").attr("colspan","7").append("b").html("Abstract:").html(abstract);
+    absTr.append("td").attr("colspan","8").append("b").html("Abstract:").html(abstract);
 }
