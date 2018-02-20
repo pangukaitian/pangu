@@ -15,6 +15,7 @@ function titleEdit() {
         'right': '120px',
         'width': "60px",
         'height': "20px",
+        'border-radius': '3px',
         "cursor":"pointer",
         "background-color":"#E0E0E0"
     }).on("mouseover",function () {
@@ -46,6 +47,7 @@ function titleEdit() {
         'right': '50px',
         'width': "60px",
         'height': "20px",
+        'border-radius': '3px',
         "cursor":"pointer",
         "background-color":"#E0E0E0"
     }).on("mouseover",function () {
@@ -79,6 +81,7 @@ function titleEdit() {
         'top':"70px",
         'right': '50px',
         'width': "450px",
+        'border-radius': '3px',
         'background': '#F0F0F0',
         'height': "95px",
         "opacity": 0.0,
