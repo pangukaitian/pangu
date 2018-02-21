@@ -68,8 +68,8 @@ function titleEdit() {
             "@misc{yzmham:dltest-repository, \n" +
             "author = Qiang Hu and Lei Ma and Jianjun Zhao, \n" +
             "title = The {DLT} Repository: {A} repository and analysis of research articles on Reliability of Deep Learning Systems, \n" +
-            "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp publisher = {{PANGU Research Group, Kyushu  University}}, \n" +
-            "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp note = https://pangukaitian.github.io/pangu/en/index.htmle_repository/ \n" +
+            "publisher = {{PANGU Research Group, Kyushu  University}}, \n" +
+            "note = https://pangukaitian.github.io/pangu/en/index.htmle_repository/ \n" +
             "}")
     }).html("bib").style({
         "text-align":"center",
