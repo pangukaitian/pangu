@@ -32,7 +32,7 @@ function titleEdit() {
                 "opacity": 1.0,
                 'z-index': '3'
             });
-            d3.select("#abInfo").html("This page is maintained by Qiang Hu, PANGU Research Group, Department of Advanced Information Technology, Kyushu University, Fukuoka, Japan. \n" +
+            d3.select("#abInfo").html("This page is maintained by Qiang Hu, PANGU Research Lab, Department of Advanced Information Technology, Kyushu University, Fukuoka, Japan. \n" +
                 "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Email: zhao [AT] ait.kyushu-u.ac.jp");
             authorClickNum ++;
 
@@ -71,7 +71,7 @@ function titleEdit() {
             "publisher = {{PANGU Research Group, Kyushu  University}}, \n" +
             "note = https://pangukaitian.github.io/pangu/en/index.htmle_repository/ \n" +
             "}")
-    }).html("bib").style({
+    }).html("BibTex").style({
         "text-align":"center",
         "vertical-align":"middle",
         "font-size": "15px"
