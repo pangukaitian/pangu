@@ -71,7 +71,7 @@ function titleEdit() {
             "publisher = {{PANGU Research Group, Kyushu  University}}, \n" +
             "note = https://pangukaitian.github.io/pangu/en/index.htmle_repository/ \n" +
             "}")
-    }).html("BibTex").style({
+    }).html("bib").style({
         "text-align":"center",
         "vertical-align":"middle",
         "font-size": "15px"
