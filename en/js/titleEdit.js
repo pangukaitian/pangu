@@ -1,6 +1,4 @@
 function titleEdit() {
-    var authorClickNum = 0;
-    var bibClickNum = 0;
     d3.select("#headTitle1").html("Repository of Publications on " +
         "Reliability of Deep Learning Systems").style({
         "position":"absolute",
@@ -34,9 +32,8 @@ function titleEdit() {
             });
             d3.select("#abInfo").html("This page is maintained by Qiang Hu, PANGU Research Lab, Department of Advanced Information Technology, Kyushu University, Fukuoka, Japan. \n" +
                 "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Email: zhao [AT] ait.kyushu-u.ac.jp");
-            authorClickNum ++;
 
-    }).html("author").style({
+    }).html("Author").style({
         "text-align":"center",
         "vertical-align":"middle",
         "font-size": "15px"
@@ -66,12 +63,12 @@ function titleEdit() {
         });
         d3.select("#abInfo").html("if you would like to cite the repository website please use this BibTeX entry:\n" +
             "@misc{yzmham:dltest-repository, \n" +
-            "author = Qiang Hu and Lei Ma and Jianjun Zhao, \n" +
-            "title = The {DLT} Repository: {A} repository and analysis of research articles on Reliability of Deep Learning Systems, \n" +
-            "publisher = {{PANGU Research Group, Kyushu  University}}, \n" +
+            "author = Qiang Hu and Lei Ma and Jianjun Zhao,\n" +
+            "title = The {DLT} Repository: {A} repository and analysis of research articles on Reliability of Deep Learning Systems, &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp\n" +
+            "publisher = {{PANGU Research Group, Kyushu  University}}, &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp \n" +
             "note = https://pangukaitian.github.io/pangu/en/index.htmle_repository/ \n" +
             "}")
-    }).html("bib").style({
+    }).html("BibTex").style({
         "text-align":"center",
         "vertical-align":"middle",
         "font-size": "15px"
