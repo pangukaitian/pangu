@@ -64,7 +64,7 @@ function titleEdit() {
         d3.select("#abInfo").html("if you would like to cite the repository website please use this BibTeX entry:\n" +
             "@misc{yzmham:dltest-repository, \n" +
             "author = Qiang Hu and Lei Ma and Jianjun Zhao,\n" +
-            "title = The {DLT} Repository: {A} repository and analysis of research articles on Reliability of Deep Learning Systems, &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp\n" +
+            "title = The {DLT} Repository: {A} repository and analysis of research articles on Robust Deep Learning Systems, &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp\n" +
             "publisher = {{PANGU Research Group, Kyushu  University}}, &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp \n" +
             "note = https://pangukaitian.github.io/pangu/en/index.htmle_repository/ \n" +
             "}")
