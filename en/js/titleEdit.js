@@ -1,6 +1,6 @@
 function titleEdit() {
     d3.select("#headTitle1").html("Repository of Publications on " +
-        "Reliability of Deep Learning Systems").style({
+        "Robust Deep Learning Systems").style({
         "position":"absolute",
         'left': '17%',
         "top": '25px',
