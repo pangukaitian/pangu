@@ -1983,7 +1983,8 @@ pre code {
     width: 83.33333333%;
   }
   .col-md-9 {
-    width: 75%;
+    width: 80%;
+	padding-right: 0px;
   }
   .col-md-8 {
     width: 66.66666667%;
@@ -2002,6 +2003,7 @@ pre code {
   }
   .col-md-3 {
     width: 25%;
+	left: 0px;
   }
   .col-md-2 {
     width: 16.66666667%;
