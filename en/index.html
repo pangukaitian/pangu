@@ -9,7 +9,9 @@
 
 	<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://d3js.org/d3.v3.min.js" type="text/javascript"></script>
+	<script	src="../bootstrap/js/width.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   </head>
 
@@ -23,7 +25,7 @@
 	  </div>
 	  
 	  <div class="col-md-12">
-		<h1><img class="img-responsive" src="../images/title.jpg"></h1>
+		<h1><img class="img-responsive" src="../images/title.jpg" id="title-width"></h1>
 
 	  </div>
 	</div>
@@ -68,7 +70,7 @@
 </div>
 
 
-	<div class="col-md-9">
+	<div class="col-md-9" id="mainbody-width">
 	  	<div class="tab-content">
         			  	<div class="col-md-112">
 			  	</div>
@@ -147,7 +149,7 @@
 
 				<table class="photo">
 					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo.png"/></td>
+					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Jinbo-Du.png"/></td>
 					<td class="word-right">
 						
 						<h4><a href="http://stap.sjtu.edu.cn/index.php?title=User%3ADujinbo">Jinbo Du</a></h4>
@@ -355,6 +357,9 @@
 				<hr>				
 
 			
+			<h4 class="member">Alumni</h4>
+				<hr>
+			
 		</div>
 		<!--- End MEMBERS -->
 
@@ -362,10 +367,16 @@
 		
 		<!--- Begin RESEARCH -->
 		<div id="research" class="tab-pane fade">
-			<h3>Research Projects</h3>
-			<p style="margin:20px"></p>
 			<h4 class="research">Robust Deep Learning Systems</h4>
-				<p>Deep learning (DL) has achieved great success in many application domains such as image processing, speech recognition, 
+			<hr>
+			<table class="photo">
+			<tr>
+				
+				<td class="photo-left"><img src="../images/Robust Deep Learning Systems.jpg" style="margin-top: 15px"></td>
+				
+				<td class="word-right">
+				<p>
+				Deep learning (DL) has achieved great success in many application domains such as image processing, speech recognition, 
 				and autonomous vehicles. However, how to ensure the reliability and security of DL system remains an open problem. 
 				For example, an attacker could add adversarial perturbations often imperceptible to human eyes to an image to cause a deep neural 
 				network (DNN) to misclassify perturbed images. In this project, we attempt to solve such the problem of reliability and 
@@ -376,20 +387,51 @@
 				We plan to take a multi-pronged approach to explore deeper understanding of defects (bugs) and adversarial examples in DL systems, 
 				and methods to guarantee the reliability and security of DL systems.
 				</p>
-                        <p style="margin:7px"></p>
+				</td>
+				
+			</tr>
+			</table>
+			<hr>
+			
+			
+				
+
 			<h4 class="research">Deep Learning for Software Engineering</h4>
-				<p>Deep learning can provide new capabilities and approaches for addressing software engineering problems. In this project, 
+			<hr>
+			<table class="photo">
+			<tr>		
+				<td class="photo-left"><img src="../images/Deep Learning for Software Engineering.png" style="margin-top: 15px"></td>
+
+				<td class="word-right">
+				<p>
+				Deep learning can provide new capabilities and approaches for addressing software engineering problems. In this project, 
 				we will explore different software engineering activities where deep learning provides promising solutions, 
 				including software testing and debugging, program analysis and verification, software mining and analytics.
-				</p>			
+				</p>	
+				</td>
+				
+			</tr>
+			</table>
+			<hr>
 
-			<p style="margin:7px"></p>
 			<h4 class="research">Programming with Big Code</h4>
-				<p>Just like huge amounts of data on the web enabled Big Data applications, now large repositories of programs 
+			<hr>
+			<table class="photo">
+			<tr>		
+
+				<td class="photo-left"><img src="../images/Programming with Big Code.png" style="margin-top: 15px"></td>
+
+				<td class="word-right">
+				<p>
+				Just like huge amounts of data on the web enabled Big Data applications, now large repositories of programs 
 				(e.g. open source code on GitHub) enable a new class of applications that leverage these repositories of "Big Code". 
 				Using Big Code means to automatically learn from existing code in order to solve software engineering tasks such as 
 				predicting software bugs, predicting program behavior, or automatically generating new code.
 				</p>
+				</td>
+				
+			</tr>
+			</table>
 			<hr>
 			</br>
 		</div>
