@@ -1,2 +1,2 @@
 # pangu
-https://pangukaitian.github.io/pangu/en/
+https://forPANGU.github.io/panguWeb/en/
