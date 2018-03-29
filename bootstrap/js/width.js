@@ -9,3 +9,7 @@ function col_md_9_width() {
 	window.onresize = function(){
 		col_md_9_width();
 	}
+	
+	window.onload = function(){
+		col_md_9_width();
+	}
