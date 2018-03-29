@@ -1102,7 +1102,7 @@ a {
 }
 .a-language
 {
-  color: #333333;
+  color: #999999;
   text-decoration: none;
 }
 a:hover,
@@ -4194,8 +4194,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.li_language_active > a,
 .nav-pills > li.li_language_active > a:hover,
 .nav-pills > li.li_language_active > a:focus {
-  color: #FFFFFF;
-  background-color: #337AB7;
+  color: #000000;
+  background-color: #F5F5F5;
 }
 
 .nav-stacked > li {
