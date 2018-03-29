@@ -4182,7 +4182,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-radius: 4px;
 }
 .nav-pills > li + li {
-  margin-left: 2px;
+  margin-left: 0px;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
@@ -4190,6 +4190,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #fff;
   background-color: #337ab7;
 }
+
+.nav-pills > li.li_language_active > a,
+.nav-pills > li.li_language_active > a:hover,
+.nav-pills > li.li_language_active > a:focus {
+  color: #FFFFFF;
+  background-color: #337AB7;
+}
+
 .nav-stacked > li {
   float: none;
 }
@@ -5922,9 +5930,9 @@ button.list-group-item-danger.active:focus {
 .well-language{
   min-height: 20px;
   padding-top:2px;
-  padding-right:19px;
+  padding-right:1px;
   padding-bottom:2px;
-  padding-left:19px;
+  padding-left:1px;
   margin-bottom: 10px;
   background-color: #FFFFFF;
   border: 1px solid #CCCCCC;
