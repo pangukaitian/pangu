@@ -1330,6 +1330,12 @@ p
   -webkit-margin-after: 2px;
   font-size: 16px;
 }
+.home-news{
+  -webkit-margin-before: 4px;
+  -webkit-margin-after: 4px;
+  font-size: 14px;
+}
+
 
 .lead {
   margin-bottom: 20px;
@@ -5553,7 +5559,7 @@ button.list-group-item-danger.active:focus {
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 .panel-body {
-  padding: 15px;
+  padding: 8px 12px;
 }
 .panel-heading {
   padding: 10px 15px;
@@ -6873,6 +6879,10 @@ table,
 	border-collapse: collapse;
 	border: solid 0px;
 }
+.home{
+	border-collapse: collapse;
+	border: solid 0px;
+}
 
 td,
 .td{
@@ -6898,6 +6908,25 @@ td,
 	vertical-align:top;
 	width: 688.25px;
 }
+
+.home-left{
+	border-collapse: collapse;
+	border: solid 0px;
+	padding:0px 8px;
+    text-align:left;
+	vertical-align:top;
+	width: 640px;
+}
+
+.home-right{
+	border-collapse: collapse;
+	border: solid 0px #e3e3e3;
+	padding:0px 0px;
+    text-align:left;
+	vertical-align:top;
+	width: 260px;
+}
+
 .year-left{
 	border-collapse: collapse;
 	border: solid 0px;
