@@ -1,1202 +1,1415 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>知能ソフトウェア工学研究室</title>
-
-	<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="https://d3js.org/d3.v3.min.js" type="text/javascript"></script>
-	<script	src="../bootstrap/js/width.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-  </head>
-
-  <body>
-
-	<div class="page-header">
-	  <div class="container">
-	<div class="row">
-		  <div class="col-md-2">
-		<br/>
-	  </div>
-	  
-	  <div class="col-md-12">
-		<h1><img class="img-responsive" src="../images/title.jpg" style="width:1100px" id="title-width"></h1>
-
-	  </div>
-	</div>
-	  </div>
-	</div>
-
-
-	<!-- Begin Body -->
-	<div class="container">
-	  <div class="row">
-
-
-	<!-- enable links to subpages by removing the "no-" prefix -->
-
-	<div class="col-md-3" style="width:230px">       
-	  <div class="well-language"> 	
-			<ul class="nav nav-pills" style="text-align: center">
-				<li class="li_language_active" style="width:105.5px;border-right-width:1px;border-right-style:solid;border-color:#CFCFCF"><a href="../jp/" class="a-language">日本語</a></li>
-				<li style="width:105.5px;border-left-width:1px;border-left-style:solid;border-color:#CFCFCF"><a href="../en/" class="a-language">ENGLISH</a></li>
-			</ul>
-	  </div>
-	
-	  <div class="well" style="200px"> 
-			<ul class="nav nav-stacked nav-pills" id="sidebar">
-				<li class="active"><a data-toggle="pill" href="#home">研究室概要</a></li>
-                <li><a data-toggle="pill" href="#members">メンバー</a></li>
-				<li><a data-toggle="pill" href="#research">研究紹介</a></li> 
-                <li><a data-toggle="pill" href="#publications">研究業績</a></li>
-				<li><a href="https://sdle2018.github.io/SDLE/V1.1/en/Repository.html">Repository</a></li>
-                <li><a data-toggle="pill" href="#contact">連絡先</a></li>
-			</ul>
-	  </div>
-
-	  <div class="panel panel-default">
-		<div class="panel-heading">Links</div>
-		<div class="panel-body" style="center">
-			<a href="http://www.kyushu-u.ac.jp/jp/">
-				<img class="img-responsive center-block" width="150px" src="../images/kyushu-u.png">
-			</a>
-			
-			
-		</div>
-         </div>
-
-</div>
-
-
-	<div class="col-md-9" id="mainbody-width">
-	  	<div class="tab-content">
-        			  	<div class="col-md-112">
-			  	</div>
-            
-            
-		<!--- Begin HOME -->
-		<div id="home" class="tab-pane fade in active">	
-			
-			<table class="photo">
-			<tr>
-			
-				<td class="home-left">
-				<br>
-				<h3>知能ソフトウェア工学研究室</h3>
-　　　　　　　	<br>
-				<p>知能ソフトウェア工学研究室は、ソフトウェア工学と人工知能の融合によって、より信頼性と安全性の高いソフトウェアシステムと人工知能システムを構築することを目指しています。具体的には、３つの方向性で研究を行っています。</p>
-				<ul>
-					<li><b>高信頼人工知能システムの構築</b><br>深層学習システムにおけるBugやAdversarial Exampleを深く理解し、深層学習システムの信頼性と安全性を保証する方法を探求しています。<br></li>
-                    <p style="margin:15px"></p>
-                    <li><b>ソフトウェア構成の自動化</b><br>深層学習を用いて、プログラムコートの自動生成、プログラムのバグの自動修復などの方法を研究しています。<br></li>
-                    <p style="margin:15px"></p>
-                    <li><b>ソフトウェア開発環境の知能化</b><br>知能ソフトウェア開発支援環境（IDE）を構築しています。<br></li>
-				</ul>
-				</td>
-				
-				
-				<!--- Begin NEWS -->
-				<td class="home-right">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-					<h3 class="panel-title">
-					ニュース
-					</h3>
-				</div>
-				<div class="panel-body">
-					<!---NEWS
-					<p class="home-news"><a href="">news 1 news 1 news 1 news 1 news 1 news 1 news 1 news 1 news 1 news 1 news 1 news 1</a></p>
-					<hr>
-					<p class="home-news"><a href="">news 2</a></p>
-					<hr>
-					<p class="home-news"><a href="">news 3</a></p>
-					<hr>
-					<p class="home-news"><a href="">news 4</a></p>
-					-->
-				</div>
-				</td>
-				<!--- End NEWS -->
-				
-			</tr>
-			</table>
-		</div>
-		<!--- End HOME -->
-
-
-		<!--- Begin MEMBERS -->
-		<div id="members" class="tab-pane fade">	
-			
-			<h4 class="member">教員</h4>
-				<hr>
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Jianjun-Zhao.png"/></td>
-					<td class="word-right">
-						
-						<h4><a href="http://stap.ait.kyushu-u.ac.jp/~zhao/index.html">趙　建軍</a></h4>
-						<hr>
-                                                <p class="position">教授</p>
-						<hr>
-						<p class="research-contents">
-						Office: ウエスト2号館751室</br>
-                                                Phone: +81-92-802-3625</br>
-                                                Email: zhao [at] ait [dot] kyushu-u [dot] ac [dot] jp</br>
-                                                Address: 〒819-0395福岡市西区元岡744番地</br>
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Yaokai-Feng.png"/></td>
-					<td class="word-right">
-						
-						<h4><a href="http://stap.ait.kyushu-u.ac.jp/~fengyk/">馮　尭鍇</a></h4>
-						<hr>
-                                                <p class="position">助教</p>
-						<hr>
-						<p class="research-contents">
-						Office: ウエスト2号館713室</br>
-                                                Email: fengyk [at] ait [dot] kyushu-u [dot] ac [dot] jp</br>
-                                                Address: 〒819-0395福岡市西区元岡744番地</br>
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo.png"/></td>
-					<td class="word-right">
-						
-						<h4><a href="http://malei.xyz/">馬　雷</a></h4>
-						<hr>
-                                                <p class="position">助教</p>
-						<hr>
-						<p class="research-contents">
-						Office: ウエスト2号館714室</br>
-                                                Email: </br>
-                                                Address: 〒819-0395福岡市西区元岡744番地</br>
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				
-			
-			
-			<h4 class="member">学生</h4>
-				<hr>
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Zeming-Dong.png"/></td>
-					<td class="word-right">
-						
-						<h4>董　沢銘</h4>
-
- 						<hr>
-						<p class="position">博士後期課程</p>						
-						<p class="research-contents">
-						</p>
-						<hr>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Jinbo-Du.png"/></td>
-					<td class="word-right">
-						
-						<h4><a href="http://stap.sjtu.edu.cn/index.php?title=User%3ADujinbo">杜　晋博</a></h4>
-
- 						<hr>
-						<p class="position">博士後期課程 (上海交通大学)</p>						
-						<p class="research-contents">
-						</p>
-						<hr>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Qiang-Hu.png"/></td>
-					<td class="word-right">
-						
-						<h4>胡　強</h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-
-
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Wentao-Li.png"/></td>
-					<td class="word-right">
-						
-						<h4>李　文韬</h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Tomomi-Nakamura.png"/></td>
-					<td class="word-right">
-						
-						<h4>中村　友海</h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-						
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo.png"/></td>
-					<td class="word-right">
-						
-						<h4>大岡　秀徳</h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-						
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Hua-Qi.png"/></td>
-					<td class="word-right">
-						
-						<h4>斉　樺</h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-						
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Rui-Rui.png"/></td>
-					<td class="word-right">
-						
-						<h4>芮　瑞</h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-						
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-
-
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Jiyuan-Sun.png"/></td>
-					<td class="word-right">
-						
-						<h4>孫　吉元</h4>
-						<hr>
-						<p class="position">博士後期課程</p>
-						<hr>
-						
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>		
-
-
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Siyuan-Wang.png"/></td>
-					<td class="word-right">
-						
-						<h4>王　思源</h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-						
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-
-			<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Chao-Xie.png"/></td>
-					<td class="word-right">
-						
-						<h4>謝　超</h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-
-				
-
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo.png"/></td>
-					<td class="word-right">
-						
-						<h4>于　冰</h4>
-						<hr>
-						<p class="position">博士後期課程</p>
-						<hr>
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>				
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Luo-Junjie.png"/></td>
-					<td class="word-right">
-						
-						<h4>羅　俊傑</h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>	
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Zhuo-Li.png"/></td>
-					<td class="word-right">
-						
-						<h4>李　焯</h4>
-						<hr>
-						<p class="position">研究生</p>
-						<hr>
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Jianlang-Chen.png"/></td>
-					<td class="word-right">
-						
-						<h4>陳　健朗</h4>
-						<hr>
-						<p class="position">研究生</p>
-						<hr>
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Jiansong-Ma.png"/></td>
-					<td class="word-right">
-						
-						<h4>馬　健淞</h4>
-						<hr>
-						<p class="position">研究生</p>
-						<hr>
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-
-
-			
-			<h4 class="member">Alumni</h4>
-				<hr>
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo.png"/></td>
-					<td class="word-right">
-						
-						<h4>梶原　大悟</h4>
-						<hr>
-						<p class="position">学部4年生</p>
-						<hr>						
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-			
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo-Haichen-Wen.png"/></td>
-					<td class="word-right">
-						
-						<h4>文　海辰 </h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-						
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo.png"/></td>
-					<td class="word-right">
-						
-						<h4><a href="http://hyoka.ofc.kyushu-u.ac.jp/search/details/K002427/">大森　洋一</a></h4>
-						<hr>
-                                                <p class="position">助教</p>
-						<hr>
-						<p class="research-contents">
-						Office: ウエスト2号館714室</br>
-                                                Email: yomori [at] ait [dot] kyushu-u [dot] ac [dot] jp</br>
-                                                Address: 〒819-0395福岡市西区元岡744番地</br>
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo.png"/></td>
-					<td class="word-right">
-						
-						<h4>中原　和希</h4>
-						<hr>
-						<p class="position">学部4年生</p>
-						<hr>
-						
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				<table class="photo">
-					<tr>
-					<td class="photo-left"><img class="img-people" src="../images/Photos/Photo.png"/></td>
-					<td class="word-right">
-						
-						<h4>山本　大祐</h4>
-						<hr>
-						<p class="position">修士課程</p>
-						<hr>
-
-						<p class="research-contents">
-						</p>
-						
-					</td>
-					</tr>
-				</table>
-				<hr>
-				
-				
-		</div>
-		<!--- End MEMBERS -->
-
-		
-		
-		<!--- Begin RESEARCH -->
-		<div id="research" class="tab-pane fade">
-			<h4 class="research">Robust Deep Learning Systems</h4>
-			<hr>
-			<table class="photo">
-			<tr>
-				
-				<td class="photo-left"><img src="../images/Robust Deep Learning Systems.jpg" style="width:200px;margin-top: 15px"></td>
-				
-				<td class="word-right">
-				<p>
-				Deep learning (DL) has achieved great success in many application domains. However, how to ensure the reliability and security of DL system remains an open problem. 
-				For example, an attacker could add adversarial perturbations often imperceptible to human eyes to an image to cause a deep neural 
-				network (DNN) to misclassify perturbed images. Traditional software represents its logic as control 
-				flows crafted by human knowledge, while a DNN characterizes its behaviors by the weights of neuron edges and the nonlinear 
-				activation functions (determined by the training data). Therefore, detecting erroneous behaviors in DNNs is different from 
-				those of traditional software in nature, which necessitates effective analysis, testing and verification approaches.
-				We plan to take a multi-pronged approach to explore deeper understanding of defects (bugs) and adversarial examples in DL systems, 
-				and methods to guarantee the reliability and security of DL systems.
-				</p>
-				</td>
-				
-			</tr>
-			</table>
-			<hr>
-			
-			
-				
-
-			<h4 class="research">Deep Learning for Software Engineering</h4>
-			<hr>
-			<table class="photo">
-			<tr>		
-				<td class="photo-left"><img src="../images/Deep Learning for Software Engineering.png" style="width:200px;margin-top: 15px"></td>
-
-				<td class="word-right">
-				<p>
-				Deep learning can provide new capabilities and approaches for addressing software engineering problems. In this project, 
-				we will explore different software engineering activities where deep learning provides promising solutions, 
-				including software testing and debugging, program analysis and verification, software mining and analytics.
-				</p>	
-				</td>
-				
-			</tr>
-			</table>
-			<hr>
-
-			<h4 class="research">Programming with Big Code</h4>
-			<hr>
-			<table class="photo">
-			<tr>		
-
-				<td class="photo-left"><img src="../images/Programming with Big Code.png" style="width:200px;margin-top: 15px"></td>
-
-				<td class="word-right">
-				<p>
-				Just like huge amounts of data on the web enabled Big Data applications, now large repositories of programs 
-				(e.g. open source code on GitHub) enable a new class of applications that leverage these repositories of "Big Code". 
-				Using Big Code means to automatically learn from existing code in order to solve software engineering tasks such as 
-				predicting software bugs, predicting program behavior, or automatically generating new code.
-				</p>
-				</td>
-				
-			</tr>
-			</table>
-			<hr>
-			</br>
-		</div>
-
-		<!--- End RESEARCH -->
-		
-		
-		
-		<!--- Begin PUBLICATIONS -->
-		<div id="publications" class="tab-pane fade">	
-		<h4 class="research">研究業績</h4>
-		<ul>
-		
-		<li>
-			Lei Ma, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo Li, Felix Juefei-Xu, Chao Xie, Li Li, Yang Liu, Jianjun Zhao, Yadong Wang.<br>
-			<a href="https://arxiv.org/abs/1805.05206">DeepMutation: Mutation Testing of Deep Learning Systems.</a>.<br>
-			In Proc. 29th IEEE International Symposium on Software Reliability Engineering (ISSRE 2018), Memphis, TN, USA, October 15-18, 2018. (to appear)	
-		</li>
-		<p style="margin:7px"></p><hr>
-		
-		<li>
-			Lei Ma, Felix Juefei-Xu, Fuyuan Zhang, Jiyuan Sun, Chunyang Chen, Ting Su, Minhui Xue, Bo Li, Li Li, Yang Liu, Jianjun Zhao, Yadong Wang.<br>
-			<a href="http://stap.ait.kyushu-u.ac.jp/~zhao/pub/pdf/ase2018.pdf">DeepGauge: Multi-Granularity Testing Criteria for Deep Learning Systems.</a>.<br>
-			In Proc. 33th IEEE/ACM Conference on Automated Software Engineering (ASE 2018), pp.120-131, Montpellier, French, September 3-7, 2018.
-			<font color="red">(ACM SIGSOFT Distinguished Paper Award)</font><br>
-		</li>
-		<p style="margin:7px"></p><hr>
-		
-		<li>
-			Lei Ma, Fuyuan Zhang, Minhui Xue, Bo Li, Yang Liu, Jianjun Zhao, Yadong Wang.<br>
-			<a href="https://arxiv.org/abs/1806.07723">Combinatorial Testing for Deep Learning Systems.</a>.<br>
-			In arXiv:1806.07723, June 20, 2018.
-		</li>
-		<p style="margin:7px"></p><hr>
-		
-		
-		<li>
-			Anil Kumar Karna, Jinbo Du, Haihao Shen, Hao Zhong, Jiong Gong, Haibo Yu, Xiangning Ma, Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fcs2008.pdf">Tuning Parallel Symbolic Execution Engine for Better Performance</a>.<br>
-			In Frontiers of Computer Science, Springer, Vol.12, No.1, pp.86-100, 2018.	
-		</li>
-		
-		<p style="margin:7px"></p><hr>
-		<li>
-			Ziyi Lin, Yilei Zhou, Hao Zhong, Yuting Chen, Haibo Yu, Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ieice2017b.pdf">SPDebugger: A Fine-grained Deterministic Debugger for Concurrency Code</a>.<br>
-			In IEICE Transactions on Information and Systems, Vol.E100-D, No.3, pp.473-482, March 2017.	
-		</li>
-		
-		<p style="margin:7px"></p><hr>
-		<li>
-			Xiao Cheng, Zhiming Peng, Lingxiao Jiang, Hao Zhong, Haibo Yu, Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ieice2017a.pdf">CLCMiner: Detecting Cross-Language Clones without Intermediates</a>.<br>
-			In IEICE Transactions on Information and Systems, Vol.E100-D, No.2, pp.273-284, Feburary 2017.	
-		</li>
-		
-		<p style="margin:7px"></p><hr>
-		<li>
-			Ziyi Lin, Hao Zhong, Yuting Chen, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016f.pdf">LockPeeker: Detecting Latent Locks in Java APIs</a>.<br>
-			In Proc. 31th IEEE/ACM Conference on Automated Software Engineering (ASE 2016), pp.368-278, Singapore, September 3-7, 2016	
-		</li>
-		
-		<p style="margin:7px"></p><hr>
-		<li>
-			Xiao Cheng, Zhiming Peng, Lingxiao Jiang, Hao Zhong, Haibo Yu, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016s.pdf">Detecting Cross-Language Clones Without Intermediates</a>.<br>
-			In Proc. 31th IEEE/ACM Conference on Automated Software Engineering (ASE 2016), (Short Paper), pp.696-701, Singapore, September 3-7, 2016.
-		</li>
-
-		<p style="margin:7px"></p><hr>		
-		<li>
-			Xiao Cheng, Linxiao Jiang, Hao Zhong, Haibo Yu, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016ws.pdf">On the Feasibility of Detecting Cross-Platform Code Clones via Identifier Similarity.</a><br>
-			In Proc. Fifth International Workshop on Software Mining (SoftwareMining 2016, co-located with ASE 2016), pp.39-42, Singapore, September 3, 2016.	
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Xiao Cheng, Hao Zhong, Yuting Chen, Zhenjiang Hu, Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icpc2016a.pdf">Rule-Directed Code Clone Synchronization</a>.<br>
-			In Proc. 24th International Conference on Program Comprehension (ICPC 2016), Austin, Texas, USA, May 16-17, 2016.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Lei Ma, Cheng Zhang, Bing Yu, Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icpc2016b.pdf">Retrofitting Automatic Testing through Library Tests Reusing</a>.<br>
-			In Proc. 24th International Conference on Program Comprehension (ICPC 2016), Austin, Texas, USA, May 16-17, 2016.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Yuting Chen, Ting Su, Chengnian Sun, Zhendong Su, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/pldi2016.pdf">Coverage-Directed Differential Testing of JVM Implementations</a>.<br>
-			In Proc. ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2016), pp.85-99, Santa Barbara, CA, June 13-17, 2016.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Xiao Cheng, Yuting Chen, Zhenjiang Hu, Tao Zan, Mengyu Liu, Hao Zhong, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/saner2016a.pdf">Supporting Selective Undo for Refactoring</a>.<br>
-			In Proc. 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER 2016), Osaka, Japan, March 2016.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jiabin Ye, Cheng Zhang, Lei Ma, Haibo Yu, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/saner2016b.pdf">Efficient and Precise Dynamic Slicing for Client-Side JavaScript Programs</a>.<br>
-			In Proc. 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER 2016), Osaka, Japan, March 2016. <font color="red">(Best Paper Candidate Award)</font><br>
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Ziyi Lin, Darko Marinov, Hao Zhong, Yuting Chen, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2015a.pdf">JaConTeBe: A Benchmark Suite of Real-World Java Concurrency Bugs</a>.<br>
-			In Proc. 30th IEEE/ACM Conference on Automated Software Engineering (ASE 2015), pp.71-80, Lincoln, NE, November 2015.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Fei Lv, Hongyu Zhang, Jianguang Lou, Shaowei Wang, Dongmei Zhang, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2015b.pdf">CodeHow: Effective Code Search Based on API Understanding and Extended Boolean</a>.<br>
-			In Proc. 30th IEEE/ACM Conference on Automated Software Engineering (ASE 2015), pp.260-270, Lincoln, NE, November 2015.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Qi Wang, Jingyu Zhou, Yuting Chen, Yizhou Zhang, Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fse2013.pdf">Extracting URLs from JavaScript via program analysis</a>.<br>
-			In Proc. 9th joint meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE 2013), New Ideas Track, pp.627-630, Saint Petersburg, Russia, August 18-26, 2013.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Qiang Sun, Yuting Chen, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/pepm2013.pdf">Constraint-Based Locality Analysis for X10 Programs.</a><br>
-			In Proc. ACM SIGPLAN 2013 Workshop on Partial Evaluation and Program Manipulation (PEPM 2013), pp.137-146, Rome, Italy, January 21-22, 2013.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Cheng Zhang, Longwen Lu, Hucheng Zhou, Jianjun Zhao, and Zheng Zhang.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/apsys2012.pdf">MoonBox: Debugging with Online Slicing and Dryrun.</a><br>
-			In Proc. 3rd ACM SIGOPS Asia-Pacific Workshop on Systems (APSys 2012), Seoul, South Korea, July 23-24, 2012.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Longwen Lu, Cheng Zhang, Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/soap2012.pdf">Soot-based Implementation of a Demand-Driven Reaching Definitions Analysis.</a><br>
-			In Proc. ACM SIGPLAN International Workshop on the State Of the Art in Java Program Analysis (SOAP 2012), PLDI 2012 Workshop, pp.21-26, June 14, 2012.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Cheng Zhang, Juyuan Yang, Yi Zhang, Jing Fan, Xin Zhang, Jianjun Zhao, Peizhao Ou.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icse2012.pdf">Automatic Parameter Recommendation for Practical API Usage.</a><br>
-			In Proc. 34th International Conference on Software Engineering (ICSE 2012), pp.826-836, Zurich, Switzerland, June 2-9, 2012.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Cheng Zhang, Hao Xu, Sai Zhang, Jianjun Zhao, and Yuting Chen.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ecoop2011.pdf">Frequency Estimation of Virtual Call Targets for Object-Oriented Programs.</a><br>
-			In Proc. 25th European Conference on Object-Oriented Programming (ECOOP 2011), pp.510-532, Lancaster, UK, July 25-29 3, 2011.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Cheng Zhang, Zhenyu Guo, Ming Wu, Longwen Lu, Yu Fan, Jianjun Zhao, and Zheng Zhang.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/apsys2011.pdf">AutoLog: Facing Log Redundancy and Insufficiency.</a><br>
-			In Proc. 2nd ACM SIGOPS Asia-Pacific Workshop on Systems (APSys 2011), Shanghai, China, July 10-12, 2011.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Qiang Sun, Jianjun Zhao, and Yuting Chen.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/cc2011.pdf">Probabilistic Points-to Analysis for Java.</a><br>
-			In Proc. 2011 International Conference on Compiler Construction (CC 2011), pp.62-81, Saarbrücken, Germany, March 26 – April 3, 2011.&nbsp;		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Haihao Shen, Jianhong Fang, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icst2011.pdf">EFindBugs: Effective Error Ranking for FindBugs.</a><br>
-			In Proc. 4th IEEE International Conference on Software Testing, Verification and Validation (ICST 2011), pp.299-308, Berlin, Germany, March 21-25, 2011.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Cheng Zhang, Dacong Yang, Jianjun Zhao, Shengqian Yang, and Yuting Chen.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icse2010demo.pdf" target="_blank">BPGen: An Automated Breakpoint Generator for Debugging</a>.<br>
-			In Proc. 32th International Conference on Software Engineering (ICSE 2010), Vol.2, pp.171-174, Formal Demonstration Track, Cape Town, South Africa, , May 2-8, 2010.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Qingzhou Luo, Sai Zhang, Jianjun Zhao&nbsp;and Min Hu.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fase2010.pdf">A Lightweight and Portable Approach to Making Concurrent Failures Reproducible</a>.<br>
-			In Proc. Fundamental Approaches to Software Engineering (FASE'2010),&nbsp;pp.323-337,Paphos, Cyprus, 22 – 26 March, 2010.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Yu Lin, Xucheng Tang, Yuting Chen and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2009.pdf" target="_blank">A Divergence-Orietned Approach to Adaptive Random Testing of Java Programs</a>.<br>
-			In Proc. 24th IEEE/ACM International Conference on Automated Software Engineering (ASE 2009), pp.221-232, Auckland, New Zealand, November 16-20, 2009.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Yu Lin, Sai Zhang, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icsm2009.pdf" target="_blank">Incremental Call Graph Reanalysis for AspectJ Software</a>.<br>
-			In Proc. 25th IEEE International Conference on Software Maintenance (ICSM 2009), pp.301-315 , Alberta, Canada, Sep 20- 26, 2009.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Martin Gorg and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/issta2009.pdf">Identifying Semantic Differences in AspectJ Programs</a>.<br>
-			In Proc. ACM SIGSOFT International Conference on Software Testing and Analysis (ISSTA 2009),pp.25-36,&nbsp;Chicago, July 2009.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Zengkai Ma and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/apsec2008.pdf" target="_blank">Test Case Prioritization Based on Analysis of Program Structure</a>.<br>
-			In Proc. 15th Asia-Pacific Software Engineering Conference (APSEC 2008), pp.471-478, Beijing, China, December 3-5, 2008.	
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Sai Zhang, Yu Lin, Zhongxian Gu, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/paste08failure-inducing.pdf" target="_blank">Effective Identification of Failure-Inducing Changes: A Hybrid Approach</a>.<br>
-			In Proc. 8th ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering (PASTE 2008), pp.77-83, Atlanta, GA, USA, November 9-10, 2008.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Haihao Shen, Sai Zhang, Jianjun Zhao, Jianhong Fang, and Shiyuan Rao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/paste08xfindbugs.pdf" target="_blank">XFindBugs: eXtended FindBugs for AspectJ</a>.<br>
-			In Proc. 8th ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering (PASTE 2008), pp.70-76, Atlanta, GA, USA, November 9-10, 2008.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Sai Zhang, Zhongxian Gu, Yu Lin, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icsm2008.pdf" target="_blank">Change Impact Analysis for AspectJ Programs</a>.<br>
-			In Proc. 24th IEEE International Conference on Software Maintenance (ICSM 2008), pp.87-96, Beijing, China, Sep 28- Oct 4, 2008.&nbsp;		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Qiang Sun and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/scam2008.pdf">Aspect-Aware Points-to Analysis</a>.<br>
-			In Proc.8th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2008), pp.143-152, Beijing, China, Sep 28-29, 2008.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Sai Zhang, Zhongxian Gu, Yu Lin, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/late2008.pdf" target="_blank">Flota: A Programmer Assistant for Locating Faulty Changes in AspectJ Software Evolution</a>.<br>
-			In Proc. 4th International Linking Aspect Technology and Evolution workshop (LATE 2008), AOSD 2008 Workshop, April 1, Brussels, Belgium.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Sai Zhang, Zhongxian Gu, Yu Lin, and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icse2008demo.pdf" target="_blank">Celadon: A Change Impact Analysis Tool for Aspect-Oriented Programs</a>.<br>
-			In Proc. 30th International Conference on Software Engineering (ICSE 2008), Companion Volume, pp.913-914, (Informal Demonstration Track), May 10-18, 2008, Leipzig, Germany. (This work was also presented as a forum research demonstration in <a href="http://www.aosd.net/2008/program/demos.php" target="_blank">AOSD 08 Demonstration</a>, March 31-April 4th, 2008, Brussels, Belgium)		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Sai Zhang and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/compsac07.pdf">On Identifying Bug Patterns in Aspect-Oriented Programs.</a><br>
-			In Proc. 31st&nbsp;IEEE Annual International Computer Software and Applications Conference (COMPSAC'07), Vol.&nbsp;I, pp.431-438,Beijing, China, July 23-27,2007.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Yi Wang and&nbsp;Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/aoasia07.pdf">Specifying Pointcuts in AspectJ.</a><br>
-			In Proc. 31st IEEE Annual International Computer Software and Applications Conference (COMPSAC'07), Vol.&nbsp;II, pp.5-10, 3rd Asian Workshop on Aspect-Oriented Software Development (AOAsia 2007),Beijing, China, July 23,2007.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Tao Xie and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/wtaop07.pdf">Perspectives on Automated Testing of Aspect-Oriented Programs.</a><br>
-			In Proc. 3rd Workshop on Testing Aspect-Oriented Programs (WTAOP 2007), Vancouver, Canada, pp. 7-12, March 2007.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao,&nbsp;Cheng Zhang, Sibo Zhang, and Jiaming Zhang.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/sjtu-cse-tr-06-01.pdf">An Overview of VeriJava Programming Systems.</a><br>
-			Technical Report SJTU-CSE-TR-06-01,Center for Software Engineering,Shanghai Jiao Tong University,October 2006.(short version presented at 1st Asian Working Conference on Verified Software (AWCVS 2006),Macao, China, October 2006)		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Tao Xie, Jianjun Zhao, Darko Marinov, and David Notkin.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/issre06.pdf">Detecting Redundant Unit Tests for AspectJ rograms.</a><br>
-			In Proc. 17th IEEE International Conference on Software Reliability Engineering (ISSRE'06), pp.179-188, Raleigh, NC, November 2006.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/qsic06.pdf">Control-Flow Analysis and Representation of Aspect-Oriented Programs</a>.<br>
-			In Proc. 6th International Conference on Quality Software (QSIC'06), pp.38-48 Beijing, China, October 26-28, 2006.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao, Tao Xie, and Nan Li.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/wtaop2006.pdf">Towards Regression Test Selection for Aspect-Oriented Programs</a>.<br>
-			In 2nd Workshop on Testing Aspect-Oriented Programs (WTAOP'06), Portland,Maine, July 2006.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Tao Xie and Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/aosd2006.pdf">A Framework and Tool Supports for Generating Test Inputs of AspectJ Programs</a>.<br>
-			In Proc. 5th International Conference on Aspect-Oriented Software Development (<a href="http://aosd.net/2006/index.php/">AOSD'2006</a>), pp.190-201, Bonn, Germany, March 2006.(A previous version appeared <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/aspectjtestgen.pdf">Automated Test Generation for AspectJ Programs</a>" by Tao Xie, Jianjun Zhao, Darko Marinov, and David Notkin in AOSD 2005 Workshop on Testing Aspect-Oriented Programs (WTAOP'05), Chicago, USA, March 2005).		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/metrics04lbp.pdf">Measuring Coupling in Aspect-Oriented Systems</a>.<br>
-			In 10th International Software Metrics Symposium (<a href="http://swmetrics.org/">METRICS'2004</a>), (Late Breaking Paper), Chicago, USA, September 14-16, 2004.(A previous version appeared as Technical-Report SE-142-6, Information Processing Society of Japan (IPSJ), May 2003)		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao and Baowen Xu.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fase04.pdf">Measuring Aspect Cohesion</a>.<br>
-			In Proc. Fundamental Approaches to Software Engineering (FASE'2004), LNCS 2984, pp.54-68, Springer-Verlag, Barcelona, Spain, March 29-31, 2004.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/compsac03.pdf">Data-Flow-Based Unit Testing of Aspect-Oriented Programs</a>.<br>
-			In Proc. 27th Annual IEEE International Computer Software and Applications Conference (COMPSAC'2003), pp.188-197. Dallas, Texas, USA, November 2003.&nbsp;&nbsp;(A previous version appeared as Technical-Report SE-136-26, Information Processing Society of Japan (IPSJ), March 2002)	
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Masanori Iwamoto and Jianjun Zhao.&nbsp;&nbsp;<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/uml03ws4.pdf">Refactoring Aspect-Oriented Programs</a>.<br>
-			In 4th AOSD Modeling with UML Workshop, UML'2003, San Francisco, California, USA, October 2003.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao and Martin Rinard.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fase03.pdf">Pipa: A Behavioral Interface Specification Language for AspectJ</a>.<br>
-			In Proc. Fundamental Approaches to Software Engineering (FASE'2003), LNCS 2621, pp.150-165, Springer-Verlag, April 2003.	
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao and Martin Rinard.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/mit-lcs-tr-891.pdf">System Dependence Graph Construction for Aspect-Oriented Programs</a>.<br>
-			Technical Report MIT-LCS-TR-891, Laboratory for Computer Science, MIT, March 2003.	
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao, Hongji Yang, Limin Xiang, and Baowen Xu.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/jsme2002.pdf">Change Impact Analysis to Support Architectural Evolution</a>.<br>
-			In Journal of Software Maintenance and Evolution: Research and Practice, Vol.14, No.5, pp.317-333, 2002, John Wiley & Sons.	
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/iwpc2002.pdf">Slicing Aspect-Oriented Software</a>.<br>
-			In Proc. 10th IEEE International Workshop on Program Comprehension (IWPC'2002), pp.251-260, Paris, France, June 2002. (A previous version appeared as Technical-Report SE-135-7, Information Processing Society of Japan (IPSJ), November 2001)		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Yuming Zhou, Baowen Xu, Jianjun Zhao, and Hongji Yang.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icsm2002.pdf">ICBMC: An Improved Cohesion Measure for Classes</a>.<br>
-			In Proc. IEEE International Conference on Software Maintenance, pp. 44-53, Montreal, Canada, October 2002.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/~zhao/pub/pdf/iwpse02.pdf">Change Impact Analysis for Aspect-Oriented Software Evolution</a>.<br>
-			In Proc. 5th International Workshop on Principles of Software Evolution, pp.108-112, ACM Press, Orlando, Florida, USA, May 2002.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ipsj-tr-se-136-25.pdf">Towards a Metrics Suite for Aspect-Oriented Software</a>.<br>
-			Technical-Report SE-136-25, Information Processing Society of Japan (IPSJ), March 2002.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/compsac2000.pdf">Dependence Analysis of Java Bytecode</a>.<br>
-			In Proc. 24th IEEE Annual International Computer Software and Applications Conference (COMPSAC'2000), pp.486-491, Taipei, Taiwan, October 2000.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/csmr2000.pdf">A Slicing-Based Approach to Extracting Reusable Software Architectures</a>.<br>
-			In Proc. 4th European Conference on Software Maintenance and Reengineering (CSMR'2000), pp.215-223, IEEE Computer Society Press, Zurich, Switzerland, February 2000.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/pdse99.pdf">Multithreaded Dependence Graphs for Concurrent Java Programs</a>.&nbsp;&nbsp;<br>
-			In Proc. 1999 International Symposium on Software Engineering for Parallel and Distributed Systems, pp.13-23, IEEE Computer Society Press, May 1999.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/iwpc99.pdf">Slicing Concurrent Java Programs</a>.<br>
-			In Proc. Seventh IEEE International Workshop on Program Comprehension (IWPC'99), pp.126-133, May 1999.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ics98.ps">Applying Program Dependence Analysis to Java Software</a>.<br>
-			In Proc. Workshop on Software Engineering and Database Systems, 1998 International Computer Symposium, pp.162-169, Tainan, Taiwan, December 1998.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/se-tr98-119.pdf">Dynamic Slicing of Object-Oriented Programs</a>.<br>
-			Technical-Report SE-98-119, pp.17-23, Information Processing Society of Japan (IPSJ), May 1998.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/isaw3.pdf">On Assessing the Complexity of Software Architectures</a>.<br>
-			In Proc. 3rd International Software Architecture Workshop, pp.163-166, ACM SIGSOFT, ACM Press, November 1998.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/iceccs98.pdf">Applying Slicing Technique to Software Architectures</a>.<br>
-			In Proc. Fourth IEEE International Conference on Engineering of Complex Computer Systems, pp.87-98, August 1998.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao, Jingde Cheng, and Kazuo Ushijima.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/csmr98m.pdf">A Metrics Suite for Concurrent Logic Programs&nbsp;</a>.<br>
-			In Proc. 2nd Euromicro Conference on Software Maintenance and Reengineering, pp.172-178, IEEE Computer Society Press, March 1998.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			&nbsp;Jianjun Zhao.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/a-depen.pdf">Using Dependence Analysis to Support Software Architecture Understanding</a>.<br>
-			In M. Li (Ed.), "New Technologies on Computer Software", pp.135-142, International Academic Publishers, September 1997.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao, Jingde Cheng, and Kazuo Ushijima.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fuji96.pdf">Slicing Concurrent Logic Programs</a>.<br>
-			In T. Ida, A. Ohori and M. Takeichi (Eds.), "Second Fuji International Workshop on Functional and Logic Programming", pp.143-162, World Scientific, 1997.		
-		</li>
-
-		<p style="margin:7px"></p><hr>
-		<li>
-			Jianjun Zhao, Jingde Cheng, and Kazuo Ushijima.<br>
-			<a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/compsac96.pdf">Static Slicing of Concurrent Object-Oriented Programs</a>.<br>
-			In Proc. 20th IEEE Annual International Computer Software and Applications Conference, pp.312-320, August 1996.		
-		</li>
-		</ul>
-		
-		
-		</div>
-		<!--- End PUBLICATIONS -->
-		
-		
-		<!--- Begin CONTACT -->
-		<div id="contact" class="tab-pane fade">	
-		<h4>連絡先</h4>
-		<hr>
-		
-		<p>〒819-0395<br>
-		福岡県福岡市西区元岡744番地<br>
-		九州大学大学院システム情報科学研究院<br>
-		ウエスト2号館713室</p>
-		
-		<p>Room 713, West Bldg 2, 744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan<br>
-                Graduate School of Information Science and Electrical Engineering<br>
-                Kyushu University<br>
-		E-Mail: zhao [at] ait [dot] kyushu-u [dot] ac [dot] jp</p></div>
-		<!--- End CONTACT -->
-		
-	  </div>
-	</div>
-	
-	  </div>
-	</div>
-	
-
-	
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="../bootstrap/js/bootstrap.min.js"></script>
-
-	<script type="text/javascript">
-	$(function() {
-	    var hash = window.location.hash;
-	    hash && $('ul.nav a[href="' + hash + '"]').tab('show');
-	});
-	</script>
-
-  </body>
+    <head>
+        <meta name="generator"
+        content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>知能ソフトウェア工学研究室</title>
+        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://d3js.org/d3.v3.min.js" type="text/javascript"></script>
+        <script src="../bootstrap/js/width.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" />
+    </head>
+    <body>
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <br />
+                </div>
+                <div class="col-md-12">
+                    <h1>
+                        <img class="img-responsive" src="../images/title.jpg" style="width:1100px" id="title-width" />
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Begin Body -->
+    <div class="container">
+        <div class="row">
+            <!-- enable links to subpages by removing the "no-" prefix -->
+            <div class="col-md-3" style="width:230px">
+                <div class="well-language">
+                    <ul class="nav nav-pills" style="text-align: center">
+                        <li class="li_language_active"
+                        style="width:105.5px;border-right-width:1px;border-right-style:solid;border-color:#CFCFCF">
+                            <a href="../jp/" class="a-language">日本語</a>
+                        </li>
+                        <li style="width:105.5px;border-left-width:1px;border-left-style:solid;border-color:#CFCFCF">
+                            <a href="../en/" class="a-language">ENGLISH</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="well" style="200px">
+                    <ul class="nav nav-stacked nav-pills" id="sidebar">
+                        <li class="active">
+                            <a data-toggle="pill" href="#home">研究室概要</a>
+                        </li>
+                        <li>
+                            <a data-toggle="pill" href="#members">メンバー</a>
+                        </li>
+                        <li>
+                            <a data-toggle="pill" href="#research">研究紹介</a>
+                        </li>
+                        <li>
+                            <a data-toggle="pill" href="#publications">研究業績</a>
+                        </li>
+                        <li>
+                            <a href="https://sdle2018.github.io/SDLE/V1.1/en/Repository.html">Repository</a>
+                        </li>
+                        <li>
+                            <a data-toggle="pill" href="#contact">連絡先</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Links</div>
+                    <div class="panel-body" style="center">
+                        <a href="http://www.kyushu-u.ac.jp/jp/">
+                            <img class="img-responsive center-block" width="150px" src="../images/kyushu-u.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9" id="mainbody-width">
+                <div class="tab-content">
+                    <div class="col-md-112"></div>
+                    <!--- Begin HOME -->
+                    <div id="home" class="tab-pane fade in active">
+                        <table class="photo">
+                            <tr>
+                                <td class="home-left">
+                                <br />
+                                <h3>知能ソフトウェア工学研究室</h3>　　　　　　　
+                                <br />
+                                <p>
+                                知能ソフトウェア工学研究室は、ソフトウェア工学と人工知能の融合によって、より信頼性と安全性の高いソフトウェアシステムと人工知能システムを構築することを目指しています。具体的には、３つの方向性で研究を行っています。</p>
+                                <ul>
+                                    <li>
+                                    <b>高信頼人工知能システムの構築</b>
+                                    <br />深層学習システムにおけるBugやAdversarial Exampleを深く理解し、深層学習システムの信頼性と安全性を保証する方法を探求しています。
+                                    <br /></li>
+                                    <li style="list-style: none; display: inline">
+                                        <p style="margin:15px"></p>
+                                    </li>
+                                    <li>
+                                    <b>ソフトウェア構成の自動化</b>
+                                    <br />深層学習を用いて、プログラムコートの自動生成、プログラムのバグの自動修復などの方法を研究しています。
+                                    <br /></li>
+                                    <li style="list-style: none; display: inline">
+                                        <p style="margin:15px"></p>
+                                    </li>
+                                    <li>
+                                    <b>ソフトウェア開発環境の知能化</b>
+                                    <br />知能ソフトウェア開発支援環境（IDE）を構築しています。
+                                    <br /></li>
+                                </ul></td>
+                                <!--- Begin NEWS -->
+                                <td class="home-right">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">ニュース</h3>
+                                        </div>
+                                        <div class="panel-body">
+                                            <!---NEWS
+                                        <p class="home-news"><a href="">news 1 news 1 news 1 news 1 news 1 news 1 news 1 news 1 news 1 news 1 news 1 news 1</a></p>
+                                        <hr>
+                                        <p class="home-news"><a href="">news 2</a></p>
+                                        <hr>
+                                        <p class="home-news"><a href="">news 3</a></p>
+                                        <hr>
+                                        <p class="home-news"><a href="">news 4</a></p>
+                                        -->
+                                        </div>
+                                    </div>
+                                </td>
+                                <!--- End NEWS -->
+                            </tr>
+                        </table>
+                    </div>
+                    <!--- End HOME -->
+                    <!--- Begin MEMBERS -->
+                    <div id="members" class="tab-pane fade">
+                        <ul id="membersTab" class="nav nav-tabs">
+                            <li class="active">
+                                <a href="#faculty" data-toggle="tab">教員</a>
+                            </li>
+                            <li>
+                                <a href="#students" data-toggle="tab">学生</a>
+                            </li>
+                            <li>
+                                <a href="#alumni" data-toggle="tab">アルムナイ</a>
+                            </li>
+                        </ul>
+                        <div id="membersTabContent" class="tab-content">
+                            <div class="tab-pane fade in active" id="faculty">
+                                <h4 class="member">教員</h4>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Jianjun-Zhao.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>
+                                                <a href="http://stap.ait.kyushu-u.ac.jp/~zhao/index.html">趙　建軍</a>
+                                            </h4>
+                                            <hr />
+                                            <p class="position">教授</p>
+                                            <hr />
+                                            <p class="research-contents">Office: ウエスト2号館751室
+                                            <br />Phone: +81-92-802-3625
+                                            <br />Email: zhao [at] ait [dot] kyushu-u [dot] ac [dot] jp
+                                            <br />Address: 〒819-0395福岡市西区元岡744番地
+                                            <br /></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Yaokai-Feng.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>
+                                                <a href="http://stap.ait.kyushu-u.ac.jp/~fengyk/">馮　尭鍇</a>
+                                            </h4>
+                                            <hr />
+                                            <p class="position">助教</p>
+                                            <hr />
+                                            <p class="research-contents">Office: ウエスト2号館713室
+                                            <br />Email: fengyk [at] ait [dot] kyushu-u [dot] ac [dot] jp
+                                            <br />Address: 〒819-0395福岡市西区元岡744番地
+                                            <br /></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>
+                                                <a href="http://malei.xyz/">馬　雷</a>
+                                            </h4>
+                                            <hr />
+                                            <p class="position">助教</p>
+                                            <hr />
+                                            <p class="research-contents">Office: ウエスト2号館714室
+                                            <br />Email:
+                                            <br />Address: 〒819-0395福岡市西区元岡744番地
+                                            <br /></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                            </div>
+                            <div class="tab-pane fade" id="students">
+                                <h4 class="member">博士後期課程</h4>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>于　冰</h4>
+                                            <hr />
+                                            <p class="position">博士後期課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Jinbo-Du.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>
+                                                <a href="http://stap.sjtu.edu.cn/index.php?title=User%3ADujinbo">杜　晋博</a>
+                                            </h4>
+                                            <hr />
+                                            <p class="position">博士後期課程 (上海交通大学)</p>
+                                            <p class="research-contents"></p>
+                                            <hr />
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Jiyuan-Sun.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>孫　吉元</h4>
+                                            <hr />
+                                            <p class="position">博士後期課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Zeming-Dong.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>董　沢銘</h4>
+                                            <hr />
+                                            <p class="position">博士後期課程</p>
+                                            <p class="research-contents"></p>
+                                            <hr />
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <h4 class="member">修士課程</h4>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Wentao-Li.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>李　文韬</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Tomomi-Nakamura.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>中村　友海</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Rui-Rui.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>芮　瑞</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Siyuan-Wang.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>王　思源</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Chao-Xie.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>謝　超</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Qiang-Hu.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>胡　強</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Hua-Qi.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>斉　樺</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Luo-Junjie.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>羅　俊傑</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>大岡　秀徳</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>栗田　拓弥</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <h4 class="member">学部4年生</h4>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>村上　研多郎</h4>
+                                            <hr />
+                                            <p class="position">学部4年生</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>牟田　隆弘</h4>
+                                            <hr />
+                                            <p class="position">学部4年生</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>ジュバ　サイモン　ムドゥドゥジ</h4>
+                                            <hr />
+                                            <p class="position">学部4年生</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>畑江　耕平</h4>
+                                            <hr />
+                                            <p class="position">学部4年生</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <h4 class="member">研究生</h4>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Zhuo-Li.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>李　焯</h4>
+                                            <hr />
+                                            <p class="position">研究生</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Jianlang-Chen.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>陳　健朗</h4>
+                                            <hr />
+                                            <p class="position">研究生</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Jiansong-Ma.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>馬　健淞</h4>
+                                            <hr />
+                                            <p class="position">研究生</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                            </div>
+                            <div class="tab-pane fade" id="alumni">
+                                <h4 class="member">2019</h4>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>山本　大祐</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>中原　和希</h4>
+                                            <hr />
+                                            <p class="position">学部4年生</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <h4 class="member">2018</h4>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>
+                                                <a href="http://hyoka.ofc.kyushu-u.ac.jp/search/details/K002427/">大森　洋一</a>
+                                            </h4>
+                                            <hr />
+                                            <p class="position">助教</p>
+                                            <hr />
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo-Haichen-Wen.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>文　海辰</h4>
+                                            <hr />
+                                            <p class="position">修士課程</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                                <table class="photo">
+                                    <tr>
+                                        <td class="photo-left">
+                                            <img class="img-people" src="../images/Photos/Photo.png" />
+                                        </td>
+                                        <td class="word-right">
+                                            <h4>梶原　大悟</h4>
+                                            <hr />
+                                            <p class="position">学部4年生</p>
+                                            <hr />
+                                            <p class="research-contents"></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                    <!--- End MEMBERS -->
+                    <!--- Begin RESEARCH -->
+                    <div id="research" class="tab-pane fade">
+                        <h4 class="research">Robust Deep Learning Systems</h4>
+                        <hr />
+                        <table class="photo">
+                            <tr>
+                                <td class="photo-left">
+                                    <img src="../images/Robust%20Deep%20Learning%20Systems.jpg"
+                                    style="width:200px;margin-top: 15px" />
+                                </td>
+                                <td class="word-right">
+                                    <p>Deep learning (DL) has achieved great success in many application domains. However, how to
+                                    ensure the reliability and security of DL system remains an open problem. For example, an
+                                    attacker could add adversarial perturbations often imperceptible to human eyes to an image to
+                                    cause a deep neural network (DNN) to misclassify perturbed images. Traditional software
+                                    represents its logic as control flows crafted by human knowledge, while a DNN characterizes its
+                                    behaviors by the weights of neuron edges and the nonlinear activation functions (determined by
+                                    the training data). Therefore, detecting erroneous behaviors in DNNs is different from those of
+                                    traditional software in nature, which necessitates effective analysis, testing and verification
+                                    approaches. We plan to take a multi-pronged approach to explore deeper understanding of defects
+                                    (bugs) and adversarial examples in DL systems, and methods to guarantee the reliability and
+                                    security of DL systems.</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr />
+                        <h4 class="research">Deep Learning for Software Engineering</h4>
+                        <hr />
+                        <table class="photo">
+                            <tr>
+                                <td class="photo-left">
+                                    <img src="../images/Deep%20Learning%20for%20Software%20Engineering.png"
+                                    style="width:200px;margin-top: 15px" />
+                                </td>
+                                <td class="word-right">
+                                    <p>Deep learning can provide new capabilities and approaches for addressing software
+                                    engineering problems. In this project, we will explore different software engineering
+                                    activities where deep learning provides promising solutions, including software testing and
+                                    debugging, program analysis and verification, software mining and analytics.</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr />
+                        <h4 class="research">Programming with Big Code</h4>
+                        <hr />
+                        <table class="photo">
+                            <tr>
+                                <td class="photo-left">
+                                    <img src="../images/Programming%20with%20Big%20Code.png"
+                                    style="width:200px;margin-top: 15px" />
+                                </td>
+                                <td class="word-right">
+                                    <p>Just like huge amounts of data on the web enabled Big Data applications, now large
+                                    repositories of programs (e.g. open source code on GitHub) enable a new class of applications
+                                    that leverage these repositories of &quot;Big Code&quot;. Using Big Code means to automatically
+                                    learn from existing code in order to solve software engineering tasks such as predicting
+                                    software bugs, predicting program behavior, or automatically generating new code.</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr />
+                        <br />
+                    </div>
+                    <!--- End RESEARCH -->
+                    <!--- Begin PUBLICATIONS -->
+                    <div id="publications" class="tab-pane fade">
+                        <h4 class="research">研究業績</h4>
+                        <ul>
+                            <li>Lei Ma, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo Li, Felix Juefei-Xu, Chao Xie, Li Li, Yang Liu,
+                            Jianjun Zhao, Yadong Wang.
+                            <br />
+                            <a href="https://arxiv.org/abs/1805.05206">DeepMutation: Mutation Testing of Deep Learning
+                            Systems.</a>.
+                            <br />In Proc. 29th IEEE International Symposium on Software Reliability Engineering (ISSRE 2018),
+                            Memphis, TN, USA, October 15-18, 2018. (to appear)</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Lei Ma, Felix Juefei-Xu, Fuyuan Zhang, Jiyuan Sun, Chunyang Chen, Ting Su, Minhui Xue, Bo Li, Li
+                            Li, Yang Liu, Jianjun Zhao, Yadong Wang.
+                            <br />
+                            <a href="http://stap.ait.kyushu-u.ac.jp/~zhao/pub/pdf/ase2018.pdf">DeepGauge: Multi-Granularity Testing
+                            Criteria for Deep Learning Systems.</a>.
+                            <br />In Proc. 33th IEEE/ACM Conference on Automated Software Engineering (ASE 2018), pp.120-131,
+                            Montpellier, French, September 3-7, 2018. 
+                            <font color="red">(ACM SIGSOFT Distinguished Paper Award)</font>
+                            <br /></li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Lei Ma, Fuyuan Zhang, Minhui Xue, Bo Li, Yang Liu, Jianjun Zhao, Yadong Wang.
+                            <br />
+                            <a href="https://arxiv.org/abs/1806.07723">Combinatorial Testing for Deep Learning Systems.</a>.
+                            <br />In arXiv:1806.07723, June 20, 2018.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Anil Kumar Karna, Jinbo Du, Haihao Shen, Hao Zhong, Jiong Gong, Haibo Yu, Xiangning Ma, Jianjun
+                            Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fcs2008.pdf">Tuning Parallel Symbolic Execution Engine
+                            for Better Performance</a>.
+                            <br />In Frontiers of Computer Science, Springer, Vol.12, No.1, pp.86-100, 2018.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Ziyi Lin, Yilei Zhou, Hao Zhong, Yuting Chen, Haibo Yu, Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ieice2017b.pdf">SPDebugger: A Fine-grained Deterministic
+                            Debugger for Concurrency Code</a>.
+                            <br />In IEICE Transactions on Information and Systems, Vol.E100-D, No.3, pp.473-482, March 2017.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Xiao Cheng, Zhiming Peng, Lingxiao Jiang, Hao Zhong, Haibo Yu, Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ieice2017a.pdf">CLCMiner: Detecting Cross-Language Clones
+                            without Intermediates</a>.
+                            <br />In IEICE Transactions on Information and Systems, Vol.E100-D, No.2, pp.273-284, Feburary
+                            2017.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Ziyi Lin, Hao Zhong, Yuting Chen, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016f.pdf">LockPeeker: Detecting Latent Locks in Java
+                            APIs</a>.
+                            <br />In Proc. 31th IEEE/ACM Conference on Automated Software Engineering (ASE 2016), pp.368-278,
+                            Singapore, September 3-7, 2016</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Xiao Cheng, Zhiming Peng, Lingxiao Jiang, Hao Zhong, Haibo Yu, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016s.pdf">Detecting Cross-Language Clones Without
+                            Intermediates</a>.
+                            <br />In Proc. 31th IEEE/ACM Conference on Automated Software Engineering (ASE 2016), (Short Paper),
+                            pp.696-701, Singapore, September 3-7, 2016.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Xiao Cheng, Linxiao Jiang, Hao Zhong, Haibo Yu, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016ws.pdf">On the Feasibility of Detecting
+                            Cross-Platform Code Clones via Identifier Similarity.</a>
+                            <br />In Proc. Fifth International Workshop on Software Mining (SoftwareMining 2016, co-located with
+                            ASE 2016), pp.39-42, Singapore, September 3, 2016.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Xiao Cheng, Hao Zhong, Yuting Chen, Zhenjiang Hu, Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icpc2016a.pdf">Rule-Directed Code Clone
+                            Synchronization</a>.
+                            <br />In Proc. 24th International Conference on Program Comprehension (ICPC 2016), Austin, Texas, USA,
+                            May 16-17, 2016.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Lei Ma, Cheng Zhang, Bing Yu, Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icpc2016b.pdf">Retrofitting Automatic Testing through
+                            Library Tests Reusing</a>.
+                            <br />In Proc. 24th International Conference on Program Comprehension (ICPC 2016), Austin, Texas, USA,
+                            May 16-17, 2016.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Yuting Chen, Ting Su, Chengnian Sun, Zhendong Su, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/pldi2016.pdf">Coverage-Directed Differential Testing of
+                            JVM Implementations</a>.
+                            <br />In Proc. ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2016),
+                            pp.85-99, Santa Barbara, CA, June 13-17, 2016.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Xiao Cheng, Yuting Chen, Zhenjiang Hu, Tao Zan, Mengyu Liu, Hao Zhong, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/saner2016a.pdf">Supporting Selective Undo for
+                            Refactoring</a>.
+                            <br />In Proc. 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering
+                            (SANER 2016), Osaka, Japan, March 2016.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jiabin Ye, Cheng Zhang, Lei Ma, Haibo Yu, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/saner2016b.pdf">Efficient and Precise Dynamic Slicing for
+                            Client-Side JavaScript Programs</a>.
+                            <br />In Proc. 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering
+                            (SANER 2016), Osaka, Japan, March 2016. 
+                            <font color="red">(Best Paper Candidate Award)</font>
+                            <br /></li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Ziyi Lin, Darko Marinov, Hao Zhong, Yuting Chen, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2015a.pdf">JaConTeBe: A Benchmark Suite of Real-World
+                            Java Concurrency Bugs</a>.
+                            <br />In Proc. 30th IEEE/ACM Conference on Automated Software Engineering (ASE 2015), pp.71-80,
+                            Lincoln, NE, November 2015.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Fei Lv, Hongyu Zhang, Jianguang Lou, Shaowei Wang, Dongmei Zhang, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2015b.pdf">CodeHow: Effective Code Search Based on API
+                            Understanding and Extended Boolean</a>.
+                            <br />In Proc. 30th IEEE/ACM Conference on Automated Software Engineering (ASE 2015), pp.260-270,
+                            Lincoln, NE, November 2015.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Qi Wang, Jingyu Zhou, Yuting Chen, Yizhou Zhang, Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fse2013.pdf">Extracting URLs from JavaScript via program
+                            analysis</a>.
+                            <br />In Proc. 9th joint meeting of the European Software Engineering Conference and the ACM SIGSOFT
+                            Symposium on the Foundations of Software Engineering (ESEC/FSE 2013), New Ideas Track, pp.627-630,
+                            Saint Petersburg, Russia, August 18-26, 2013.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Qiang Sun, Yuting Chen, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/pepm2013.pdf">Constraint-Based Locality Analysis for X10
+                            Programs.</a>
+                            <br />In Proc. ACM SIGPLAN 2013 Workshop on Partial Evaluation and Program Manipulation (PEPM 2013),
+                            pp.137-146, Rome, Italy, January 21-22, 2013.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Cheng Zhang, Longwen Lu, Hucheng Zhou, Jianjun Zhao, and Zheng Zhang.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/apsys2012.pdf">MoonBox: Debugging with Online Slicing and
+                            Dryrun.</a>
+                            <br />In Proc. 3rd ACM SIGOPS Asia-Pacific Workshop on Systems (APSys 2012), Seoul, South Korea, July
+                            23-24, 2012.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Longwen Lu, Cheng Zhang, Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/soap2012.pdf">Soot-based Implementation of a
+                            Demand-Driven Reaching Definitions Analysis.</a>
+                            <br />In Proc. ACM SIGPLAN International Workshop on the State Of the Art in Java Program Analysis
+                            (SOAP 2012), PLDI 2012 Workshop, pp.21-26, June 14, 2012.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Cheng Zhang, Juyuan Yang, Yi Zhang, Jing Fan, Xin Zhang, Jianjun Zhao, Peizhao Ou.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icse2012.pdf">Automatic Parameter Recommendation for
+                            Practical API Usage.</a>
+                            <br />In Proc. 34th International Conference on Software Engineering (ICSE 2012), pp.826-836, Zurich,
+                            Switzerland, June 2-9, 2012.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Cheng Zhang, Hao Xu, Sai Zhang, Jianjun Zhao, and Yuting Chen.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ecoop2011.pdf">Frequency Estimation of Virtual Call
+                            Targets for Object-Oriented Programs.</a>
+                            <br />In Proc. 25th European Conference on Object-Oriented Programming (ECOOP 2011), pp.510-532,
+                            Lancaster, UK, July 25-29 3, 2011.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Cheng Zhang, Zhenyu Guo, Ming Wu, Longwen Lu, Yu Fan, Jianjun Zhao, and Zheng Zhang.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/apsys2011.pdf">AutoLog: Facing Log Redundancy and
+                            Insufficiency.</a>
+                            <br />In Proc. 2nd ACM SIGOPS Asia-Pacific Workshop on Systems (APSys 2011), Shanghai, China, July
+                            10-12, 2011.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Qiang Sun, Jianjun Zhao, and Yuting Chen.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/cc2011.pdf">Probabilistic Points-to Analysis for
+                            Java.</a>
+                            <br />In Proc. 2011 International Conference on Compiler Construction (CC 2011), pp.62-81, Saarbrücken,
+                            Germany, March 26 – April 3, 2011.&#160;</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Haihao Shen, Jianhong Fang, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icst2011.pdf">EFindBugs: Effective Error Ranking for
+                            FindBugs.</a>
+                            <br />In Proc. 4th IEEE International Conference on Software Testing, Verification and Validation (ICST
+                            2011), pp.299-308, Berlin, Germany, March 21-25, 2011.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Cheng Zhang, Dacong Yang, Jianjun Zhao, Shengqian Yang, and Yuting Chen.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icse2010demo.pdf" target="_blank">BPGen: An Automated
+                            Breakpoint Generator for Debugging</a>.
+                            <br />In Proc. 32th International Conference on Software Engineering (ICSE 2010), Vol.2, pp.171-174,
+                            Formal Demonstration Track, Cape Town, South Africa, , May 2-8, 2010.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Qingzhou Luo, Sai Zhang, Jianjun Zhao&#160;and Min Hu.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fase2010.pdf">A Lightweight and Portable Approach to
+                            Making Concurrent Failures Reproducible</a>.
+                            <br />In Proc. Fundamental Approaches to Software Engineering (FASE&#39;2010),&#160;pp.323-337,Paphos,
+                            Cyprus, 22 – 26 March, 2010.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Yu Lin, Xucheng Tang, Yuting Chen and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2009.pdf" target="_blank">A Divergence-Orietned
+                            Approach to Adaptive Random Testing of Java Programs</a>.
+                            <br />In Proc. 24th IEEE/ACM International Conference on Automated Software Engineering (ASE 2009),
+                            pp.221-232, Auckland, New Zealand, November 16-20, 2009.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Yu Lin, Sai Zhang, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icsm2009.pdf" target="_blank">Incremental Call Graph
+                            Reanalysis for AspectJ Software</a>.
+                            <br />In Proc. 25th IEEE International Conference on Software Maintenance (ICSM 2009), pp.301-315 ,
+                            Alberta, Canada, Sep 20- 26, 2009.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Martin Gorg and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/issta2009.pdf">Identifying Semantic Differences in
+                            AspectJ Programs</a>.
+                            <br />In Proc. ACM SIGSOFT International Conference on Software Testing and Analysis (ISSTA
+                            2009),pp.25-36,&#160;Chicago, July 2009.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Zengkai Ma and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/apsec2008.pdf" target="_blank">Test Case Prioritization
+                            Based on Analysis of Program Structure</a>.
+                            <br />In Proc. 15th Asia-Pacific Software Engineering Conference (APSEC 2008), pp.471-478, Beijing,
+                            China, December 3-5, 2008.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Sai Zhang, Yu Lin, Zhongxian Gu, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/paste08failure-inducing.pdf" target="_blank">Effective
+                            Identification of Failure-Inducing Changes: A Hybrid Approach</a>.
+                            <br />In Proc. 8th ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering
+                            (PASTE 2008), pp.77-83, Atlanta, GA, USA, November 9-10, 2008.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Haihao Shen, Sai Zhang, Jianjun Zhao, Jianhong Fang, and Shiyuan Rao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/paste08xfindbugs.pdf" target="_blank">XFindBugs: eXtended
+                            FindBugs for AspectJ</a>.
+                            <br />In Proc. 8th ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering
+                            (PASTE 2008), pp.70-76, Atlanta, GA, USA, November 9-10, 2008.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Sai Zhang, Zhongxian Gu, Yu Lin, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icsm2008.pdf" target="_blank">Change Impact Analysis for
+                            AspectJ Programs</a>.
+                            <br />In Proc. 24th IEEE International Conference on Software Maintenance (ICSM 2008), pp.87-96,
+                            Beijing, China, Sep 28- Oct 4, 2008.&#160;</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Qiang Sun and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/scam2008.pdf">Aspect-Aware Points-to Analysis</a>.
+                            <br />In Proc.8th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM
+                            2008), pp.143-152, Beijing, China, Sep 28-29, 2008.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Sai Zhang, Zhongxian Gu, Yu Lin, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/late2008.pdf" target="_blank">Flota: A Programmer
+                            Assistant for Locating Faulty Changes in AspectJ Software Evolution</a>.
+                            <br />In Proc. 4th International Linking Aspect Technology and Evolution workshop (LATE 2008), AOSD
+                            2008 Workshop, April 1, Brussels, Belgium.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Sai Zhang, Zhongxian Gu, Yu Lin, and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icse2008demo.pdf" target="_blank">Celadon: A Change
+                            Impact Analysis Tool for Aspect-Oriented Programs</a>.
+                            <br />In Proc. 30th International Conference on Software Engineering (ICSE 2008), Companion Volume,
+                            pp.913-914, (Informal Demonstration Track), May 10-18, 2008, Leipzig, Germany. (This work was also
+                            presented as a forum research demonstration in 
+                            <a href="http://www.aosd.net/2008/program/demos.php" target="_blank">AOSD 08 Demonstration</a>, March
+                            31-April 4th, 2008, Brussels, Belgium)</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Sai Zhang and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/compsac07.pdf">On Identifying Bug Patterns in
+                            Aspect-Oriented Programs.</a>
+                            <br />In Proc. 31st&#160;IEEE Annual International Computer Software and Applications Conference
+                            (COMPSAC&#39;07), Vol.&#160;I, pp.431-438,Beijing, China, July 23-27,2007.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Yi Wang and&#160;Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/aoasia07.pdf">Specifying Pointcuts in AspectJ.</a>
+                            <br />In Proc. 31st IEEE Annual International Computer Software and Applications Conference
+                            (COMPSAC&#39;07), Vol.&#160;II, pp.5-10, 3rd Asian Workshop on Aspect-Oriented Software Development
+                            (AOAsia 2007),Beijing, China, July 23,2007.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Tao Xie and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/wtaop07.pdf">Perspectives on Automated Testing of
+                            Aspect-Oriented Programs.</a>
+                            <br />In Proc. 3rd Workshop on Testing Aspect-Oriented Programs (WTAOP 2007), Vancouver, Canada, pp.
+                            7-12, March 2007.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao,&#160;Cheng Zhang, Sibo Zhang, and Jiaming Zhang.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/sjtu-cse-tr-06-01.pdf">An Overview of VeriJava
+                            Programming Systems.</a>
+                            <br />Technical Report SJTU-CSE-TR-06-01,Center for Software Engineering,Shanghai Jiao Tong
+                            University,October 2006.(short version presented at 1st Asian Working Conference on Verified Software
+                            (AWCVS 2006),Macao, China, October 2006)</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Tao Xie, Jianjun Zhao, Darko Marinov, and David Notkin.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/issre06.pdf">Detecting Redundant Unit Tests for AspectJ
+                            rograms.</a>
+                            <br />In Proc. 17th IEEE International Conference on Software Reliability Engineering (ISSRE&#39;06),
+                            pp.179-188, Raleigh, NC, November 2006.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/qsic06.pdf">Control-Flow Analysis and Representation of
+                            Aspect-Oriented Programs</a>.
+                            <br />In Proc. 6th International Conference on Quality Software (QSIC&#39;06), pp.38-48 Beijing, China,
+                            October 26-28, 2006.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao, Tao Xie, and Nan Li.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/wtaop2006.pdf">Towards Regression Test Selection for
+                            Aspect-Oriented Programs</a>.
+                            <br />In 2nd Workshop on Testing Aspect-Oriented Programs (WTAOP&#39;06), Portland,Maine, July
+                            2006.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Tao Xie and Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/aosd2006.pdf">A Framework and Tool Supports for
+                            Generating Test Inputs of AspectJ Programs</a>.
+                            <br />In Proc. 5th International Conference on Aspect-Oriented Software Development ( 
+                            <a href="http://aosd.net/2006/index.php/">AOSD&#39;2006</a>), pp.190-201, Bonn, Germany, March 2006.(A
+                            previous version appeared 
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/aspectjtestgen.pdf">Automated Test Generation for AspectJ
+                            Programs</a>&quot; by Tao Xie, Jianjun Zhao, Darko Marinov, and David Notkin in AOSD 2005 Workshop on
+                            Testing Aspect-Oriented Programs (WTAOP&#39;05), Chicago, USA, March 2005).</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/metrics04lbp.pdf">Measuring Coupling in Aspect-Oriented
+                            Systems</a>.
+                            <br />In 10th International Software Metrics Symposium ( 
+                            <a href="http://swmetrics.org/">METRICS&#39;2004</a>), (Late Breaking Paper), Chicago, USA, September
+                            14-16, 2004.(A previous version appeared as Technical-Report SE-142-6, Information Processing Society
+                            of Japan (IPSJ), May 2003)</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao and Baowen Xu.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fase04.pdf">Measuring Aspect Cohesion</a>.
+                            <br />In Proc. Fundamental Approaches to Software Engineering (FASE&#39;2004), LNCS 2984, pp.54-68,
+                            Springer-Verlag, Barcelona, Spain, March 29-31, 2004.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/compsac03.pdf">Data-Flow-Based Unit Testing of
+                            Aspect-Oriented Programs</a>.
+                            <br />In Proc. 27th Annual IEEE International Computer Software and Applications Conference
+                            (COMPSAC&#39;2003), pp.188-197. Dallas, Texas, USA, November 2003.&#160;&#160;(A previous version
+                            appeared as Technical-Report SE-136-26, Information Processing Society of Japan (IPSJ), March
+                            2002)</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Masanori Iwamoto and Jianjun Zhao.&#160;&#160;
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/uml03ws4.pdf">Refactoring Aspect-Oriented Programs</a>.
+                            <br />In 4th AOSD Modeling with UML Workshop, UML&#39;2003, San Francisco, California, USA, October
+                            2003.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao and Martin Rinard.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fase03.pdf">Pipa: A Behavioral Interface Specification
+                            Language for AspectJ</a>.
+                            <br />In Proc. Fundamental Approaches to Software Engineering (FASE&#39;2003), LNCS 2621, pp.150-165,
+                            Springer-Verlag, April 2003.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao and Martin Rinard.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/mit-lcs-tr-891.pdf">System Dependence Graph Construction
+                            for Aspect-Oriented Programs</a>.
+                            <br />Technical Report MIT-LCS-TR-891, Laboratory for Computer Science, MIT, March 2003.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao, Hongji Yang, Limin Xiang, and Baowen Xu.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/jsme2002.pdf">Change Impact Analysis to Support
+                            Architectural Evolution</a>.
+                            <br />In Journal of Software Maintenance and Evolution: Research and Practice, Vol.14, No.5,
+                            pp.317-333, 2002, John Wiley &amp; Sons.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/iwpc2002.pdf">Slicing Aspect-Oriented Software</a>.
+                            <br />In Proc. 10th IEEE International Workshop on Program Comprehension (IWPC&#39;2002), pp.251-260,
+                            Paris, France, June 2002. (A previous version appeared as Technical-Report SE-135-7, Information
+                            Processing Society of Japan (IPSJ), November 2001)</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Yuming Zhou, Baowen Xu, Jianjun Zhao, and Hongji Yang.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/icsm2002.pdf">ICBMC: An Improved Cohesion Measure for
+                            Classes</a>.
+                            <br />In Proc. IEEE International Conference on Software Maintenance, pp. 44-53, Montreal, Canada,
+                            October 2002.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/~zhao/pub/pdf/iwpse02.pdf">Change Impact Analysis for
+                            Aspect-Oriented Software Evolution</a>.
+                            <br />In Proc. 5th International Workshop on Principles of Software Evolution, pp.108-112, ACM Press,
+                            Orlando, Florida, USA, May 2002.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ipsj-tr-se-136-25.pdf">Towards a Metrics Suite for
+                            Aspect-Oriented Software</a>.
+                            <br />Technical-Report SE-136-25, Information Processing Society of Japan (IPSJ), March 2002.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/compsac2000.pdf">Dependence Analysis of Java
+                            Bytecode</a>.
+                            <br />In Proc. 24th IEEE Annual International Computer Software and Applications Conference
+                            (COMPSAC&#39;2000), pp.486-491, Taipei, Taiwan, October 2000.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/csmr2000.pdf">A Slicing-Based Approach to Extracting
+                            Reusable Software Architectures</a>.
+                            <br />In Proc. 4th European Conference on Software Maintenance and Reengineering (CSMR&#39;2000),
+                            pp.215-223, IEEE Computer Society Press, Zurich, Switzerland, February 2000.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/pdse99.pdf">Multithreaded Dependence Graphs for
+                            Concurrent Java Programs</a>.&#160;&#160;
+                            <br />In Proc. 1999 International Symposium on Software Engineering for Parallel and Distributed
+                            Systems, pp.13-23, IEEE Computer Society Press, May 1999.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/iwpc99.pdf">Slicing Concurrent Java Programs</a>.
+                            <br />In Proc. Seventh IEEE International Workshop on Program Comprehension (IWPC&#39;99), pp.126-133,
+                            May 1999.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/ics98.ps">Applying Program Dependence Analysis to Java
+                            Software</a>.
+                            <br />In Proc. Workshop on Software Engineering and Database Systems, 1998 International Computer
+                            Symposium, pp.162-169, Tainan, Taiwan, December 1998.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/se-tr98-119.pdf">Dynamic Slicing of Object-Oriented
+                            Programs</a>.
+                            <br />Technical-Report SE-98-119, pp.17-23, Information Processing Society of Japan (IPSJ), May
+                            1998.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/isaw3.pdf">On Assessing the Complexity of Software
+                            Architectures</a>.
+                            <br />In Proc. 3rd International Software Architecture Workshop, pp.163-166, ACM SIGSOFT, ACM Press,
+                            November 1998.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/iceccs98.pdf">Applying Slicing Technique to Software
+                            Architectures</a>.
+                            <br />In Proc. Fourth IEEE International Conference on Engineering of Complex Computer Systems,
+                            pp.87-98, August 1998.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao, Jingde Cheng, and Kazuo Ushijima.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/csmr98m.pdf">A Metrics Suite for Concurrent Logic
+                            Programs&#160;</a>.
+                            <br />In Proc. 2nd Euromicro Conference on Software Maintenance and Reengineering, pp.172-178, IEEE
+                            Computer Society Press, March 1998.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>&#160;Jianjun Zhao.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/a-depen.pdf">Using Dependence Analysis to Support
+                            Software Architecture Understanding</a>.
+                            <br />In M. Li (Ed.), &quot;New Technologies on Computer Software&quot;, pp.135-142, International
+                            Academic Publishers, September 1997.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao, Jingde Cheng, and Kazuo Ushijima.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/fuji96.pdf">Slicing Concurrent Logic Programs</a>.
+                            <br />In T. Ida, A. Ohori and M. Takeichi (Eds.), &quot;Second Fuji International Workshop on
+                            Functional and Logic Programming&quot;, pp.143-162, World Scientific, 1997.</li>
+                            <li style="list-style: none; display: inline">
+                                <p style="margin:7px"></p>
+                                <hr />
+                            </li>
+                            <li>Jianjun Zhao, Jingde Cheng, and Kazuo Ushijima.
+                            <br />
+                            <a href="http://cse.sjtu.edu.cn/~zhao/pub/pdf/compsac96.pdf">Static Slicing of Concurrent
+                            Object-Oriented Programs</a>.
+                            <br />In Proc. 20th IEEE Annual International Computer Software and Applications Conference,
+                            pp.312-320, August 1996.</li>
+                        </ul>
+                    </div>
+                    <!--- End PUBLICATIONS -->
+                    <!--- Begin CONTACT -->
+                    <div id="contact" class="tab-pane fade">
+                        <h4>連絡先</h4>
+                        <hr />
+                        <p>〒819-0395
+                        <br />福岡県福岡市西区元岡744番地
+                        <br />九州大学大学院システム情報科学研究院
+                        <br />ウエスト2号館713室</p>
+                        <p>Room 713, West Bldg 2, 744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan
+                        <br />Graduate School of Information Science and Electrical Engineering
+                        <br />Kyushu University
+                        <br />E-Mail: zhao [at] ait [dot] kyushu-u [dot] ac [dot] jp</p>
+                    </div>
+                    <!--- End CONTACT -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+     
+    <script src="../bootstrap/js/bootstrap.min.js"></script> 
+    <script type="text/javascript">
+        $(function() {
+            var hash = window.location.hash;
+            hash &amp;amp;amp;amp;amp;&amp;amp;amp;amp;amp; $(&amp;amp;amp;amp;#39;ul.nav
+a[href=&amp;amp;amp;amp;quot;&amp;amp;amp;amp;#39; + hash +
+&amp;amp;amp;amp;#39;&amp;amp;amp;amp;quot;]&amp;amp;amp;amp;#39;).tab(&amp;amp;amp;amp;#39;show&amp;amp;amp;amp;#39;);
+        });
+        
+</script></body>
 </html>
