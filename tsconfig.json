@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "ES2015"
+        ],
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "removeComments": true,
+        "target": "ES5"
+    },
+    "exclude": [
+        "node_modules/",
+        "dist/",
+    ],
+    "include": [
+        "src/**/*.ts",
+    ],
+}
