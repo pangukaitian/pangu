@@ -1,0 +1,125 @@
+#member_tab_btn_ctr {
+    display: flex;
+    width: 100%;
+}
+
+.member_tab_btn {
+    cursor: pointer;
+    flex-grow: 1;
+    font-size: 0.9rem;
+    border: var(--box-border-invisible);
+    border-bottom: var(--box-border);
+    border-radius: 6px 6px 0 0;
+    line-height: 2.8rem;
+    letter-spacing: 0.1px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    white-space: nowrap;
+}
+
+.member_tab_btn.empty {
+    width: 100%;
+    cursor: default;
+}
+
+.member_tab_btn.selected {
+    cursor: default;
+    border: var(--box-border);
+    border-bottom: var(--box-border-invisible);
+}
+
+.member_tab_btn:not(.selected):not(.empty) {
+    color: #2d6fae;
+}
+
+.member_tab_btn:not(.selected):not(.empty):hover {
+    background-color: #f0f0f0;
+    color: #2a5f91;
+}
+#member_tab {
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+#member_tab .group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align: left;
+    margin-bottom: 3.5rem;
+}
+
+.photo_ctr {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    bottom: 0rem;
+    overflow: hidden;
+    margin-top: 1.5rem;
+    flex-shrink: 0;
+    border-radius: 15% 15% 10% 10%;
+    border-radius: 10%;
+    border: solid 0.2rem #2d70ae2c;
+    border-spacing: inherit;
+    box-shadow: 0 0rem 1rem 0rem #2d70ae00;
+    transition: all 300ms;
+}
+
+.photo_ctr .photo {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../data/images/lei.ma.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.photo_ctr .details {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo_ctr .details div {
+    transition: all 350ms;
+    flex-shrink: 1;
+}
+
+.photo_ctr .details .empty {
+    width: 100%;
+    height: 84%;
+    flex-shrink: 0;
+}
+
+.photo_ctr .details .always {
+    padding-bottom: 0.5rem;
+}
+
+.photo_ctr .details .others {
+    padding-bottom: 0.5rem;
+}
+
+.photo_ctr .details div:not(.empty) {
+    background-color: #ffffffcc;
+}
+
+.photo_ctr .details p {
+    margin-top: 0.5rem;
+}
+
+.photo_ctr:hover {
+    bottom: 0.5rem;
+    box-shadow: 0 0.75rem 1rem 0.3rem #2d70ae25;
+}
+
+.photo_ctr:hover .details .empty {
+    flex-shrink: 1;
+}
+
+.photo_ctr:hover .details div:not(.empty) {
+    background-color: #fffffff1;
+}
