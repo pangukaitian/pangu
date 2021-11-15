@@ -1,7 +1,8 @@
-import { marked } from 'marked'
-import * as jsyaml from 'js-yaml'
+// import { marked } from 'marked'
+// import * as jsyaml from 'js-yaml'
 import { getLangAlt, newEle, toggleFocus, toggleHelper } from './utils.js'
 
+// @ts-ignore
 const yaml = jsyaml
 
 type News = {
@@ -58,10 +59,12 @@ const CFG = {
     lang: 'en',
     cur_member_tab: 'faculty',
     initialized: false,
+    photo_base_url: '../../data/images/',
 } as {
     lang: SupportedLang
     cur_member_tab: SimpleTitle
     initialized: boolean
+    photo_base_url: string
 }
 
 const _init = (_: any, lang?: SupportedLang) => {
@@ -214,8 +217,6 @@ const renderMember = async (
     ctr.innerHTML = ''
     for (const title of pending) {
         const members = data.members.filter((m) => m.title == title)
-        console.log(data.titles)
-        console.log('current title' + title)
         const titleFormal = data.titles[title]
         const ht = document.createElement('ht')
         ht.innerHTML = getLangAlt(titleFormal, [lang, 'en', 'jp'])
@@ -224,7 +225,9 @@ const renderMember = async (
         for (const member of members) {
             const memberInf = newEle('div', ['photo_ctr'])
             const memberPhoto = newEle('div', ['photo'], {
-                style: `background-image: url("${member.pic_url}");`,
+                style: `background-image: url("${
+                    CFG.photo_base_url + (member.pic_url ?? 'undefined.png')
+                }");`,
             })
             const memberDetail = newEle('div', ['details'])
             const detailEmpty = newEle('div', ['empty'])
@@ -254,6 +257,16 @@ const renderMember = async (
             }
             if (typeof title != 'undefined') {
                 detailOthers.appendChild(newEle('p', ['title'], {}, title))
+            }
+            if (typeof member.url != 'undefined') {
+                const linkCtr = newEle('div', ['link_ctr'], {})
+                const a = newEle('a', ['link'], {
+                    target: '_blank',
+                    href: member.url,
+                })
+                a.appendChild(newEle('div'))
+                linkCtr.appendChild(a)
+                detailOthers.appendChild(linkCtr)
             }
             memberDetail.appendChild(detailEmpty)
             memberDetail.appendChild(detailAlways)
@@ -307,13 +320,14 @@ const renderNews = async (lang: SupportedLang) => {
 const renderIntro = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
     let txt = await getRes(`./lang/${lang}/intro.md`)
+    // @ts-ignore
     document.getElementById('tab_intro').innerHTML = marked.parse(txt)
 }
 
 const renderContact = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
     let txt = await getRes(`./lang/${lang}/contact.md`)
-    console.log(txt)
+    // @ts-ignore
     document.getElementById('tab_contact').innerHTML = marked.parse(txt)
 }
 
