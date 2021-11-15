@@ -47,9 +47,10 @@ const toggleHelper = (
 }
 
 const getLangAlt = <T, K extends string>(
-    txtObj: Partial<Record<K, T>>,
+    txtObj: Partial<Record<K, T>> | undefined,
     priority: K[]
 ): T | undefined => {
+    if (typeof txtObj == 'undefined') return undefined
     const pri = priority.filter((val, idx, arr) => {
         return arr.indexOf(val) == idx
     })
