@@ -135,9 +135,11 @@ var getRes = function (p) { return __awaiter(void 0, void 0, void 0, function ()
     var f;
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0: return [4, fetch(p, {
-                    method: 'GET',
-                })];
+            case 0:
+                p = 'https://raw.githubusercontent.com/pangukaitian/pangu/data/' + p;
+                return [4, fetch(p, {
+                        method: 'GET',
+                    })];
             case 1:
                 f = _a.sent();
                 if (!f.ok) return [3, 3];

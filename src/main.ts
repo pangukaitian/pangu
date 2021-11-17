@@ -200,6 +200,7 @@ const render = (lang?: SupportedLang) => {
 }
 
 const getRes = async (p: string): Promise<string> => {
+    p = 'https://raw.githubusercontent.com/pangukaitian/pangu/data/' + p
     const f = await fetch(p, {
         method: 'GET',
     })
