@@ -1,0 +1,98 @@
+[
+    {
+        "content": "One paper has been accepted by ICSE 2021.",
+        "is_new": true
+    },
+    {
+        "content": "One paper has been accepted by ICST 2021.",
+        "is_new": true
+    },
+    {
+        "content": "Two paper has been accepted by AAAI 2021.",
+        "is_new": true
+    },
+    {
+        "content": "One paper has been accepted by IEEE TDSC.",
+        "is_new": true
+    },
+    {
+        "content": "One paper has been accepted by NeurIPS 2020.",
+        "is_new": false
+    },
+    {
+        "content": "One paper has been accepted by ESEC/FSE 2020.",
+        "is_new": false
+    },
+    {
+        "content": "Two papers have been accepted by ASE 2020.",
+        "is_new": false
+    },
+    {
+        "content": "Two papers have been accepted by ICSME 2020 (NIER).",
+        "is_new": false
+    },
+    {
+        "content": "Three papers have been accepted by ACM MM 2020.",
+        "is_new": false
+    },
+    {
+        "content": "One paper has been accepted by ECCV 2020.",
+        "is_new": false
+    },
+    {
+        "content": "One paper has been accepted by IJCAI 2020.",
+        "is_new": false
+    },
+    {
+        "content": "One paper has been accepted by ACM/IEEE ICSE 2020.",
+        "is_new": false
+    },
+    {
+        "content": "One paper has been accepted by ICPC 2020.",
+        "is_new": false
+    },
+    {
+        "content": "One paper has been accepted at IEEE Transactions on Software Engineering (TSE).",
+        "is_new": false
+    },
+    {
+        "content": "Two papers have been accepted by AAAI 2020.",
+        "is_new": false
+    },
+    {
+        "content": "The Wuji paper obtained the <span style='color: red;'>ACM SIGSOFT Distinguished Paper award</span> at ASE 2019.",
+        "is_new": false
+    },
+    {
+        "content": "Two papers have been accepted by ASE 2019.",
+        "is_new": false
+    },
+    {
+        "content": "Three tool demonstrations have been accepted by ASE 2019.",
+        "is_new": false
+    },
+    {
+        "content": "The DiffChaser paper has been accepted by IJCAI 2019.",
+        "is_new": false
+    },
+    {
+        "content": "The DeepStellar paper has been accepted by ESEC/FSE 2019.",
+        "is_new": false
+    },
+    {
+        "content": "The DeepHunter paper has been accepted by ISSTA 2019.",
+        "is_new": false
+    },
+    {
+        "content": "The VULTRON paper has been accepted by ICSE 2019 as a NIER track paper.",
+        "is_new": false
+    },
+    {
+        "content": "The DeepVisual paper has been accepted by ICPC as a tool demo paper.",
+        "is_new": false
+    },
+    {
+        "content": "The DeepCT paper has been accepted by SANER 2019 as an ERA track paper. ",
+        "is_new": false
+    }
+]
