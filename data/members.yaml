@@ -1,0 +1,374 @@
+titles:
+    sensei:
+        en: Faculty
+        jp: 教員
+    phd:
+        en: Ph.D. Student
+        jp: 博士後期課程
+    master:
+        en: Master Student
+        jp: 修士課程
+    ugrd:
+        en: Undergraduate Student
+        jp: 学部生
+    research:
+        en: Research Student
+        jp: 研究生
+    grad_yr_2021:
+        en: 2021
+        jp: 2021 令和3年 卒業
+    grad_yr_2020:
+        en: 2020
+        jp: 2020 令和2年 卒業
+    grad_yr_2019:
+        en: 2019
+        jp: 2019 平成31年 卒業
+    grad_yr_2018:
+        en: 2018
+        jp: 2018 平成30年 卒業
+
+members:
+    # - name:
+    #       native:
+    #       en:
+    #       jp:
+    #   title:
+    #   title_alt:
+    #       en:
+    #       jp:
+    #   url:
+    #   pic_url:
+    #   details:
+    #       en:
+    #       jp:
+    - name:
+          native:
+          en: Jianjun Zhao
+          jp: 趙 建軍
+      title: sensei
+      title_alt:
+          en: Professor
+          jp: 教授
+      url: "https://stap.ait.kyushu-u.ac.jp/~zhao/index.html"
+      pic_url: jianjun.zhao.png
+      details:
+          en:
+          jp:
+
+    - name:
+          native:
+          en: Lei Ma
+          jp: 馬 雷
+      title: sensei
+      title_alt:
+          en: "Research Fellow (Associate Professor of University of Alberta)"
+          jp: "学術研究員 (Associate Professor of University of Alberta)"
+      url: "https://malei.xyz/"
+      pic_url: lei.ma.png
+      details:
+          en:
+          jp:
+
+    - name:
+          native:
+          en: Yaokai Feng
+          jp: 馮 尭鍇
+      title: sensei
+      title_alt:
+          en: "Assistant Professor"
+          jp: "助教"
+      url: "https://stap.ait.kyushu-u.ac.jp/~fengyk/"
+      pic_url: yaokai.feng.png
+      details:
+          en:
+          jp:
+
+    - name:
+          #   native: 谢肖飞
+          en: Xiaofei Xie
+          jp: 謝 肖飛
+      title: sensei
+      title_alt:
+          en: "Assistant Professor"
+          jp: "助教"
+      url: "https://xiaofeixie.bitbucket.io/"
+      pic_url: xiaofei.xie.png
+      details:
+          en:
+          jp:
+
+    - name:
+          native: 张振亚
+          en: Zhenya Zhang
+          jp: 張 振亜
+      title: sensei
+      title_alt:
+          en: Post-Doc
+          jp: 学術研究員
+      url: "https://group-mmm.org/~zhenya/"
+      pic_url: zhenya.zhang.png
+      details:
+          en:
+          jp:
+
+    # students
+    - name:
+          native: 孙吉元
+          en: Jiyuan Sun
+          jp: 孫 吉元
+      title: phd
+      pic_url: jiyuan.sun.png
+
+    - name:
+          en: Zeming Dong
+          jp: 董 沢銘
+      title: phd
+      pic_url: zeming.dong.png
+
+    - name:
+          native: 程子一
+          en: Ziyi Cheng
+      title: phd
+      pic_url: ziyi.cheng.png
+
+    - name:
+          native: 吴雄飞
+          en: Xiongfei Wu
+          jp: 呉 雄飛
+      title: phd
+      pic_url: xiongfei.wu.png
+
+    - name:
+          native: 叶家鸣
+          en: Jiaming Ye
+          jp: 叶 家鳴
+      title: phd
+      pic_url: jiaming.ye.png
+
+    - name:
+          native: 吕德运
+          en: Deyun Lv
+          jp: 呂 徳運
+      title: phd
+      pic_url: denyun.lv.png
+
+    - name:
+          native: 赵鹏展
+          en: Pengzhan Zhao
+          jp: 趙 鵬展
+      title: phd
+      pic_url: pengzhan.zhao.png
+
+    - name:
+          native: 齐桦
+          en: Hua Qi
+          jp: サイ カ
+      title: phd
+      pic_url: hua.qi.png
+
+    - name:
+          native: 罗俊杰
+          en: Junjie Luo
+          jp: 羅 俊傑
+      title: grad_yr_2021
+      title_alt:
+          prev: master
+      pic_url: junjie.luo.png
+
+    - name:
+          native: 大岡 秀徳
+          en: Hidenori Ooka
+      title: master
+
+    - name:
+          native: 栗田 拓弥
+          en: Takuya Kurita
+      title: master
+
+    - name:
+          native: 李焯
+          en: Zhuo Li
+          jp: リ タク
+      title: master
+      pic_url: zhuo.li.png
+
+    - name:
+          native: 马健淞
+          en: Jiansong Ma
+          jp: 馬 健淞
+      title: master
+      pic_url: jiansong.ma.png
+
+    - name:
+          native: 村上 研多郎
+          en: Kentarou Murakami
+      title: master
+
+    - name:
+          en: Kouhei Hatae
+          jp: 畑江 耕平
+      title: master
+
+    - name:
+          native: 孙景阳
+          en: Jingyang Sun
+          jp: 孫 景陽
+      title: master
+      pic_url: jingyang.sun.png
+
+    - name:
+          en: Juba Simon Mduduzi
+          jp: ジュバ サイモン ムドゥドゥジ
+      title: master
+
+    - name:
+          native: 牟田 隆弘
+          en: Takahiro Muta
+      title: urgd
+      pic_url: takahiro.muta.png
+
+    - name:
+          native: 濱田 翔馬
+          en: Shoma Hamada
+      title: urgd
+
+    - name:
+          native: 古竹 香貴
+          en: Koki Furutake
+      title: urgd
+
+    - name:
+          native: 古賀 洸之介
+          en: Konosuke Koga
+      title: urgd
+
+    - name:
+          en: Le Duc Manh
+          jp: レ マン ドク
+      title: ugrd
+
+    - name:
+          native: 陈健朗
+          en: Jianlang Chen
+          jp: チン ケンロウ
+      title: master
+      pic_url: jianlang.chen.png
+
+    - name:
+          native: 张文馨
+          en: Wenxin Zhang
+          jp: 張 文馨
+      title:
+      title_alt:
+          prev: research
+      pic_url: wenxin.zhang.png
+
+    - name:
+          native: 陈思远
+          en: Siyuan Chen
+          jp: 陳 思遠
+      title: research
+      pic_url: siyuan.chen.png
+
+    - name:
+          native: 兰书涵
+          en: Shuhan Lan
+          jp: 蘭 書涵
+      title: research
+      pic_url: shuhan.lan.png
+
+    - name:
+          native: 于冰
+          en: Bing Yu
+      title: grad_yr_2020
+      title_alt:
+          prev: phd
+
+    - name:
+          native: 李文韬
+          en: Wentao Li
+      title: grad_yr_2020
+      title_alt:
+          prev: master
+      pic_url: wentao.li.png
+
+    - name:
+          native: 中村 友海
+          en: Tomomi Nakamura
+      title: grad_yr_2020
+      title_alt:
+          prev: master
+      pic_url: tomomi.nakamura.png
+
+    - name:
+          native: 芮瑞
+          en: Rui Rui
+      title: grad_yr_2020
+      title_alt:
+          prev: master
+      pic_url: rui.rui.png
+
+    - name:
+          native: 王思源
+          en: Siyuan Wang
+      title: grad_yr_2020
+      title_alt:
+          prev: master
+      pic_url: siyuan.wang.png
+
+    - name:
+          native: 谢超
+          en: Chao Xie
+          jp: 謝 超
+      title: grad_yr_2020
+      title_alt:
+          prev: master
+      pic_url: chao.xie.png
+
+    - name:
+          native: 胡强
+          en: Qiang Hu
+          jp: 胡 強
+      title: grad_yr_2020
+      title_alt:
+          prev: master
+      pic_url: qiang.hu.png
+
+    - name:
+          native: 山本 大祐
+          en: Daisuke Yamamoto
+      title: grad_yr_2019
+      title_alt:
+          prev: master
+
+    - name:
+          native: 中原 和希
+          en: Kazuki Nakahara
+      title: grad_yr_2019
+      title_alt:
+          prev: ugrd
+
+    - name:
+          native: 大森 洋一
+          en: Yoichi Omori
+      title: grad_yr_2018
+      title_alt:
+          en: Assistant Professor
+          jp: 助教
+      url: "https://hyoka.ofc.kyushu-u.ac.jp/search/details/K002427/"
+
+    - name:
+          native: 文海辰
+          en: Haichen Wen
+          jp: 文 海辰
+      title: grad_yr_2018
+      title_alt:
+          prev: master
+      pic_url: chenhai.wen.png
+
+    - name:
+          native: 梶原 大悟
+          en: Daigo Kajiwara
+      title: grad_yr_2018
+      title_alt:
+          prev: ugrd
