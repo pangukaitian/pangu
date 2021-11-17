@@ -1,3 +1,19 @@
+const getLangAlt = <T, K extends string>(
+    txtObj: Partial<Record<K, T>> | undefined,
+    priority: K[]
+): T | undefined => {
+    if (typeof txtObj == 'undefined') return undefined
+    const pri = priority.filter((val, idx, arr) => {
+        return arr.indexOf(val) == idx
+    })
+    let res: T | undefined
+    while (pri.length) {
+        res = txtObj[pri.shift()]
+        if (typeof res != 'undefined') break
+    }
+    return res
+}
+
 const newEle = (
     tagName: string,
     classes: string[] = [],
@@ -15,6 +31,13 @@ const newEle = (
         ele.innerHTML = inner
     }
     return ele
+}
+
+const randChar = (length: number, radix: number): string => {
+    return new Array(length)
+        .fill(undefined)
+        .map((_) => Math.floor(Math.random() * radix).toString(radix))
+        .join('')
 }
 
 const toggleFocus = (
@@ -46,20 +69,4 @@ const toggleHelper = (
     })
 }
 
-const getLangAlt = <T, K extends string>(
-    txtObj: Partial<Record<K, T>> | undefined,
-    priority: K[]
-): T | undefined => {
-    if (typeof txtObj == 'undefined') return undefined
-    const pri = priority.filter((val, idx, arr) => {
-        return arr.indexOf(val) == idx
-    })
-    let res: T | undefined
-    while (pri.length) {
-        res = txtObj[pri.shift()]
-        if (typeof res != 'undefined') break
-    }
-    return res
-}
-
-export { newEle, toggleFocus, toggleHelper, getLangAlt }
+export { getLangAlt, newEle, randChar, toggleFocus, toggleHelper }

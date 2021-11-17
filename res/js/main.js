@@ -34,7 +34,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-import { getLangAlt, newEle, toggleFocus, toggleHelper } from './utils.js';
+import { getLangAlt, newEle, randChar, toggleFocus, toggleHelper, } from './utils.js';
 var yaml = jsyaml;
 var CFG = {
     lang: 'en',
@@ -43,6 +43,17 @@ var CFG = {
     photo_base_url: '../../data/images/',
 };
 var _init = function (_, lang) {
+    renderPub();
+    addEventListener('mouseover', function (event) {
+        var ele = event.target;
+        if (ele instanceof HTMLElement && ele.classList.contains('author')) {
+            var author_token = ele.getAttribute('at');
+            if (author_token) {
+                var style_ctl = document.getElementById('pub_style');
+                style_ctl.innerHTML = "\n                .author[at=\"" + author_token + "\"] {\n                    color: #FFF;\n                    background-color: var(--bg-primary);\n                    border: solid 0.2rem var(--bg-primary);\n                    box-shadow: 0 0.5rem 1rem 0 #2d70ae3f;\n                }";
+            }
+        }
+    });
     toggleHelper('lang_opt', 'selected', function (langOpt) {
         var lang = langOpt.getAttribute('lang');
         if (['en', 'jp'].indexOf(lang) == -1) {
@@ -298,6 +309,43 @@ var renderIntro = function (lang) { return __awaiter(void 0, void 0, void 0, fun
             case 1:
                 txt = _a.sent();
                 document.getElementById('tab_intro').innerHTML = marked.parse(txt);
+                return [2];
+        }
+    });
+}); };
+var renderPub = function () { return __awaiter(void 0, void 0, void 0, function () {
+    var txt, data, ctr_str, tokens, _i, data_1, pub, author_btns, separators, author_html, _a, _b, author, sep;
+    var _c;
+    return __generator(this, function (_d) {
+        switch (_d.label) {
+            case 0: return [4, getRes("./data/publications.yaml")];
+            case 1:
+                txt = _d.sent();
+                data = yaml.load(txt);
+                ctr_str = '';
+                tokens = {};
+                for (_i = 0, data_1 = data; _i < data_1.length; _i++) {
+                    pub = data_1[_i];
+                    author_btns = [];
+                    separators = [' and ', ''];
+                    author_html = '';
+                    for (_a = 0, _b = pub.authors; _a < _b.length; _a++) {
+                        author = _b[_a];
+                        if (Object.keys(tokens).indexOf(author) == -1) {
+                            tokens[author] = randChar(4, 36);
+                        }
+                        author_btns.push("<span class=\"author\" at=\"" + tokens[author] + "\">" + author + "</span>");
+                    }
+                    while (author_btns.length) {
+                        sep = (_c = separators.pop()) !== null && _c !== void 0 ? _c : ', ';
+                        author_html = author_btns.pop() + sep + author_html;
+                    }
+                    ctr_str += '- ' + author_html + '\n\n';
+                    ctr_str += '    ' + pub.title + '\n\n';
+                    ctr_str += '    ' + pub.publish + '\n\n';
+                    ctr_str += '<hr>\n\n';
+                }
+                document.getElementById('tab_pub').innerHTML = marked.parse(ctr_str);
                 return [2];
         }
     });

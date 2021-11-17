@@ -34,6 +34,20 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var getLangAlt = function (txtObj, priority) {
+    if (typeof txtObj == 'undefined')
+        return undefined;
+    var pri = priority.filter(function (val, idx, arr) {
+        return arr.indexOf(val) == idx;
+    });
+    var res;
+    while (pri.length) {
+        res = txtObj[pri.shift()];
+        if (typeof res != 'undefined')
+            break;
+    }
+    return res;
+};
 var newEle = function (tagName, classes, attr, inner) {
     if (classes === void 0) { classes = []; }
     if (attr === void 0) { attr = {}; }
@@ -49,6 +63,12 @@ var newEle = function (tagName, classes, attr, inner) {
         ele.innerHTML = inner;
     }
     return ele;
+};
+var randChar = function (length, radix) {
+    return new Array(length)
+        .fill(undefined)
+        .map(function (_) { return Math.floor(Math.random() * radix).toString(radix); })
+        .join('');
 };
 var toggleFocus = function (className, focusClassName, focusTarget) {
     Array.from(document.querySelectorAll("." + className + "." + focusClassName)).forEach(function (prev) {
@@ -76,18 +96,4 @@ var toggleHelper = function (className, focusClassName, click_cb, autoToggleFocu
         }); });
     });
 };
-var getLangAlt = function (txtObj, priority) {
-    if (typeof txtObj == 'undefined')
-        return undefined;
-    var pri = priority.filter(function (val, idx, arr) {
-        return arr.indexOf(val) == idx;
-    });
-    var res;
-    while (pri.length) {
-        res = txtObj[pri.shift()];
-        if (typeof res != 'undefined')
-            break;
-    }
-    return res;
-};
-export { newEle, toggleFocus, toggleHelper, getLangAlt };
+export { getLangAlt, newEle, randChar, toggleFocus, toggleHelper };

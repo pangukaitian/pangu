@@ -1,6 +1,12 @@
 // import { marked } from 'marked'
 // import * as jsyaml from 'js-yaml'
-import { getLangAlt, newEle, toggleFocus, toggleHelper } from './utils.js'
+import {
+    getLangAlt,
+    newEle,
+    randChar,
+    toggleFocus,
+    toggleHelper,
+} from './utils.js'
 
 // @ts-ignore
 const yaml = jsyaml
@@ -11,16 +17,7 @@ type News = {
     url?: string
 }
 
-type Res = {
-    intro: string
-    news: News[]
-}
-
 type SupportedLang = 'en' | 'jp'
-
-type ResLang = {
-    [key in SupportedLang]: Res
-}
 
 type SimpleTitle = 'faculty' | 'student' | 'alumni'
 type MemberTitle = 'sensei' | 'phd' | 'master' | 'ugrd' | 'research'
@@ -55,6 +52,12 @@ type MemberRes = {
     members: MemberInf[]
 }
 
+type PubInf = {
+    title: string
+    authors: string[]
+    publish: string
+}
+
 const CFG = {
     lang: 'en',
     cur_member_tab: 'faculty',
@@ -68,6 +71,23 @@ const CFG = {
 }
 
 const _init = (_: any, lang?: SupportedLang) => {
+    renderPub()
+    addEventListener('mouseover', (event) => {
+        const ele = event.target
+        if (ele instanceof HTMLElement && ele.classList.contains('author')) {
+            const author_token = ele.getAttribute('at')
+            if (author_token) {
+                const style_ctl = document.getElementById('pub_style')
+                style_ctl.innerHTML = `
+                .author[at="${author_token}"] {
+                    color: #FFF;
+                    background-color: var(--bg-primary);
+                    border: solid 0.2rem var(--bg-primary);
+                    box-shadow: 0 0.5rem 1rem 0 #2d70ae3f;
+                }`
+            }
+        }
+    })
     toggleHelper(
         'lang_opt',
         'selected',
@@ -295,15 +315,15 @@ const renderlangTags = async (lang: SupportedLang) => {
 
 const renderHome = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
-    let txt = await getRes(`./lang/${lang}/home.md`)
+    const txt = await getRes(`./lang/${lang}/home.md`)
     // @ts-ignore
     document.getElementById('intro').innerHTML = marked.parse(txt)
 }
 
 const renderNews = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
-    let txt = await getRes(`./data/news.json`)
-    let news: News[] = JSON.parse(txt)
+    const txt = await getRes(`./data/news.json`)
+    const news: News[] = JSON.parse(txt)
     const news_ctr = document.getElementById('news_ctr')
     news_ctr.innerHTML = ''
     for (const n of news) {
@@ -319,14 +339,45 @@ const renderNews = async (lang: SupportedLang) => {
 
 const renderIntro = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
-    let txt = await getRes(`./lang/${lang}/intro.md`)
+    const txt = await getRes(`./lang/${lang}/intro.md`)
     // @ts-ignore
     document.getElementById('tab_intro').innerHTML = marked.parse(txt)
 }
 
+const renderPub = async () => {
+    const txt = await getRes(`./data/publications.yaml`)
+    const data = yaml.load(txt) as PubInf[]
+    let ctr_str: string = ''
+    const tokens: Record<string, string> = {}
+    for (const pub of data) {
+        const author_btns: string[] = []
+        const separators = [' and ', '']
+        let author_html = ''
+        for (const author of pub.authors) {
+            if (Object.keys(tokens).indexOf(author) == -1) {
+                tokens[author] = randChar(4, 36)
+            }
+            author_btns.push(
+                `<span class="author" at="${tokens[author]}">${author}</span>`
+            )
+        }
+        while (author_btns.length) {
+            const sep = separators.pop() ?? ', '
+            author_html = author_btns.pop() + sep + author_html
+        }
+        // TODO:
+        ctr_str += '- ' + author_html + '\n\n'
+        ctr_str += '    ' + pub.title + '\n\n'
+        ctr_str += '    ' + pub.publish + '\n\n'
+        ctr_str += '<hr>\n\n'
+    }
+    // @ts-ignore
+    document.getElementById('tab_pub').innerHTML = marked.parse(ctr_str)
+}
+
 const renderContact = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
-    let txt = await getRes(`./lang/${lang}/contact.md`)
+    const txt = await getRes(`./lang/${lang}/contact.md`)
     // @ts-ignore
     document.getElementById('tab_contact').innerHTML = marked.parse(txt)
 }
