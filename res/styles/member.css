@@ -45,7 +45,6 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    align: left;
     margin-bottom: 3.5rem;
 }
 
