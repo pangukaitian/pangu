@@ -1,0 +1,228 @@
+:root {
+    --bg-primary: #2d6fae;
+    --bg-secondary: #d6ecff;
+    --box-border: solid 0.1rem #e0e0e0;
+    --box-border-invisible: solid 0.1rem #e0e0e000;
+    --divider: solid 1px #eeeeee;
+    --page-width: 90%;
+}
+
+@media only screen and (min-width: 1100px) {
+    :root {
+        --page-width: 990px;
+    }
+}
+
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Source Sans Pro', メイリオ, Meiryo, sans-serif;
+}
+
+#da {
+    position: relative;
+    margin: 0 auto;
+    width: var(--page-width);
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    padding-top: 1.4rem;
+    padding-bottom: 1.3rem;
+    border-bottom: solid 0.9px #d3d3d3;
+}
+
+#header_bg_ctr {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: min-content;
+}
+
+#header_bg {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main {
+    position: relative;
+    height: 20rem;
+    margin-top: 1.3rem;
+    display: flex;
+}
+
+#side_bar {
+    width: 200px;
+    margin-right: 2rem;
+    flex-shrink: 0;
+}
+
+#content {
+    width: 100%;
+}
+
+#lang_box {
+    display: flex;
+    border: var(--box-border);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.lang_opt {
+    width: 100%;
+    text-align: center;
+    line-height: 2.75rem;
+    margin: 3px 3px;
+    border-radius: 4px;
+    opacity: 0.5;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    transition: all 150ms;
+}
+
+.lang_opt.selected {
+    background-color: #f3f3f3;
+    opacity: 1;
+}
+
+.lang_opt:hover {
+    color: #2d6fae;
+    opacity: 1;
+}
+
+.tab_btn_ctr {
+    width: 100%;
+    height: fit-content;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    border: var(--box-border);
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tab_btn {
+    color: #2d6fae;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.35rem;
+    padding: 10px 15px;
+    border-radius: 4px;
+    line-height: 1.5rem;
+    background-color: #ebebeb00;
+    transition: all 150ms;
+}
+
+.tab_btn.selected {
+    color: #fff;
+    background-color: #2d6fae;
+}
+
+.tab_btn:hover {
+    cursor: pointer;
+}
+
+.tab_btn:not(.selected):hover {
+    background-color: #ebebeb;
+}
+
+.tab_ctr {
+    width: 100%;
+    height: 10rem;
+}
+
+.tab {
+    position: relative;
+    width: 100%;
+    opacity: 1;
+    transition: all 200ms;
+}
+
+.tab:not(.show) {
+    opacity: 0.1;
+    user-select: none;
+    display: none !important;
+}
+
+.content_box {
+    width: 100%;
+    height: fit-content;
+    border-radius: 4px;
+    border: var(--box-border);
+    margin-bottom: 1rem;
+}
+
+.content_box .title {
+    padding: 1rem 1.2rem 1rem;
+    background-color: #f3f3f3;
+    border-bottom: var(--box-border);
+}
+
+.content_box .body img {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.content_box .body .notif {
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: var(--divider);
+}
+
+.content_box .body .notif .new {
+    position: relative;
+    top: -0.1rem;
+    left: -0.2rem;
+    font-size: 0.45rem;
+    color: #fff;
+    padding: 0.1rem 0.1rem;
+    background-color: rgb(130, 168, 238);
+    user-select: none;
+}
+
+.content_box .body .notif.new::after {
+    content: '12';
+}
+
+.content_ctr {
+    width: 215px;
+}
+
+#tab_home {
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro {
+    width: 100%;
+    margin-right: 1.5rem;
+}
+
+#news {
+    width: 215px;
+    flex-shrink: 0;
+}
+
+ht {
+    display: block;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    background-color: var(--bg-secondary);
+    border-left: 0.25rem solid var(--bg-primary);
+}

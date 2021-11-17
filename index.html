@@ -1,5 +1,78 @@
-<html><head><title>Pangu Research Lab</title></head>  
-<body>  
-<script language='javascript'>document.location = 'en/'</script>  
-</body>  
-</html>  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pangu Research Lab</title>
+    <script type="module" src="./res/js/main.js"></script>
+    <link type="text/css" rel="stylesheet" href="./res/styles/global.css">
+    <link type="text/css" rel="stylesheet" href="./res/styles/md.css">
+    <link type="text/css" rel="stylesheet" href="./res/styles/member.css">
+    <link type="text/css" rel="stylesheet" href="./res/styles/pub.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+</style>
+
+<body>
+    <div id='da'>
+        <div id='header'>
+            <div id='header_bg_ctr'>
+                <img id="header_bg" src="./res/images/header.webp">
+            </div>
+        </div>
+        <div id='main'>
+            <div id='side_bar'>
+                <div id='lang_box'>
+                    <div class="lang_opt" lang='en'>English</div>
+                    <div class="lang_opt selected" lang='jp'>日本語</div>
+                </div>
+                <div class="tab_btn_ctr">
+                    <div tab="home" lt="tab_btn_home" class="tab_btn selected">Home</div>
+                    <div tab="member" lt="tab_btn_member" class="tab_btn">Member</div>
+                    <div tab="intro" lt="tab_btn_intro" class="tab_btn">Intro</div>
+                    <div tab="pub" lt="tab_btn_pub" class="tab_btn">Pub</div>
+                    <div tab="repo" lt="tab_btn_repo" class="tab_btn">Repo</div>
+                    <div tab="contact" lt="tab_btn_contact" class="tab_btn">Contact</div>
+                </div>
+                <div class="content_box">
+                    <div class="title" lt="title_links">Links</div>
+                    <div class="body">
+                        <a target="_blank" href="https://www.kyushu-u.ac.jp/ja/">
+                            <img src="./res/images/kyushu-u.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id='content'>
+                <div class="tab_ctr">
+                    <div id="tab_home" class="tab show">
+                        <div id="intro" class="md_box"></div>
+                        <div id="news">
+                            <div class="content_box">
+                                <div class="title" lt='title_news'>News</div>
+                                <div id="news_ctr" class="body"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab_member" class="tab">
+                        <div id="member_tab_btn_ctr">
+                            <div lt="member_tab_btn_faculty" title='faculty' class="member_tab_btn selected">Faculty
+                            </div>
+                            <div lt="member_tab_btn_student" title='student' class="member_tab_btn">Students</div>
+                            <div lt="member_tab_btn_alumnus" title='alumni' class="member_tab_btn">Alumni</div>
+                            <div class="member_tab_btn empty"></div>
+                        </div>
+                        <div id="member_tab"></div>
+                    </div>
+                    <div id="tab_intro" class="tab md_box"></div>
+                    <div id="tab_pub" class="tab md_box"></div>
+                    <style id="pub_style"></style>
+                    <div id="tab_contact" class="tab md_box"></div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

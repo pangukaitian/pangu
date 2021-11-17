@@ -1,0 +1,17 @@
+#tab_pub.md_box p {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#tab_pub.md_box hr {
+    border: 0;
+    border-top: 0.1rem solid #f1f1f1;
+}
+
+.author {
+    background-color: transparent;
+    border: solid 0.2rem transparent;
+    transition: all 150ms;
+    box-shadow: 0 0 1rem 0 #2d70ae00;
+}

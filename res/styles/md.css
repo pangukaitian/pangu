@@ -1,0 +1,31 @@
+.md_box * {
+    margin-bottom: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.5px;
+}
+
+.md_box h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 2rem;
+}
+
+.md_box ul {
+    margin-left: 2rem;
+}
+
+.md_box li *:first-child,
+.md_box li {
+    margin-bottom: 2px;
+}
+
+.md_box blockquote p {
+    display: block;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    background-color: var(--bg-secondary);
+    border-left: 0.25rem solid var(--bg-primary);
+}
