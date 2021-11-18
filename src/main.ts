@@ -17,7 +17,7 @@ type News = {
     url?: string
 }
 
-type SupportedLang = 'en' | 'jp'
+type SupportedLang = 'en' | 'jp' | 'cn'
 
 type SimpleTitle = 'faculty' | 'student' | 'alumni'
 type MemberTitle = 'sensei' | 'phd' | 'master' | 'ugrd' | 'research'
@@ -58,16 +58,28 @@ type PubInf = {
     publish: string
 }
 
+const DEV_MODE: boolean = false
+
 const CFG = {
     lang: 'en',
     cur_member_tab: 'faculty',
     initialized: false,
-    photo_base_url: '../../data/images/',
+    res_base_url: DEV_MODE
+        ? './_data/'
+        : 'https://raw.githubusercontent.com/pangukaitian/pangu/data/',
+    photo_base_url: DEV_MODE
+        ? './_data/data/images/'
+        : 'https://github.com/pangukaitian/pangu/raw/data/data/images/',
+    lang_priority: (...first: string[]) => {
+        return [...first, 'en', 'jp', 'cn']
+    },
 } as {
     lang: SupportedLang
     cur_member_tab: SimpleTitle
     initialized: boolean
+    res_base_url: string
     photo_base_url: string
+    lang_priority: (...first: string[]) => string[]
 }
 
 const _init = (_: any, lang?: SupportedLang) => {
@@ -94,7 +106,7 @@ const _init = (_: any, lang?: SupportedLang) => {
         (langOpt) => {
             // @ts-ignore
             const lang: SupportedLang = langOpt.getAttribute('lang')
-            if (['en', 'jp'].indexOf(lang) == -1) {
+            if (['en', 'jp', 'cn'].indexOf(lang) == -1) {
                 console.warn(
                     `one of language buttons has invalid langCode: ${lang}`
                 )
@@ -199,15 +211,30 @@ const render = (lang?: SupportedLang) => {
     renderContact(CFG.lang)
 }
 
-const getRes = async (p: string): Promise<string> => {
-    p = 'https://raw.githubusercontent.com/pangukaitian/pangu/data/' + p
+const getRemote = async (
+    r: 'data' | 'lang',
+    p: string,
+    options?: { lang: SupportedLang }
+): Promise<string> => {
+    if (r == 'lang') {
+        const lang = options?.lang
+        if (typeof lang == 'undefined') {
+            p = './lang/' + p
+        } else {
+            p = `./lang/${lang}/` + p
+        }
+    } else if (r == 'data') {
+        p = CFG.res_base_url + 'data/' + p
+    } else {
+        throw Error('unknown root: ' + r)
+    }
     const f = await fetch(p, {
         method: 'GET',
     })
     if (f.ok) {
         return await f.text()
     } else {
-        throw Error('failed to load ' + p)
+        throw Error('failed to load: ' + p)
     }
 }
 
@@ -216,7 +243,7 @@ const renderMember = async (
     type: 'faculty' | 'student' | 'alumni'
 ) => {
     lang = lang ?? 'en'
-    const txt = await getRes('./data/members.yaml')
+    const txt = await getRemote('data', 'members.yaml')
     const data = yaml.load(txt) as MemberRes
 
     const displayTitles = {
@@ -259,22 +286,24 @@ const renderMember = async (
                     'p',
                     ['name'],
                     {},
-                    getLangAlt(member.name, [lang, 'native', 'en', 'jp'])
+                    getLangAlt(member.name, CFG.lang_priority(lang, 'native'))
                 )
             )
             let title: string | undefined
             if (typeof member.title_alt != 'undefined') {
                 if (typeof member.title_alt.prev != 'undefined') {
-                    title = getLangAlt(data.titles[member.title_alt.prev], [
-                        lang,
-                        'en',
-                        'jp',
-                    ])
+                    title = getLangAlt(
+                        data.titles[member.title_alt.prev],
+                        CFG.lang_priority(lang)
+                    )
                 } else {
-                    title = getLangAlt(member.title_alt, [lang, 'en', 'jp'])
+                    title = getLangAlt(
+                        member.title_alt,
+                        CFG.lang_priority(lang)
+                    )
                 }
             } else {
-                title = getLangAlt(data.titles[title], [lang, 'en', 'jp'])
+                title = getLangAlt(data.titles[title], CFG.lang_priority(lang))
             }
             if (typeof title != 'undefined') {
                 detailOthers.appendChild(newEle('p', ['title'], {}, title))
@@ -302,7 +331,7 @@ const renderMember = async (
 
 const renderlangTags = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
-    const txt = await getRes(`./lang/${lang}/tags.yaml`)
+    const txt = await getRemote('lang', `${lang}/tags.yaml`)
     const data = yaml.load(txt)
     for (const [k, v] of Object.entries(data)) {
         const lt = document.querySelectorAll(`[lt="${k}"]`)
@@ -316,14 +345,14 @@ const renderlangTags = async (lang: SupportedLang) => {
 
 const renderHome = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
-    const txt = await getRes(`./lang/${lang}/home.md`)
+    const txt = await getRemote('lang', `${lang}/home.md`)
     // @ts-ignore
     document.getElementById('intro').innerHTML = marked.parse(txt)
 }
 
 const renderNews = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
-    const txt = await getRes(`./data/news.json`)
+    const txt = await getRemote('data', `news.json`)
     const news: News[] = JSON.parse(txt)
     const news_ctr = document.getElementById('news_ctr')
     news_ctr.innerHTML = ''
@@ -340,13 +369,13 @@ const renderNews = async (lang: SupportedLang) => {
 
 const renderIntro = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
-    const txt = await getRes(`./lang/${lang}/intro.md`)
+    const txt = await getRemote('lang', `${lang}/intro.md`)
     // @ts-ignore
     document.getElementById('tab_intro').innerHTML = marked.parse(txt)
 }
 
 const renderPub = async () => {
-    const txt = await getRes(`./data/publications.yaml`)
+    const txt = await getRemote('data', `publications.yaml`)
     const data = yaml.load(txt) as PubInf[]
     let ctr_str: string = ''
     const tokens: Record<string, string> = {}
@@ -366,11 +395,9 @@ const renderPub = async () => {
             const sep = separators.pop() ?? ', '
             author_html = author_btns.pop() + sep + author_html
         }
-        // TODO:
-        ctr_str += '- ' + author_html + '\n\n'
-        ctr_str += '    ' + pub.title + '\n\n'
-        ctr_str += '    ' + pub.publish + '\n\n'
-        ctr_str += '<hr>\n\n'
+        ctr_str += ['- ' + author_html, pub.title, pub.publish, '<hr>']
+            .map((t) => t + '\n\n')
+            .join('  ')
     }
     // @ts-ignore
     document.getElementById('tab_pub').innerHTML = marked.parse(ctr_str)
@@ -378,7 +405,7 @@ const renderPub = async () => {
 
 const renderContact = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
-    const txt = await getRes(`./lang/${lang}/contact.md`)
+    const txt = await getRemote('lang', `${lang}/contact.md`)
     // @ts-ignore
     document.getElementById('tab_contact').innerHTML = marked.parse(txt)
 }
