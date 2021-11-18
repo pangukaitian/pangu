@@ -4,6 +4,23 @@
     letter-spacing: 0.5px;
 }
 
+.md_box a {
+    padding-left: 0.5rem;
+    text-decoration: none;
+    color: var(--bg-primary);
+}
+
+.md_box a::before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    float: left;
+    background: var(--link-icon);
+    background-size: cover;
+    transform: rotate(315deg);
+}
+
 .md_box h1 {
     font-size: 24px;
     font-weight: 500;
