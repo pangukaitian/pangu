@@ -34,13 +34,35 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 import { getLangAlt, newEle, randChar, toggleFocus, toggleHelper, } from './utils.js';
 var yaml = jsyaml;
+var DEV_MODE = false;
 var CFG = {
     lang: 'en',
     cur_member_tab: 'faculty',
     initialized: false,
-    photo_base_url: '../../data/images/',
+    res_base_url: DEV_MODE
+        ? './_data/'
+        : 'https://raw.githubusercontent.com/pangukaitian/pangu/data/',
+    photo_base_url: DEV_MODE
+        ? './_data/data/images/'
+        : 'https://github.com/pangukaitian/pangu/raw/data/data/images/',
+    lang_priority: function () {
+        var first = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            first[_i] = arguments[_i];
+        }
+        return __spreadArray(__spreadArray([], first, true), ['en', 'jp', 'cn'], false);
+    },
 };
 var _init = function (_, lang) {
     renderPub();
@@ -56,7 +78,7 @@ var _init = function (_, lang) {
     });
     toggleHelper('lang_opt', 'selected', function (langOpt) {
         var lang = langOpt.getAttribute('lang');
-        if (['en', 'jp'].indexOf(lang) == -1) {
+        if (['en', 'jp', 'cn'].indexOf(lang) == -1) {
             console.warn("one of language buttons has invalid langCode: " + lang);
             return false;
         }
@@ -131,12 +153,26 @@ var render = function (lang) {
     renderIntro(CFG.lang);
     renderContact(CFG.lang);
 };
-var getRes = function (p) { return __awaiter(void 0, void 0, void 0, function () {
-    var f;
+var getRemote = function (r, p, options) { return __awaiter(void 0, void 0, void 0, function () {
+    var lang, f;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
-                p = 'https://raw.githubusercontent.com/pangukaitian/pangu/data/' + p;
+                if (r == 'lang') {
+                    lang = options === null || options === void 0 ? void 0 : options.lang;
+                    if (typeof lang == 'undefined') {
+                        p = './lang/' + p;
+                    }
+                    else {
+                        p = "./lang/" + lang + "/" + p;
+                    }
+                }
+                else if (r == 'data') {
+                    p = CFG.res_base_url + 'data/' + p;
+                }
+                else {
+                    throw Error('unknown root: ' + r);
+                }
                 return [4, fetch(p, {
                         method: 'GET',
                     })];
@@ -145,7 +181,7 @@ var getRes = function (p) { return __awaiter(void 0, void 0, void 0, function ()
                 if (!f.ok) return [3, 3];
                 return [4, f.text()];
             case 2: return [2, _a.sent()];
-            case 3: throw Error('failed to load ' + p);
+            case 3: throw Error('failed to load: ' + p);
         }
     });
 }); };
@@ -156,7 +192,7 @@ var renderMember = function (lang, type) { return __awaiter(void 0, void 0, void
         switch (_b.label) {
             case 0:
                 lang = lang !== null && lang !== void 0 ? lang : 'en';
-                return [4, getRes('./data/members.yaml')];
+                return [4, getRemote('data', 'members.yaml')];
             case 1:
                 txt = _b.sent();
                 data = yaml.load(txt);
@@ -190,22 +226,18 @@ var renderMember = function (lang, type) { return __awaiter(void 0, void 0, void
                         var detailEmpty = newEle('div', ['empty']);
                         var detailAlways = newEle('div', ['always']);
                         var detailOthers = newEle('div', ['others']);
-                        detailAlways.appendChild(newEle('p', ['name'], {}, getLangAlt(member.name, [lang, 'native', 'en', 'jp'])));
+                        detailAlways.appendChild(newEle('p', ['name'], {}, getLangAlt(member.name, CFG.lang_priority(lang, 'native'))));
                         var title_1 = void 0;
                         if (typeof member.title_alt != 'undefined') {
                             if (typeof member.title_alt.prev != 'undefined') {
-                                title_1 = getLangAlt(data.titles[member.title_alt.prev], [
-                                    lang,
-                                    'en',
-                                    'jp',
-                                ]);
+                                title_1 = getLangAlt(data.titles[member.title_alt.prev], CFG.lang_priority(lang));
                             }
                             else {
-                                title_1 = getLangAlt(member.title_alt, [lang, 'en', 'jp']);
+                                title_1 = getLangAlt(member.title_alt, CFG.lang_priority(lang));
                             }
                         }
                         else {
-                            title_1 = getLangAlt(data.titles[title_1], [lang, 'en', 'jp']);
+                            title_1 = getLangAlt(data.titles[title_1], CFG.lang_priority(lang));
                         }
                         if (typeof title_1 != 'undefined') {
                             detailOthers.appendChild(newEle('p', ['title'], {}, title_1));
@@ -243,7 +275,7 @@ var renderlangTags = function (lang) { return __awaiter(void 0, void 0, void 0, 
         switch (_c.label) {
             case 0:
                 lang = lang !== null && lang !== void 0 ? lang : 'en';
-                return [4, getRes("./lang/" + lang + "/tags.yaml")];
+                return [4, getRemote('lang', lang + "/tags.yaml")];
             case 1:
                 txt = _c.sent();
                 data = yaml.load(txt);
@@ -267,7 +299,7 @@ var renderHome = function (lang) { return __awaiter(void 0, void 0, void 0, func
         switch (_a.label) {
             case 0:
                 lang = lang !== null && lang !== void 0 ? lang : 'en';
-                return [4, getRes("./lang/" + lang + "/home.md")];
+                return [4, getRemote('lang', lang + "/home.md")];
             case 1:
                 txt = _a.sent();
                 document.getElementById('intro').innerHTML = marked.parse(txt);
@@ -281,7 +313,7 @@ var renderNews = function (lang) { return __awaiter(void 0, void 0, void 0, func
         switch (_a.label) {
             case 0:
                 lang = lang !== null && lang !== void 0 ? lang : 'en';
-                return [4, getRes("./data/news.json")];
+                return [4, getRemote('data', "news.json")];
             case 1:
                 txt = _a.sent();
                 news = JSON.parse(txt);
@@ -307,7 +339,7 @@ var renderIntro = function (lang) { return __awaiter(void 0, void 0, void 0, fun
         switch (_a.label) {
             case 0:
                 lang = lang !== null && lang !== void 0 ? lang : 'en';
-                return [4, getRes("./lang/" + lang + "/intro.md")];
+                return [4, getRemote('lang', lang + "/intro.md")];
             case 1:
                 txt = _a.sent();
                 document.getElementById('tab_intro').innerHTML = marked.parse(txt);
@@ -320,7 +352,7 @@ var renderPub = function () { return __awaiter(void 0, void 0, void 0, function 
     var _c;
     return __generator(this, function (_d) {
         switch (_d.label) {
-            case 0: return [4, getRes("./data/publications.yaml")];
+            case 0: return [4, getRemote('data', "publications.yaml")];
             case 1:
                 txt = _d.sent();
                 data = yaml.load(txt);
@@ -342,10 +374,9 @@ var renderPub = function () { return __awaiter(void 0, void 0, void 0, function 
                         sep = (_c = separators.pop()) !== null && _c !== void 0 ? _c : ', ';
                         author_html = author_btns.pop() + sep + author_html;
                     }
-                    ctr_str += '- ' + author_html + '\n\n';
-                    ctr_str += '    ' + pub.title + '\n\n';
-                    ctr_str += '    ' + pub.publish + '\n\n';
-                    ctr_str += '<hr>\n\n';
+                    ctr_str += ['- ' + author_html, pub.title, pub.publish, '<hr>']
+                        .map(function (t) { return t + '\n\n'; })
+                        .join('  ');
                 }
                 document.getElementById('tab_pub').innerHTML = marked.parse(ctr_str);
                 return [2];
@@ -358,7 +389,7 @@ var renderContact = function (lang) { return __awaiter(void 0, void 0, void 0, f
         switch (_a.label) {
             case 0:
                 lang = lang !== null && lang !== void 0 ? lang : 'en';
-                return [4, getRes("./lang/" + lang + "/contact.md")];
+                return [4, getRemote('lang', lang + "/contact.md")];
             case 1:
                 txt = _a.sent();
                 document.getElementById('tab_contact').innerHTML = marked.parse(txt);
