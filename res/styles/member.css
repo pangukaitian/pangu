@@ -122,14 +122,14 @@
 .photo_ctr .details .others .link_ctr .link {
     overflow: hidden;
     border-radius: 100%;
-    background-color: #2d70ae00;
+    background-color: #00000020;
     transition: all 150ms;
 }
 
 .photo_ctr .details .others .link_ctr .link:hover {
     overflow: hidden;
     border-radius: 100%;
-    background-color: #2d70ae50;
+    background-color: #00000040;
 }
 
 .photo_ctr .details .others .link_ctr .link div {
@@ -143,7 +143,7 @@
 }
 
 .photo_ctr .details div:not(.empty) {
-    background-color: #ffffffcc;
+    background-color: #ffffffa0;
 }
 
 .photo_ctr .details p {
@@ -160,5 +160,5 @@
 }
 
 .photo_ctr:hover .details div:not(.empty) {
-    background-color: #fffffff1;
+    background-color: #ffffffd0;
 }
