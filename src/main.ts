@@ -143,10 +143,12 @@ const _init = (_: any, lang?: SupportedLang) => {
                 } else {
                     console.error(`tab: ${tab_name} not found!`)
                 }
+                const param = new URL(window.location.href).searchParams
+                param.set('tab', tab_name)
                 window.history.pushState(
                     tab_name,
                     `Pangu Research Lab ${tab_name}`,
-                    `?tab=${tab_name}`
+                    '?' + param.toString()
                 )
             }
             return true

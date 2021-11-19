@@ -15,3 +15,18 @@
     transition: all 150ms;
     box-shadow: 0 0 1rem 0 #2d70ae00;
 }
+
+#tab_pub > * a {
+    padding-left: 0.5rem;
+}
+
+#tab_pub > * a::before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    float: left;
+    background: var(--link-icon);
+    background-size: cover;
+    transform: rotate(315deg);
+}

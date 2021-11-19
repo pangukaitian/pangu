@@ -104,7 +104,9 @@ var _init = function (_, lang) {
             else {
                 console.error("tab: " + tab_name + " not found!");
             }
-            window.history.pushState(tab_name, "Pangu Research Lab " + tab_name, "?tab=" + tab_name);
+            var param = new URL(window.location.href).searchParams;
+            param.set('tab', tab_name);
+            window.history.pushState(tab_name, "Pangu Research Lab " + tab_name, '?' + param.toString());
         }
         return true;
     }, false);
