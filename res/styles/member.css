@@ -145,6 +145,14 @@
     background: var(--icon-email);
 }
 
+.photo_ctr .details .others .link_ctr .icon.github div {
+    background: var(--icon-github);
+}
+
+.photo_ctr .details .others .link_ctr .icon.scholar div {
+    background: var(--icon-scholar);
+}
+
 .photo_ctr .details .others .link_ctr .icon.url:hover div {
     transform: rotate(35deg);
 }

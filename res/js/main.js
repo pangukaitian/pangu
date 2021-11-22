@@ -244,7 +244,7 @@ var renderMember = function (lang, type) { return __awaiter(void 0, void 0, void
                         if (typeof title_1 != 'undefined') {
                             detailOthers.appendChild(newEle('p', ['title'], {}, title_1));
                         }
-                        if ([member.url, member.email].filter(function (e) { return typeof e != 'undefined'; }).length) {
+                        if ([member.url, member.email, member.github].filter(function (e) { return typeof e != 'undefined'; }).length) {
                             var linkCtr = newEle('div', ['link_ctr'], {});
                             if (typeof member.url != 'undefined') {
                                 var a = newEle('a', ['icon', 'url'], {
@@ -257,6 +257,22 @@ var renderMember = function (lang, type) { return __awaiter(void 0, void 0, void
                             if (typeof member.email != 'undefined') {
                                 var a = newEle('a', ['icon', 'email'], {
                                     href: 'mailto:' + member.email,
+                                });
+                                a.appendChild(newEle('div'));
+                                linkCtr.appendChild(a);
+                            }
+                            if (typeof member.github != 'undefined') {
+                                var a = newEle('a', ['icon', 'github'], {
+                                    target: '_blank',
+                                    href: member.github,
+                                });
+                                a.appendChild(newEle('div'));
+                                linkCtr.appendChild(a);
+                            }
+                            if (typeof member.scholar != 'undefined') {
+                                var a = newEle('a', ['icon', 'scholar'], {
+                                    target: '_blank',
+                                    href: member.scholar,
                                 });
                                 a.appendChild(newEle('div'));
                                 linkCtr.appendChild(a);

@@ -36,6 +36,8 @@ type MemberInf = {
     }
     url?: string
     email?: string
+    github?: string
+    scholar?: string
     pic_url?: string
     details?: {
         en?: string
@@ -312,7 +314,7 @@ const renderMember = async (
                 detailOthers.appendChild(newEle('p', ['title'], {}, title))
             }
             if (
-                [member.url, member.email].filter(
+                [member.url, member.email, member.github].filter(
                     (e) => typeof e != 'undefined'
                 ).length
             ) {
@@ -328,6 +330,22 @@ const renderMember = async (
                 if (typeof member.email != 'undefined') {
                     const a = newEle('a', ['icon', 'email'], {
                         href: 'mailto:' + member.email,
+                    })
+                    a.appendChild(newEle('div'))
+                    linkCtr.appendChild(a)
+                }
+                if (typeof member.github != 'undefined') {
+                    const a = newEle('a', ['icon', 'github'], {
+                        target: '_blank',
+                        href: member.github,
+                    })
+                    a.appendChild(newEle('div'))
+                    linkCtr.appendChild(a)
+                }
+                if (typeof member.scholar != 'undefined') {
+                    const a = newEle('a', ['icon', 'scholar'], {
+                        target: '_blank',
+                        href: member.scholar,
                     })
                     a.appendChild(newEle('div'))
                     linkCtr.appendChild(a)
