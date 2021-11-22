@@ -244,14 +244,23 @@ var renderMember = function (lang, type) { return __awaiter(void 0, void 0, void
                         if (typeof title_1 != 'undefined') {
                             detailOthers.appendChild(newEle('p', ['title'], {}, title_1));
                         }
-                        if (typeof member.url != 'undefined') {
+                        if ([member.url, member.email].filter(function (e) { return typeof e != 'undefined'; }).length) {
                             var linkCtr = newEle('div', ['link_ctr'], {});
-                            var a = newEle('a', ['link'], {
-                                target: '_blank',
-                                href: member.url,
-                            });
-                            a.appendChild(newEle('div'));
-                            linkCtr.appendChild(a);
+                            if (typeof member.url != 'undefined') {
+                                var a = newEle('a', ['icon', 'url'], {
+                                    target: '_blank',
+                                    href: member.url,
+                                });
+                                a.appendChild(newEle('div'));
+                                linkCtr.appendChild(a);
+                            }
+                            if (typeof member.email != 'undefined') {
+                                var a = newEle('a', ['icon', 'email'], {
+                                    href: 'mailto:' + member.email,
+                                });
+                                a.appendChild(newEle('div'));
+                                linkCtr.appendChild(a);
+                            }
                             detailOthers.appendChild(linkCtr);
                         }
                         memberDetail.appendChild(detailEmpty);
