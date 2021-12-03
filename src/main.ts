@@ -70,9 +70,11 @@ const CFG = {
     res_base_url: DEV_MODE
         ? './_data/'
         : 'https://raw.githubusercontent.com/pangukaitian/pangu/data/',
+    // : 'https://static.pangulab.org/',
     photo_base_url: DEV_MODE
         ? './_data/data/images/'
         : 'https://github.com/pangukaitian/pangu/raw/data/data/images/',
+    // :  'https://static.pangulab.org/data/images/',
     lang_priority: (...first: string[]) => {
         return [...first, 'en', 'jp', 'cn']
     },
@@ -208,6 +210,15 @@ const _init = (_: any, lang?: SupportedLang) => {
 }
 
 const render = (lang?: SupportedLang) => {
+    const langFont = document.getElementById('lang_font')
+    const pageFontCSS = (font: string): string => {
+        return `* { font-family: ${font}, メイリオ, Meiryo, sans-serif; }`
+    }
+    if (['cn', 'jp'].indexOf(lang) != -1) {
+        langFont.innerHTML = pageFontCSS("'Noto Sans JP'")
+    } else {
+        langFont.innerHTML = pageFontCSS("'Lato'")
+    }
     renderlangTags(CFG.lang)
     renderHome(CFG.lang)
     renderNews(CFG.lang)
@@ -235,6 +246,7 @@ const getRemote = async (
     }
     const f = await fetch(p, {
         method: 'GET',
+        // mode: 'cors',
     })
     if (f.ok) {
         return await f.text()
