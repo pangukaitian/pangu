@@ -148,6 +148,16 @@ var _init = function (_, lang) {
     }
 };
 var render = function (lang) {
+    var langFont = document.getElementById('lang_font');
+    var pageFontCSS = function (font) {
+        return "* { font-family: " + font + ", \u30E1\u30A4\u30EA\u30AA, Meiryo, sans-serif; }";
+    };
+    if (['cn', 'jp'].indexOf(lang) != -1) {
+        langFont.innerHTML = pageFontCSS("'Noto Sans JP'");
+    }
+    else {
+        langFont.innerHTML = pageFontCSS("'Lato'");
+    }
     renderlangTags(CFG.lang);
     renderHome(CFG.lang);
     renderNews(CFG.lang);
