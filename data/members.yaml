@@ -115,7 +115,7 @@ members:
           native: 张振亚
           en: Zhenya Zhang
           jp: 張 振亜
-      title: sensei
+      title: grad_yr_2021
       title_alt:
           en: Post-Doc
           jp: 学術研究員
@@ -130,7 +130,9 @@ members:
           native: 孙吉元
           en: Jiyuan Sun
           jp: 孫 吉元
-      title: phd
+      title: grad_yr_2021
+      title_alt:
+          prev: phd
       email: "jiyuan.sun6@gmail.com"
       pic_url: jiyuan.sun.png
 
@@ -250,10 +252,10 @@ members:
       email: "jin.tiancheng.932@s.kyushu-u.ac.jp"
 
     - name:
-          native: 掛下 真通
-          en: Masamichi Kakeshita
+          native: 古賀 洸之介 # TODO:
+          en: Konosuke Koga
       title: master
-      email: "kakeshita.masamichi.922@s.kyushu-u.ac.jp"
+      email: "juba.simon.646@s.kyushu-u.ac.jp"
 
     - name:
           native: 栗田 俊介
@@ -278,10 +280,10 @@ members:
       pic_url: takahiro.muta.png
 
     - name:
-          native: 古賀 洸之介 # TODO:
-          en: Konosuke Koga
+          native: 掛下 真通
+          en: Masamichi Kakeshita
       title: master
-      email: "juba.simon.646@s.kyushu-u.ac.jp"
+      email: "kakeshita.masamichi.922@s.kyushu-u.ac.jp"
 
     - name:
           en: Juba Simon Mduduzi
