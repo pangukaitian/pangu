@@ -63,6 +63,7 @@ var CFG = {
         }
         return __spreadArray(__spreadArray([], first, true), ['en', 'jp', 'cn'], false);
     },
+    render_pub_with_marked: false,
 };
 var _init = function (_, lang) {
     renderPub();
@@ -385,7 +386,7 @@ var renderIntro = function (lang) { return __awaiter(void 0, void 0, void 0, fun
     });
 }); };
 var renderPub = function () { return __awaiter(void 0, void 0, void 0, function () {
-    var txt, data, ctr_str, tokens, _i, data_1, pub, author_btns, separators, author_html, _a, _b, author, sep;
+    var txt, data, pubCtr, ctrStr, tokens, _i, data_1, pub, authorBtns, separators, authorHtml, _a, _b, author, sep, li;
     var _c;
     return __generator(this, function (_d) {
         switch (_d.label) {
@@ -393,29 +394,42 @@ var renderPub = function () { return __awaiter(void 0, void 0, void 0, function 
             case 1:
                 txt = _d.sent();
                 data = yaml.load(txt);
-                ctr_str = '';
+                pubCtr = document.getElementById('tab_pub');
+                ctrStr = '';
                 tokens = {};
                 for (_i = 0, data_1 = data; _i < data_1.length; _i++) {
                     pub = data_1[_i];
-                    author_btns = [];
+                    authorBtns = [];
                     separators = [' and ', ''];
-                    author_html = '';
+                    authorHtml = '';
                     for (_a = 0, _b = pub.authors; _a < _b.length; _a++) {
                         author = _b[_a];
                         if (Object.keys(tokens).indexOf(author) == -1) {
                             tokens[author] = randChar(4, 36);
                         }
-                        author_btns.push("<span class=\"author\" at=\"" + tokens[author] + "\">" + author + "</span>");
+                        authorBtns.push("<span class=\"author\" at=\"" + tokens[author] + "\">" + author + "</span>");
                     }
-                    while (author_btns.length) {
+                    while (authorBtns.length) {
                         sep = (_c = separators.pop()) !== null && _c !== void 0 ? _c : ', ';
-                        author_html = author_btns.pop() + sep + author_html;
+                        authorHtml = authorBtns.pop() + sep + authorHtml;
                     }
-                    ctr_str += ['- ' + author_html, pub.title, pub.publish, '<hr>']
-                        .map(function (t) { return t + '\n\n'; })
-                        .join('  ');
+                    if (CFG.render_pub_with_marked) {
+                        ctrStr += ['- ' + authorHtml, pub.title, pub.publish, '<hr>']
+                            .map(function (t) { return t + '\n\n'; })
+                            .join('  ');
+                    }
+                    else {
+                        li = newEle('div', ['spub'], {});
+                        li.appendChild(newEle('p', [], {}, authorHtml));
+                        li.appendChild(newEle('p', [], {}, pub.title));
+                        li.appendChild(newEle('p', [], {}, pub.publish));
+                        li.appendChild(newEle('hr'));
+                        pubCtr.appendChild(li);
+                    }
                 }
-                document.getElementById('tab_pub').innerHTML = marked.parse(ctr_str);
+                if (CFG.render_pub_with_marked) {
+                    pubCtr.innerHTML = marked.parse(ctrStr);
+                }
                 return [2];
         }
     });
