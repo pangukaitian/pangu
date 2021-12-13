@@ -78,6 +78,7 @@ const CFG = {
     lang_priority: (...first: string[]) => {
         return [...first, 'en', 'jp', 'cn']
     },
+    render_pub_with_marked: false,
 } as {
     lang: SupportedLang
     cur_member_tab: SimpleTitle
@@ -85,6 +86,7 @@ const CFG = {
     res_base_url: string
     photo_base_url: string
     lang_priority: (...first: string[]) => string[]
+    render_pub_with_marked: boolean
 }
 
 const _init = (_: any, lang?: SupportedLang) => {
@@ -423,30 +425,42 @@ const renderIntro = async (lang: SupportedLang) => {
 const renderPub = async () => {
     const txt = await getRemote('data', `publications.yaml`)
     const data = yaml.load(txt) as PubInf[]
-    let ctr_str: string = ''
+    let pubCtr = document.getElementById('tab_pub')
+    let ctrStr: string = ''
     const tokens: Record<string, string> = {}
     for (const pub of data) {
-        const author_btns: string[] = []
+        const authorBtns: string[] = []
         const separators = [' and ', '']
-        let author_html = ''
+        let authorHtml = ''
         for (const author of pub.authors) {
             if (Object.keys(tokens).indexOf(author) == -1) {
                 tokens[author] = randChar(4, 36)
             }
-            author_btns.push(
+            authorBtns.push(
                 `<span class="author" at="${tokens[author]}">${author}</span>`
             )
         }
-        while (author_btns.length) {
+        while (authorBtns.length) {
             const sep = separators.pop() ?? ', '
-            author_html = author_btns.pop() + sep + author_html
+            authorHtml = authorBtns.pop() + sep + authorHtml
         }
-        ctr_str += ['- ' + author_html, pub.title, pub.publish, '<hr>']
-            .map((t) => t + '\n\n')
-            .join('  ')
+        if (CFG.render_pub_with_marked) {
+            ctrStr += ['- ' + authorHtml, pub.title, pub.publish, '<hr>']
+                .map((t) => t + '\n\n')
+                .join('  ')
+        } else {
+            const li = newEle('div', ['spub'], {})
+            li.appendChild(newEle('p', [], {}, authorHtml))
+            li.appendChild(newEle('p', [], {}, pub.title))
+            li.appendChild(newEle('p', [], {}, pub.publish))
+            li.appendChild(newEle('hr'))
+            pubCtr.appendChild(li)
+        }
     }
-    // @ts-ignore
-    document.getElementById('tab_pub').innerHTML = marked.parse(ctr_str)
+    if (CFG.render_pub_with_marked) {
+        // @ts-ignore
+        pubCtr.innerHTML = marked.parse(ctrStr)
+    }
 }
 
 const renderContact = async (lang: SupportedLang) => {

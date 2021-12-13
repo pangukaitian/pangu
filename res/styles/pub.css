@@ -30,3 +30,16 @@
     background-size: cover;
     transform: rotate(315deg);
 }
+
+.md_box .spub *:first-child,
+.md_box .spub {
+    margin-bottom: 2px;
+}
+
+.md_box .spub p:first-of-type::before {
+    /* opacity: 0.5; */
+    content: '• ';
+}
+.md_box .spub p:not(:first-of-type) {
+    margin-left: 1rem;
+}
