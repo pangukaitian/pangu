@@ -1,5 +1,5 @@
-// import { marked } from 'marked'
-// import * as jsyaml from 'js-yaml'
+import { marked } from 'marked'
+import * as yaml from 'js-yaml'
 import {
     getLangAlt,
     newEle,
@@ -7,9 +7,6 @@ import {
     toggleFocus,
     toggleHelper,
 } from './utils.js'
-
-// @ts-ignore
-const yaml = jsyaml
 
 type News = {
     content: string
@@ -57,6 +54,7 @@ type MemberRes = {
 
 type PubInf = {
     title: string
+    url?: string
     authors: string[]
     publish: string
 }
@@ -380,7 +378,7 @@ const renderMember = async (
 const renderlangTags = async (lang: SupportedLang) => {
     lang = lang ?? 'en'
     const txt = await getRemote('lang', `${lang}/tags.yaml`)
-    const data = yaml.load(txt)
+    const data = yaml.load(txt) as Record<string, string>
     for (const [k, v] of Object.entries(data)) {
         const lt = document.querySelectorAll(`[lt="${k}"]`)
         if (lt.length > 0) {
@@ -451,7 +449,20 @@ const renderPub = async () => {
         } else {
             const li = newEle('div', ['spub'], {})
             li.appendChild(newEle('p', [], {}, authorHtml))
-            li.appendChild(newEle('p', [], {}, pub.title))
+            if (typeof pub.url != 'undefined') {
+                li.appendChild(
+                    newEle(
+                        'a',
+                        [],
+                        {
+                            href: pub.url,
+                        },
+                        pub.title
+                    )
+                )
+            } else {
+                li.appendChild(newEle('p', [], {}, pub.title))
+            }
             li.appendChild(newEle('p', [], {}, pub.publish))
             li.appendChild(newEle('hr'))
             pubCtr.appendChild(li)
