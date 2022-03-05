@@ -1,4 +1,4 @@
-// import { marked } from 'marked'
+import { marked } from 'marked'
 import * as yaml from 'js-yaml'
 import {
     getLangAlt,

@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "js-yaml": "^4.1.0",
+        "marked": "^4.0.12",
         "webpack": "^5.70.0",
         "webpack-cli": "^4.9.2"
     }
