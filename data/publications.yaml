@@ -2,6 +2,7 @@
     title: >-
         EfficientDeRain: Learning Pixel-wise Dilation Filtering for
         High-Efficiency Single-Image Deraining
+    url: https://arxiv.org/pdf/2009.09238.pdf
     authors:
         - Qing Guo
         - Jingyang Sun
@@ -18,6 +19,7 @@
     title: >-
         Marble: Model-Based Robustness Analysis of Stateful Deep Learning
         Systems
+    url: https://dl.acm.org/doi/10.1145/3324884.3416564
     authors:
         - Xiaoning Du
         - Yi Li
@@ -32,6 +34,7 @@
     title: >-
         Cats Are Not Fish: Deep Learning Testing Calls for Out-Of-Distribution
         Awareness
+    url: https://ieeexplore.ieee.org/document/9286113
     authors:
         - David Berend
         - Xiaofei Xie
@@ -44,7 +47,8 @@
         In The 35th IEEE/ACM International Conference on Automated Software
         Engineering (ASE 2020), Melbourne, Australia, September 21-25, 2020.
 -
-    title: Few-Shot Guided Mix for DNN Repairing
+    title: 'Few-Shot Guided Mix for DNN Repairing'
+    url: https://ieeexplore.ieee.org/document/9240708
     authors:
         - Xuhong Ren
         - Bing Yu
@@ -60,6 +64,7 @@
         27-October 2, 2020.
 -
     title: 'DeepRhythm: Exposing DeepFakes with Attentional Visual Heartbeat Rhythms'
+    url: https://arxiv.org/pdf/2006.07634.pdf
     authors:
         - Hua Qi
         - Qing Guo
@@ -74,6 +79,7 @@
         October 12-16, 2020.
 -
     title: 'DeepMutation++: a Mutation Testing Framework for Deep Learning Systems'
+    url: https://ieeexplore.ieee.org/document/8952248
     authors:
         - Qiang Hu
         - Lei Ma
@@ -86,8 +92,8 @@
         2019), (Tool Demo Track), San Diego, California, USA, November 11-15,
         2019.
 -
-    title: A Quantitative Analysis Framework for Recurrent Neural Network
-    url: https://www.ntu.edu.sg/home/yi_li/files/ase19-deepstellar.pdf
+    title: 'A Quantitative Analysis Framework for Recurrent Neural Network'
+    url: https://ieeexplore.ieee.org/abstract/document/8952565
     authors:
         - Xiaoning Du
         - Xiaofei Xie
@@ -101,6 +107,7 @@
         2019.
 -
     title: 'DeepHunter: A Coverage-Guided Fuzzer for Deep Neural Networks'
+    url: http://xujuefei.com/felix_issta19_deephunter.pdf
     authors:
         - Xiaofei Xie
         - Hongxu Chen
@@ -116,7 +123,7 @@
     title: >-
         An Empirical Study towards Characterizing Deep Learning Development and
         Deployment across Different Frameworks and Platforms
-    url: https://arxiv.org/abs/1909.06727
+    url: https://arxiv.org/pdf/1909.06727.pdf
     authors:
         - Qianyu Guo
         - Sen Chen
@@ -223,7 +230,7 @@
     title: >-
         Secure Deep Learning Engineering: A Software Quality Assurance
         Perspective
-    url: https://arxiv.org/abs/1810.04538
+    url: https://arxiv.org/pdf/1810.04538.pdf
     authors:
         - Lei Ma
         - Felix Juefei-Xu
@@ -250,7 +257,7 @@
         ERA Track, pp.628-632, Nara, Japan, December 4-7, 2018.
 -
     title: 'DeepMutation: Mutation Testing of Deep Learning Systems'
-    url: https://arxiv.org/abs/1805.05206
+    url: https://arxiv.org/pdf/1805.05206.pdf
     authors:
         - Lei Ma
         - Fuyuan Zhang
@@ -288,7 +295,7 @@
         Distinguished Paper Award)
 -
     title: Combinatorial Testing for Deep Learning Systems
-    url: https://arxiv.org/abs/1806.07723
+    url: https://arxiv.org/pdf/1806.07723.pdf
     authors:
         - Lei Ma
         - Fuyuan Zhang
@@ -300,7 +307,7 @@
     publish: In arXiv:1806.07723, June 20, 2018.
 -
     title: Tuning Parallel Symbolic Execution Engine for Better Performance
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/fcs2008.pdf
+    url: https://journal.hep.com.cn/fcs/EN/article/downloadArticleFile.do?attachType=PDF&id=17976
     authors:
         - Anil Kumar Karna
         - Jinbo Du
