@@ -137,8 +137,6 @@ members:
       title_alt:
           en: "Assistant Professor"
           jp: "助教"
-      url: "https://group-mmm.org/~zhenya/"
-      pic_url: zhenya.zhang.png
       details:
           en:
           jp:
@@ -345,14 +343,16 @@ members:
     - name:
           native: 苗中涛
           en: Zhongtao Miao
-      title: research
+      title: grad_yr_2022
+      title_alt:
+          prev: research
       email: "miao.zhongtao.915@s.kyushu-u.ac.jp"
 
     - name:
           native: 陈思远
           en: Siyuan Chen
           jp: チン シエン
-      title: research
+      title: master
       email: "chen.siyuan.388@s.kyushu-u.ac.jp"
       pic_url: siyuan.chen.png
       # 2022
@@ -361,9 +361,16 @@ members:
           native: 兰书涵
           en: Shuhan Lan
           jp: 蘭 書涵
-      title: research
+      title: master
       email: "lan.shuhan.197@s.kyushu-u.ac.jp"
       pic_url: shuhan.lan.png
+
+    - name:
+          native: 夏商周
+          en: Shangzhou Xia
+          jp: カ ショウシュウ
+      title: master
+      email: "xia.shangzhou.218@s.kyushu-u.ac.jp"
 
     - name:
           native: 罗俊杰
