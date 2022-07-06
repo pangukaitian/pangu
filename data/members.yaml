@@ -19,6 +19,10 @@ titles:
         en: Research Student
         jp: 研究生
         cn: 研修生
+    grad_yr_2022:
+        en: 2022
+        jp: 2022 令和4年
+        cn: 2022年
     grad_yr_2021:
         en: 2021
         jp: 2021 令和3年
@@ -115,10 +119,24 @@ members:
           native: 张振亚
           en: Zhenya Zhang
           jp: 張 振亜
-      title: grad_yr_2021
+      title: sensei
       title_alt:
-          en: Post-Doc
-          jp: 学術研究員
+          en: "Assistant Professor"
+          jp: "助教"
+      url: "https://group-mmm.org/~zhenya/"
+      pic_url: zhenya.zhang.png
+      details:
+          en:
+          jp:
+
+    - name:
+          native: 章甫源
+          en: Fuyuan Zhang
+          jp: 章 甫源
+      title: sensei
+      title_alt:
+          en: "Assistant Professor"
+          jp: "助教"
       url: "https://group-mmm.org/~zhenya/"
       pic_url: zhenya.zhang.png
       details:
@@ -213,7 +231,7 @@ members:
           native: 李焯
           en: Zhuo Li
           jp: 李 タク
-      title: master
+      title: phd
       email: "li.zhuo.786@s.kyushu-u.ac.jp"
       pic_url: zhuo.li.png
 
@@ -221,46 +239,56 @@ members:
           native: 孙景阳
           en: Jingyang Sun
           jp: 孫 景陽
-      title: master
+      title: grad_yr_2022
+      title_alt:
+          prev: master
       email: "sun.jingyang.487@s.kyushu-u.ac.jp"
       pic_url: jingyang.sun.png
 
     - name:
           native: 畑江 耕平
           en: Kouhei Hatae
-      title: master
+      title: grad_yr_2022
+      title_alt:
+          prev: master
       email: "hatae.kohei.462@s.kyushu-u.ac.jp"
 
     - name:
           native: 村上 研多郎
           en: Kentarou Murakami
-      title: master
+      title: grad_yr_2022
+      title_alt:
+          prev: master
       email: "murakami.kentaro.624@s.kyushu-u.ac.jp"
 
     - name:
           native: 马健淞
           en: Jiansong Ma
           jp: 馬 健淞
-      title: master
+      title: grad_yr_2022
+      title_alt:
+          prev: master
       email: "ma.jiansong.074@s.kyushu-u.ac.jp"
       pic_url: jiansong.ma.png
 
     - name:
           native: 金天成
           en: Tiancheng Jin
-      title: master
+      title: phd
       email: "jin.tiancheng.932@s.kyushu-u.ac.jp"
 
     - name:
-          native: 古賀 洸之介 # TODO:
-          en: Konosuke Koga
+          native: 待鳥 洸之介
+          en: Konosuke Machitori
       title: master
       email: "juba.simon.646@s.kyushu-u.ac.jp"
 
     - name:
           native: 栗田 俊介
           en: Shunsuke Kurita
-      title: master
+      title: grad_yr_2022
+      title_alt:
+          prev: master
       email: "kurita.shunsuke.583@s.kyushu-u.ac.jp"
 
     - name:
@@ -282,7 +310,9 @@ members:
     - name:
           native: 掛下 真通
           en: Masamichi Kakeshita
-      title: master
+      title: grad_yr_2022
+      title_alt:
+          prev: master
       email: "kakeshita.masamichi.922@s.kyushu-u.ac.jp"
 
     - name:
@@ -330,8 +360,7 @@ members:
     - name:
           native: 兰书涵
           en: Shuhan Lan
-          #   jp: 蘭 書涵
-          jp: ラン 書涵
+          jp: 蘭 書涵
       title: research
       email: "lan.shuhan.197@s.kyushu-u.ac.jp"
       pic_url: shuhan.lan.png
@@ -340,9 +369,7 @@ members:
           native: 罗俊杰
           en: Junjie Luo
           jp: 羅 俊傑
-      title: grad_yr_2021
-      title_alt:
-          prev: master
+      title: phd
       pic_url: junjie.luo.png
 
     - name:
