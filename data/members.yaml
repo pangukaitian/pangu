@@ -75,8 +75,8 @@ members:
           jp: 馬 雷
       title: sensei
       title_alt:
-          en: 'Research Fellow<br><font size="-1">Associate Professor of University of Alberta</font>'
-          jp: '学術研究員<br><font size="-1">Associate Professor of University of Alberta</font>'
+          en: 准教授
+          jp: Associate Professor
       url: "https://malei.xyz/"
       email: "ma.lei@acm.org"
       scholar: "https://dblp.org/pid/20/6534-3.html"
@@ -91,8 +91,8 @@ members:
           jp: 馮 尭鍇
       title: sensei
       title_alt:
-          en: "Assistant Professor"
-          jp: "助教"
+          en: Assistant Professor
+          jp: 助教
       url: "https://stap.ait.kyushu-u.ac.jp/~fengyk/"
       email: "fengyk@ait.kyushu-u.ac.jp"
       pic_url: yaokai.feng.JPG
@@ -106,8 +106,8 @@ members:
           jp: 謝 肖飛
       title: grad_yr_2021
       title_alt:
-          en: "Assistant Professor"
-          jp: "助教"
+          en: Assistant Professor
+          jp: 助教
       url: "https://xiaofeixie.bitbucket.io/"
       email: "xiaofei.xfxie@gmail.com"
       pic_url: xiaofei.xie.png
@@ -121,8 +121,8 @@ members:
           jp: 張 振亜
       title: sensei
       title_alt:
-          en: "Assistant Professor"
-          jp: "助教"
+          en: Assistant Professor
+          jp: 助教
       url: "https://group-mmm.org/~zhenya/"
       pic_url: zhenya.zhang.png
       details:
@@ -135,8 +135,9 @@ members:
           jp: 章 甫源
       title: sensei
       title_alt:
-          en: "Assistant Professor"
-          jp: "助教"
+          en: Specially Appointed Assistant Professor
+          jp: 特任助教
+      pic_url: fuyuan.zhang.jpg
       details:
           en:
           jp:
