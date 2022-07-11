@@ -75,8 +75,8 @@ members:
           jp: 馬 雷
       title: sensei
       title_alt:
-          en: 准教授
-          jp: Associate Professor
+          en: Associate Professor
+          jp: 准教授
       url: "https://malei.xyz/"
       email: "ma.lei@acm.org"
       scholar: "https://dblp.org/pid/20/6534-3.html"
