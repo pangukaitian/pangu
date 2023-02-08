@@ -1,451 +1,420 @@
--
-    title: >-
-        EfficientDeRain: Learning Pixel-wise Dilation Filtering for
-        High-Efficiency Single-Image Deraining
-    url: https://arxiv.org/pdf/2009.09238.pdf
-    authors:
-        - Qing Guo
-        - Jingyang Sun
-        - Felix Juefei-Xu
-        - Lei Ma
-        - Xiaofei Xie
-        - Wei Feng
-        - Yang Liu
-        - Jianjun Zhao
-    publish: >-
-        Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI 2021),
-        Online, February 2-9, 2021.
--
-    title: >-
-        Marble: Model-Based Robustness Analysis of Stateful Deep Learning
-        Systems
-    url: https://personal.ntu.edu.sg/yi_li/files/Du2020MBR.pdf
-    authors:
-        - Xiaoning Du
-        - Yi Li
-        - Xiaofei Xie
-        - Lei Ma
-        - Yang Liu
-        - Jianjun Zhao
-    publish: >-
-        In The 35th IEEE/ACM International Conference on Automated Software
-        Engineering (ASE 2020), Melbourne, Australia, September 21-25, 2020.
--
-    title: >-
-        Cats Are Not Fish: Deep Learning Testing Calls for Out-Of-Distribution
-        Awareness
-    url: https://dl.acm.org/doi/abs/10.1145/3324884.3416609
-    authors:
-        - David Berend
-        - Xiaofei Xie
-        - Lei Ma
-        - Lingjun Zhou
-        - Yang Liu
-        - Chi Xu
-        - Jianjun Zhao
-    publish: >-
-        In The 35th IEEE/ACM International Conference on Automated Software
-        Engineering (ASE 2020), Melbourne, Australia, September 21-25, 2020.
--
-    title: Few-Shot Guided Mix for DNN Repairing
-    url: https://www.researchgate.net/publication/346586884_Few-Shot_Guided_Mix_for_DNN_Repairing
-    authors:
-        - Xuhong Ren
-        - Bing Yu
-        - Hua Qi
-        - Felix Juefei-Xu
-        - Zhuo Li
-        - Wanli Xue
-        - Lei Ma
-        - Jianjun Zhao
-    publish: >-
-        The 36th IEEE International Conference on Software Maintenance and
-        Evolution, NIER Track (ICSME 2020), Adelaide, Australia, September
-        27-October 2, 2020.
--
-    title: 'DeepRhythm: Exposing DeepFakes with Attentional Visual Heartbeat Rhythms'
-    url: https://arxiv.org/pdf/2006.07634.pdf
-    authors:
-        - Hua Qi
-        - Qing Guo
-        - Felix Juefei-Xu
-        - Xiaofei Xie
-        - Lei Ma
-        - Wei Feng
-        - Yang Liu
-        - Jianjun Zhao
-    publish: >-
-        In ACM Multimedia Conference 2020 (ACM MM 2020), Seattle, United States,
-        October 12-16, 2020.
--
-    title: 'DeepMutation++: a Mutation Testing Framework for Deep Learning Systems'
-    url: https://arxiv.org/pdf/1805.05206.pdf
-    authors:
-        - Qiang Hu
-        - Lei Ma
-        - Xiaofei Xie
-        - Bing Yu
-        - Yang Liu
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 34th IEEE/ACM Conference on Automated Software Engineering (ASE
-        2019), (Tool Demo Track), San Diego, California, USA, November 11-15,
-        2019.
--
-    title: A Quantitative Analysis Framework for Recurrent Neural Network
-    url: https://ieeexplore.ieee.org/abstract/document/8952565
-    authors:
-        - Xiaoning Du
-        - Xiaofei Xie
-        - Yi Li
-        - Lei Ma
-        - Yang Liu
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 34th IEEE/ACM Conference on Automated Software Engineering (ASE
-        2019), (Tool Demo Track), San Diego, California, USA, November 11-15,
-        2019.
--
-    title: 'DeepHunter: A Coverage-Guided Fuzzer for Deep Neural Networks'
-    url: http://xujuefei.com/felix_issta19_deephunter.pdf
-    authors:
-        - Xiaofei Xie
-        - Hongxu Chen
-        - Yi Li
-        - Lei Ma
-        - Yang Liu
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 34th IEEE/ACM Conference on Automated Software Engineering (ASE
-        2019), (Tool Demo Track), San Diego, California, USA, November 11-15,
-        2019.
--
-    title: >-
-        An Empirical Study towards Characterizing Deep Learning Development and
-        Deployment across Different Frameworks and Platforms
-    url: https://arxiv.org/pdf/1909.06727.pdf
-    authors:
-        - Qianyu Guo
-        - Sen Chen
-        - Xiaofei Xie
-        - Lei Ma
-        - Qiang Hu
-        - Hongtao Liu
-        - Yang Liu
-        - Jianjun Zhao
-        - Xiaohong Li
-    publish: >-
-        In Proc. 34th IEEE/ACM Conference on Automated Software Engineering (ASE
-        2019), San Diego, California, USA, November 11-15, 2019.
--
-    title: >-
-        DeepStellar: Model-Based Quantitative Analysis of Stateful Deep Learning
-        Systems
-    url: https://personal.ntu.edu.sg/yi_li/files/Du2019DMB.pdf
-    authors:
-        - Xiaoning Du
-        - Xiaofei Xie
-        - Yi Li
-        - Lei Ma
-        - Yang Liu
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 27th ACM Joint European Software Engineering Conference and
-        Symposium on the Foundations of Software Engineering (ESEC/FSE 2019),
-        Tallinn, Estonia, August 26-30, 2019.
--
-    title: >-
-        DeepHunter: A Coverage-Guided Fuzz Testing Framework for Deep Neural
-        Networks
-    url: http://xujuefei.com/felix_issta19_deephunter.pdf
-    authors:
-        - Xiaofei Xie
-        - Lei Ma
-        - Felix Juefei-Xu
-        - Minhui Xue
-        - Hongxu Chen
-        - Yang Liu
-        - Jianjun Zhao
-        - Bo Li
-        - Jianxiong Yin
-        - Simon See
-    publish: >-
-        In Proc. 28th ACM SIGSOFT International Symposium on Software Testing
-        and Analysis (ISSTA 2019), Beijing, China, July 15-19, 2019.
--
-    title: 'DeepVisual: A Visual Programming Tool for Deep Learning Systems'
-    url: >-
-        https://ieeexplore.ieee.org/document/8813295
-    authors:
-        - Chao Xie
-        - Hua Qi
-        - Lei Ma
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 27th IEEE/ACM International Conference on Program Comprehension
-        (ICPC 2019), Tools Demo Track, Montreal, Canada, May 25-26, 2019.
--
-    title: API Recommendation for Event-Driven Android Application Development
-    url: https://www.sciencedirect.com/science/article/pii/S0950584918302222
-    authors:
-        - WeizhaoYuan
-        - Hoang H. Nguyen
-        - Lingxiao Jiang
-        - Yuting Chen
-        - Jianjun Zhao
-        - Haibo Yu
-    publish: In Information and Software Technology, Vol.107, pp.30-47, March 2019.
--
-    title: 'DeepCT: Tomographic Combinatorial Testing for Deep Learning Systems'
-    url: http://xujuefei.com/felix_saner19_deepct.pdf
-    authors:
-        - Lei Ma
-        - Felix Juefei-Xu
-        - Minhui Xue
-        - Bo Li
-        - Li Li
-        - Yang Liu
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 26th IEEE International Conference on Software Analysis,
-        Evolution, and Reengineering (SANER 2019), pp.535-539, ERA Track,
-        Hangzhou, China, February 24-27, 2019.
--
-    title: >-
-        An Orchestrated Empirical Study on Deep Learning Frameworks and
-        Platforms
-    url: https://arxiv.org/abs/1811.05187
-    authors:
-        - Qianyu Guo
-        - Xiaofei Xie
-        - Lei Ma
-        - Qiang Hu
-        - Ruitao Feng
-        - Li Li
-        - Yang Liu
-        - Jianjun Zhao
-        - Xiaohong Li
-    publish: In arXiv preprint arXiv:1811.05187, 2018.
--
-    title: >-
-        Secure Deep Learning Engineering: A Software Quality Assurance
-        Perspective
-    url: https://arxiv.org/abs/1810.04538
-    authors:
-        - Lei Ma
-        - Felix Juefei-Xu
-        - Minhui Xue
-        - Qiang Hu
-        - Sen Chen
-        - Bo Li
-        - Yang Liu
-        - Jianjun Zhao
-        - Jianxiong Yin
-        - Simon See
-    publish: In arXiv Preprint, 2018.
--
-    title: >-
-        DeepGraph: A PyCharm Tool for Visualizing and Understanding Deep
-        Learning Models
-    url: http://stap.ait.kyushu-u.ac.jp/~zhao/pub/pdf/apsec2018.pdf
-    authors:
-        - Qiang Hu
-        - Lei Ma
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 25th Asia-Pacific Software Engineering Conference (APSEC 2018),
-        ERA Track, pp.628-632, Nara, Japan, December 4-7, 2018.
--
-    title: 'DeepMutation: Mutation Testing of Deep Learning Systems'
-    url: https://arxiv.org/abs/1805.05206
-    authors:
-        - Lei Ma
-        - Fuyuan Zhang
-        - Jiyuan Sun
-        - Minhui Xue
-        - Bo Li
-        - Felix Juefei-Xu
-        - Chao Xie
-        - Li Li
-        - Yang Liu
-        - Jianjun Zhao
-        - Yadong Wang
-    publish: >-
-        In Proc. 29th IEEE International Symposium on Software Reliability
-        Engineering (ISSRE 2018), Memphis, TN, USA, October 15-18, 2018.
--
-    title: 'DeepGauge: Multi-Granularity Testing Criteria for Deep Learning Systems'
-    url: http://stap.ait.kyushu-u.ac.jp/~zhao/pub/pdf/ase2018.pdf
-    authors:
-        - Lei Ma
-        - Felix Juefei-Xu
-        - Fuyuan Zhang
-        - Jiyuan Sun
-        - Chunyang Chen
-        - Ting Su
-        - Minhui Xue
-        - Bo Li
-        - Li Li
-        - Yang Liu
-        - Jianjun Zhao
-        - Yadong Wang
-    publish: >-
-        In Proc. 33th IEEE/ACM Conference on Automated Software Engineering (ASE
-        2018), pp.120-131, Montpellier, French, September 3-7, 2018.(ACM SIGSOFT
-        Distinguished Paper Award)
--
-    title: Combinatorial Testing for Deep Learning Systems
-    url: https://arxiv.org/abs/1806.07723
-    authors:
-        - Lei Ma
-        - Fuyuan Zhang
-        - Minhui Xue
-        - Bo Li
-        - Yang Liu
-        - Jianjun Zhao
-        - Yadong Wang
-    publish: In arXiv:1806.07723, June 20, 2018.
--
-    title: Tuning Parallel Symbolic Execution Engine for Better Performance
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/fcs2008.pdf
-    authors:
-        - Anil Kumar Karna
-        - Jinbo Du
-        - Haihao Shen
-        - Hao Zhong
-        - Jiong Gong
-        - Haibo Yu
-        - Xiangning Ma
-        - Jianjun Zhao
-    publish: >-
-        In Frontiers of Computer Science, Springer, Vol.12, No.1, pp.86-100,
-        2018.
--
-    title: 'SPDebugger: A Fine-grained Deterministic Debugger for Concurrency Code'
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/ieice2017b.pdf
-    authors:
-        - Ziyi Lin
-        - Yilei Zhou
-        - Hao Zhong
-        - Yuting Chen
-        - Haibo Yu
-        - Jianjun Zhao
-    publish: >-
-        In IEICE Transactions on Information and Systems, Vol.E100-D, No.3,
-        pp.473-482, March 2017.
--
-    title: 'CLCMiner: Detecting Cross-Language Clones without Intermediates'
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/ieice2017a.pdf
-    authors:
-        - Xiao Cheng
-        - Zhiming Peng
-        - Lingxiao Jiang
-        - Hao Zhong
-        - Haibo Yu
-        - Jianjun Zhao
-    publish: >-
-        In IEICE Transactions on Information and Systems, Vol.E100-D, No.2,
-        pp.273-284, Feburary 2017.
--
-    title: 'LockPeeker: Detecting Latent Locks in Java APIs'
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016f.pdf
-    authors:
-        - Ziyi Lin
-        - Hao Zhong
-        - Yuting Chen
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 31th IEEE/ACM Conference on Automated Software Engineering (ASE
-        2016), pp.368-278, Singapore, September 3-7, 2016
--
-    title: Detecting Cross-Language Clones Without Intermediates
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016s.pdf
-    authors:
-        - Xiao Cheng
-        - Zhiming Peng
-        - Lingxiao Jiang
-        - Hao Zhong
-        - Haibo Yu
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 31th IEEE/ACM Conference on Automated Software Engineering (ASE
-        2016), (Short Paper), pp.696-701, Singapore, September 3-7, 2016.
--
-    title: >-
-        On the Feasibility of Detecting Cross-Platform Code Clones via
-        Identifier Similarity
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016ws.pdf
-    authors:
-        - Xiao Cheng
-        - Linxiao Jiang
-        - Hao Zhong
-        - Haibo Yu
-        - Jianjun Zhao
-    publish: >-
-        In Proc. Fifth International Workshop on Software Mining (SoftwareMining
-        2016, co-located with ASE 2016), pp.39-42, Singapore, September 3, 2016.
--
-    title: Rule-Directed Code Clone Synchronization
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/icpc2016a.pdf
-    authors:
-        - Xiao Cheng
-        - Hao Zhong
-        - Yuting Chen
-        - Zhenjiang Hu
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 24th International Conference on Program Comprehension (ICPC
-        2016), Austin, Texas, USA, May 16-17, 2016.
--
-    title: Retrofitting Automatic Testing through Library Tests Reusing
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/icpc2016b.pdf
-    authors:
-        - Lei Ma
-        - Cheng Zhang
-        - Bing Yu
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 24th International Conference on Program Comprehension (ICPC
-        2016), Austin, Texas, USA, May 16-17, 2016.
--
-    title: Coverage-Directed Differential Testing of JVM Implementations
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/pldi2016.pdf
-    authors:
-        - Yuting Chen
-        - Ting Su
-        - Chengnian Sun
-        - Zhendong Su
-        - Jianjun Zhao
-    publish: >-
-        In Proc. ACM SIGPLAN Conference on Programming Language Design and
-        Implementation (PLDI 2016), pp.85-99, Santa Barbara, CA, June 13-17,
-        2016.
--
-    title: Supporting Selective Undo for Refactoring
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/saner2016a.pdf
-    authors:
-        - Xiao Cheng
-        - Yuting Chen
-        - Zhenjiang Hu
-        - Tao Zan
-        - Mengyu Liu
-        - Hao Zhong
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 23rd IEEE International Conference on Software Analysis,
-        Evolution, and Reengineering (SANER 2016), Osaka, Japan, March 2016.
--
-    title: >-
-        Efficient and Precise Dynamic Slicing for Client-Side JavaScript
-        Programs
-    url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/saner2016b.pdf
-    authors:
-        - Jiabin Ye
-        - Cheng Zhang
-        - Lei Ma
-        - Haibo Yu
-        - Jianjun Zhao
-    publish: >-
-        In Proc. 23rd IEEE International Conference on Software Analysis,
-        Evolution, and Reengineering (SANER 2016), Osaka, Japan, March
-        2016.(Best Paper Candidate Award)
+- title: >-
+    EfficientDeRain: Learning Pixel-wise Dilation Filtering for
+    High-Efficiency Single-Image Deraining
+  url: https://arxiv.org/pdf/2009.09238.pdf
+  authors:
+    - Qing Guo
+    - Jingyang Sun
+    - Felix Juefei-Xu
+    - Lei Ma
+    - Xiaofei Xie
+    - Wei Feng
+    - Yang Liu
+    - Jianjun Zhao
+  publish: >-
+    Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI 2021),
+    Online, February 2-9, 2021.
+- title: >-
+    Marble: Model-Based Robustness Analysis of Stateful Deep Learning
+    Systems
+  url: https://personal.ntu.edu.sg/yi_li/files/Du2020MBR.pdf
+  authors:
+    - Xiaoning Du
+    - Yi Li
+    - Xiaofei Xie
+    - Lei Ma
+    - Yang Liu
+    - Jianjun Zhao
+  publish: >-
+    In The 35th IEEE/ACM International Conference on Automated Software
+    Engineering (ASE 2020), Melbourne, Australia, September 21-25, 2020.
+- title: >-
+    Cats Are Not Fish: Deep Learning Testing Calls for Out-Of-Distribution
+    Awareness
+  url: https://dl.acm.org/doi/abs/10.1145/3324884.3416609
+  authors:
+    - David Berend
+    - Xiaofei Xie
+    - Lei Ma
+    - Lingjun Zhou
+    - Yang Liu
+    - Chi Xu
+    - Jianjun Zhao
+  publish: >-
+    In The 35th IEEE/ACM International Conference on Automated Software
+    Engineering (ASE 2020), Melbourne, Australia, September 21-25, 2020.
+- title: Few-Shot Guided Mix for DNN Repairing
+  url: https://www.researchgate.net/publication/346586884_Few-Shot_Guided_Mix_for_DNN_Repairing
+  authors:
+    - Xuhong Ren
+    - Bing Yu
+    - Hua Qi
+    - Felix Juefei-Xu
+    - Zhuo Li
+    - Wanli Xue
+    - Lei Ma
+    - Jianjun Zhao
+  publish: >-
+    The 36th IEEE International Conference on Software Maintenance and
+    Evolution, NIER Track (ICSME 2020), Adelaide, Australia, September
+    27-October 2, 2020.
+- title: 'DeepRhythm: Exposing DeepFakes with Attentional Visual Heartbeat Rhythms'
+  url: https://arxiv.org/pdf/2006.07634.pdf
+  authors:
+    - Hua Qi
+    - Qing Guo
+    - Felix Juefei-Xu
+    - Xiaofei Xie
+    - Lei Ma
+    - Wei Feng
+    - Yang Liu
+    - Jianjun Zhao
+  publish: >-
+    In ACM Multimedia Conference 2020 (ACM MM 2020), Seattle, United States,
+    October 12-16, 2020.
+- title: 'DeepMutation++: a Mutation Testing Framework for Deep Learning Systems'
+  url: https://arxiv.org/pdf/1805.05206.pdf
+  authors:
+    - Qiang Hu
+    - Lei Ma
+    - Xiaofei Xie
+    - Bing Yu
+    - Yang Liu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 34th IEEE/ACM Conference on Automated Software Engineering (ASE
+    2019), (Tool Demo Track), San Diego, California, USA, November 11-15,
+    2019.
+- title: A Quantitative Analysis Framework for Recurrent Neural Network
+  url: https://ieeexplore.ieee.org/abstract/document/8952565
+  authors:
+    - Xiaoning Du
+    - Xiaofei Xie
+    - Yi Li
+    - Lei Ma
+    - Yang Liu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 34th IEEE/ACM Conference on Automated Software Engineering (ASE
+    2019), (Tool Demo Track), San Diego, California, USA, November 11-15,
+    2019.
+- title: 'DeepHunter: A Coverage-Guided Fuzzer for Deep Neural Networks'
+  url: http://xujuefei.com/felix_issta19_deephunter.pdf
+  authors:
+    - Xiaofei Xie
+    - Hongxu Chen
+    - Yi Li
+    - Lei Ma
+    - Yang Liu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 34th IEEE/ACM Conference on Automated Software Engineering (ASE
+    2019), (Tool Demo Track), San Diego, California, USA, November 11-15,
+    2019.
+- title: >-
+    An Empirical Study towards Characterizing Deep Learning Development and
+    Deployment across Different Frameworks and Platforms
+  url: https://arxiv.org/pdf/1909.06727.pdf
+  authors:
+    - Qianyu Guo
+    - Sen Chen
+    - Xiaofei Xie
+    - Lei Ma
+    - Qiang Hu
+    - Hongtao Liu
+    - Yang Liu
+    - Jianjun Zhao
+    - Xiaohong Li
+  publish: >-
+    In Proc. 34th IEEE/ACM Conference on Automated Software Engineering (ASE
+    2019), San Diego, California, USA, November 11-15, 2019.
+- title: >-
+    DeepStellar: Model-Based Quantitative Analysis of Stateful Deep Learning
+    Systems
+  url: https://personal.ntu.edu.sg/yi_li/files/Du2019DMB.pdf
+  authors:
+    - Xiaoning Du
+    - Xiaofei Xie
+    - Yi Li
+    - Lei Ma
+    - Yang Liu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 27th ACM Joint European Software Engineering Conference and
+    Symposium on the Foundations of Software Engineering (ESEC/FSE 2019),
+    Tallinn, Estonia, August 26-30, 2019.
+- title: >-
+    DeepHunter: A Coverage-Guided Fuzz Testing Framework for Deep Neural
+    Networks
+  url: http://xujuefei.com/felix_issta19_deephunter.pdf
+  authors:
+    - Xiaofei Xie
+    - Lei Ma
+    - Felix Juefei-Xu
+    - Minhui Xue
+    - Hongxu Chen
+    - Yang Liu
+    - Jianjun Zhao
+    - Bo Li
+    - Jianxiong Yin
+    - Simon See
+  publish: >-
+    In Proc. 28th ACM SIGSOFT International Symposium on Software Testing
+    and Analysis (ISSTA 2019), Beijing, China, July 15-19, 2019.
+- title: 'DeepVisual: A Visual Programming Tool for Deep Learning Systems'
+  url: >-
+    https://ieeexplore.ieee.org/document/8813295
+  authors:
+    - Chao Xie
+    - Hua Qi
+    - Lei Ma
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 27th IEEE/ACM International Conference on Program Comprehension
+    (ICPC 2019), Tools Demo Track, Montreal, Canada, May 25-26, 2019.
+- title: API Recommendation for Event-Driven Android Application Development
+  url: https://www.sciencedirect.com/science/article/pii/S0950584918302222
+  authors:
+    - WeizhaoYuan
+    - Hoang H. Nguyen
+    - Lingxiao Jiang
+    - Yuting Chen
+    - Jianjun Zhao
+    - Haibo Yu
+  publish: In Information and Software Technology, Vol.107, pp.30-47, March 2019.
+- title: 'DeepCT: Tomographic Combinatorial Testing for Deep Learning Systems'
+  url: http://xujuefei.com/felix_saner19_deepct.pdf
+  authors:
+    - Lei Ma
+    - Felix Juefei-Xu
+    - Minhui Xue
+    - Bo Li
+    - Li Li
+    - Yang Liu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 26th IEEE International Conference on Software Analysis,
+    Evolution, and Reengineering (SANER 2019), pp.535-539, ERA Track,
+    Hangzhou, China, February 24-27, 2019.
+- title: >-
+    An Orchestrated Empirical Study on Deep Learning Frameworks and
+    Platforms
+  url: https://arxiv.org/abs/1811.05187
+  authors:
+    - Qianyu Guo
+    - Xiaofei Xie
+    - Lei Ma
+    - Qiang Hu
+    - Ruitao Feng
+    - Li Li
+    - Yang Liu
+    - Jianjun Zhao
+    - Xiaohong Li
+  publish: In arXiv preprint arXiv:1811.05187, 2018.
+- title: >-
+    Secure Deep Learning Engineering: A Software Quality Assurance
+    Perspective
+  url: https://arxiv.org/abs/1810.04538
+  authors:
+    - Lei Ma
+    - Felix Juefei-Xu
+    - Minhui Xue
+    - Qiang Hu
+    - Sen Chen
+    - Bo Li
+    - Yang Liu
+    - Jianjun Zhao
+    - Jianxiong Yin
+    - Simon See
+  publish: In arXiv Preprint, 2018.
+- title: >-
+    DeepGraph: A PyCharm Tool for Visualizing and Understanding Deep
+    Learning Models
+  url: http://stap.ait.kyushu-u.ac.jp/~zhao/pub/pdf/apsec2018.pdf
+  authors:
+    - Qiang Hu
+    - Lei Ma
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 25th Asia-Pacific Software Engineering Conference (APSEC 2018),
+    ERA Track, pp.628-632, Nara, Japan, December 4-7, 2018.
+- title: 'DeepMutation: Mutation Testing of Deep Learning Systems'
+  url: https://arxiv.org/abs/1805.05206
+  authors:
+    - Lei Ma
+    - Fuyuan Zhang
+    - Jiyuan Sun
+    - Minhui Xue
+    - Bo Li
+    - Felix Juefei-Xu
+    - Chao Xie
+    - Li Li
+    - Yang Liu
+    - Jianjun Zhao
+    - Yadong Wang
+  publish: >-
+    In Proc. 29th IEEE International Symposium on Software Reliability
+    Engineering (ISSRE 2018), Memphis, TN, USA, October 15-18, 2018.
+- title: 'DeepGauge: Multi-Granularity Testing Criteria for Deep Learning Systems'
+  url: http://stap.ait.kyushu-u.ac.jp/~zhao/pub/pdf/ase2018.pdf
+  authors:
+    - Lei Ma
+    - Felix Juefei-Xu
+    - Fuyuan Zhang
+    - Jiyuan Sun
+    - Chunyang Chen
+    - Ting Su
+    - Minhui Xue
+    - Bo Li
+    - Li Li
+    - Yang Liu
+    - Jianjun Zhao
+    - Yadong Wang
+  publish: >-
+    In Proc. 33th IEEE/ACM Conference on Automated Software Engineering (ASE
+    2018), pp.120-131, Montpellier, French, September 3-7, 2018.(ACM SIGSOFT
+    Distinguished Paper Award)
+- title: Combinatorial Testing for Deep Learning Systems
+  url: https://arxiv.org/abs/1806.07723
+  authors:
+    - Lei Ma
+    - Fuyuan Zhang
+    - Minhui Xue
+    - Bo Li
+    - Yang Liu
+    - Jianjun Zhao
+    - Yadong Wang
+  publish: In arXiv:1806.07723, June 20, 2018.
+- title: Tuning Parallel Symbolic Execution Engine for Better Performance
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/fcs2008.pdf
+  authors:
+    - Anil Kumar Karna
+    - Jinbo Du
+    - Haihao Shen
+    - Hao Zhong
+    - Jiong Gong
+    - Haibo Yu
+    - Xiangning Ma
+    - Jianjun Zhao
+  publish: >-
+    In Frontiers of Computer Science, Springer, Vol.12, No.1, pp.86-100,
+    2018.
+- title: 'SPDebugger: A Fine-grained Deterministic Debugger for Concurrency Code'
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/ieice2017b.pdf
+  authors:
+    - Ziyi Lin
+    - Yilei Zhou
+    - Hao Zhong
+    - Yuting Chen
+    - Haibo Yu
+    - Jianjun Zhao
+  publish: >-
+    In IEICE Transactions on Information and Systems, Vol.E100-D, No.3,
+    pp.473-482, March 2017.
+- title: 'CLCMiner: Detecting Cross-Language Clones without Intermediates'
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/ieice2017a.pdf
+  authors:
+    - Xiao Cheng
+    - Zhiming Peng
+    - Lingxiao Jiang
+    - Hao Zhong
+    - Haibo Yu
+    - Jianjun Zhao
+  publish: >-
+    In IEICE Transactions on Information and Systems, Vol.E100-D, No.2,
+    pp.273-284, Feburary 2017.
+- title: 'LockPeeker: Detecting Latent Locks in Java APIs'
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016f.pdf
+  authors:
+    - Ziyi Lin
+    - Hao Zhong
+    - Yuting Chen
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 31th IEEE/ACM Conference on Automated Software Engineering (ASE
+    2016), pp.368-278, Singapore, September 3-7, 2016
+- title: Detecting Cross-Language Clones Without Intermediates
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016s.pdf
+  authors:
+    - Xiao Cheng
+    - Zhiming Peng
+    - Lingxiao Jiang
+    - Hao Zhong
+    - Haibo Yu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 31th IEEE/ACM Conference on Automated Software Engineering (ASE
+    2016), (Short Paper), pp.696-701, Singapore, September 3-7, 2016.
+- title: >-
+    On the Feasibility of Detecting Cross-Platform Code Clones via
+    Identifier Similarity
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/ase2016ws.pdf
+  authors:
+    - Xiao Cheng
+    - Linxiao Jiang
+    - Hao Zhong
+    - Haibo Yu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. Fifth International Workshop on Software Mining (SoftwareMining
+    2016, co-located with ASE 2016), pp.39-42, Singapore, September 3, 2016.
+- title: Rule-Directed Code Clone Synchronization
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/icpc2016a.pdf
+  authors:
+    - Xiao Cheng
+    - Hao Zhong
+    - Yuting Chen
+    - Zhenjiang Hu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 24th International Conference on Program Comprehension (ICPC
+    2016), Austin, Texas, USA, May 16-17, 2016.
+- title: Retrofitting Automatic Testing through Library Tests Reusing
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/icpc2016b.pdf
+  authors:
+    - Lei Ma
+    - Cheng Zhang
+    - Bing Yu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 24th International Conference on Program Comprehension (ICPC
+    2016), Austin, Texas, USA, May 16-17, 2016.
+- title: Coverage-Directed Differential Testing of JVM Implementations
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/pldi2016.pdf
+  authors:
+    - Yuting Chen
+    - Ting Su
+    - Chengnian Sun
+    - Zhendong Su
+    - Jianjun Zhao
+  publish: >-
+    In Proc. ACM SIGPLAN Conference on Programming Language Design and
+    Implementation (PLDI 2016), pp.85-99, Santa Barbara, CA, June 13-17,
+    2016.
+- title: Supporting Selective Undo for Refactoring
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/saner2016a.pdf
+  authors:
+    - Xiao Cheng
+    - Yuting Chen
+    - Zhenjiang Hu
+    - Tao Zan
+    - Mengyu Liu
+    - Hao Zhong
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 23rd IEEE International Conference on Software Analysis,
+    Evolution, and Reengineering (SANER 2016), Osaka, Japan, March 2016.
+- title: >-
+    Efficient and Precise Dynamic Slicing for Client-Side JavaScript
+    Programs
+  url: http://cse.sjtu.edu.cn/~zhao/pub/pdf/saner2016b.pdf
+  authors:
+    - Jiabin Ye
+    - Cheng Zhang
+    - Lei Ma
+    - Haibo Yu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 23rd IEEE International Conference on Software Analysis,
+    Evolution, and Reengineering (SANER 2016), Osaka, Japan, March
+    2016.(Best Paper Candidate Award)

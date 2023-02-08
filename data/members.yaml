@@ -1,557 +1,557 @@
 titles:
-    sensei:
-        en: Faculty
-        jp: 教員
-        cn: 教师
-    phd:
-        en: Ph.D. Student
-        jp: 博士後期課程
-        cn: 博士研究生
-    master:
-        en: Master Student
-        jp: 修士課程
-        cn: 硕士研究生
-    ugrd:
-        en: Undergraduate Student
-        jp: 学部生
-        cn: 本科生
-    research:
-        en: Research Student
-        jp: 研究生
-        cn: 研修生
-    grad_yr_2022:
-        en: 2022
-        jp: 2022 令和4年
-        cn: 2022年
-    grad_yr_2021:
-        en: 2021
-        jp: 2021 令和3年
-        cn: 2021年
-    grad_yr_2020:
-        en: 2020
-        jp: 2020 令和2年
-        cn: 2020年
-    grad_yr_2019:
-        en: 2019
-        jp: 2019 平成31年
-        cn: 2019年
-    grad_yr_2018:
-        en: 2018
-        jp: 2018 平成30年
-        cn: 2018年
+  sensei:
+    en: Faculty
+    jp: 教員
+    cn: 教师
+  phd:
+    en: Ph.D. Student
+    jp: 博士後期課程
+    cn: 博士研究生
+  master:
+    en: Master Student
+    jp: 修士課程
+    cn: 硕士研究生
+  ugrd:
+    en: Undergraduate Student
+    jp: 学部生
+    cn: 本科生
+  research:
+    en: Research Student
+    jp: 研究生
+    cn: 研修生
+  grad_yr_2022:
+    en: 2022
+    jp: 2022 令和4年
+    cn: 2022年
+  grad_yr_2021:
+    en: 2021
+    jp: 2021 令和3年
+    cn: 2021年
+  grad_yr_2020:
+    en: 2020
+    jp: 2020 令和2年
+    cn: 2020年
+  grad_yr_2019:
+    en: 2019
+    jp: 2019 平成31年
+    cn: 2019年
+  grad_yr_2018:
+    en: 2018
+    jp: 2018 平成30年
+    cn: 2018年
 members:
-    # - name:
-    #       native:
-    #       en:
-    #       jp:
-    #   title:
-    #   title_alt:
-    #       en:
-    #       jp:
-    #   url:
-    #   pic_url:
-    #   details:
-    #       en:
-    #       jp:
-    - name:
-          native: 赵建军
-          en: Jianjun Zhao
-          jp: 趙 建軍
-      title: sensei
-      title_alt:
-          en: Professor
-          jp: 教授
-      url: 'https://stap.ait.kyushu-u.ac.jp/~zhao/index.html'
-      email: 'zhao@ait.kyushu-u.ac.jp'
-      scholar: 'https://dblp.org/pid/71/6948.html'
-      pic_url: jianjun.zhao.png
-      details:
-          en:
-          jp:
+  # - name:
+  #       native:
+  #       en:
+  #       jp:
+  #   title:
+  #   title_alt:
+  #       en:
+  #       jp:
+  #   url:
+  #   pic_url:
+  #   details:
+  #       en:
+  #       jp:
+  - name:
+      native: 赵建军
+      en: Jianjun Zhao
+      jp: 趙 建軍
+    title: sensei
+    title_alt:
+      en: Professor
+      jp: 教授
+    url: 'https://stap.ait.kyushu-u.ac.jp/~zhao/index.html'
+    email: 'zhao@ait.kyushu-u.ac.jp'
+    scholar: 'https://dblp.org/pid/71/6948.html'
+    pic_url: jianjun.zhao.png
+    details:
+      en:
+      jp:
 
-    - name:
-          native: 马雷
-          en: Lei Ma
-          jp: 馬 雷
-      title: sensei
-      title_alt:
-          en: Associate Professor
-          jp: 准教授
-      url: 'https://malei.xyz/'
-      email: 'ma.lei@acm.org'
-      scholar: 'https://dblp.org/pid/20/6534-3.html'
-      pic_url: lei.ma.png
-      details:
-          en:
-          jp:
+  - name:
+      native: 马雷
+      en: Lei Ma
+      jp: 馬 雷
+    title: sensei
+    title_alt:
+      en: Associate Professor
+      jp: 准教授
+    url: 'https://malei.xyz/'
+    email: 'ma.lei@acm.org'
+    scholar: 'https://dblp.org/pid/20/6534-3.html'
+    pic_url: lei.ma.png
+    details:
+      en:
+      jp:
 
-    - name:
-          native: 冯尧铠
-          en: Yaokai Feng
-          jp: 馮 尭鍇
-      title: sensei
-      title_alt:
-          en: Assistant Professor
-          jp: 助教
-      url: 'https://stap.ait.kyushu-u.ac.jp/~fengyk/'
-      email: 'fengyk@ait.kyushu-u.ac.jp'
-      pic_url: yaokai.feng.JPG
-      details:
-          en:
-          jp:
+  - name:
+      native: 冯尧铠
+      en: Yaokai Feng
+      jp: 馮 尭鍇
+    title: sensei
+    title_alt:
+      en: Assistant Professor
+      jp: 助教
+    url: 'https://stap.ait.kyushu-u.ac.jp/~fengyk/'
+    email: 'fengyk@ait.kyushu-u.ac.jp'
+    pic_url: yaokai.feng.JPG
+    details:
+      en:
+      jp:
 
-    - name:
-          native: 谢肖飞
-          en: Xiaofei Xie
-          jp: 謝 肖飛
-      title: grad_yr_2021
-      title_alt:
-          en: Assistant Professor
-          jp: 助教
-      url: 'https://xiaofeixie.bitbucket.io/'
-      email: 'xiaofei.xfxie@gmail.com'
-      pic_url: xiaofei.xie.png
-      details:
-          en:
-          jp:
+  - name:
+      native: 谢肖飞
+      en: Xiaofei Xie
+      jp: 謝 肖飛
+    title: grad_yr_2021
+    title_alt:
+      en: Assistant Professor
+      jp: 助教
+    url: 'https://xiaofeixie.bitbucket.io/'
+    email: 'xiaofei.xfxie@gmail.com'
+    pic_url: xiaofei.xie.png
+    details:
+      en:
+      jp:
 
-    - name:
-          native: 张振亚
-          en: Zhenya Zhang
-          jp: 張 振亜
-      title: sensei
-      title_alt:
-          en: Assistant Professor
-          jp: 助教
-      url: 'https://group-mmm.org/~zhenya/'
-      pic_url: zhenya.zhang.png
-      details:
-          en:
-          jp:
+  - name:
+      native: 张振亚
+      en: Zhenya Zhang
+      jp: 張 振亜
+    title: sensei
+    title_alt:
+      en: Assistant Professor
+      jp: 助教
+    url: 'https://group-mmm.org/~zhenya/'
+    pic_url: zhenya.zhang.png
+    details:
+      en:
+      jp:
 
-    - name:
-          native: 章甫源
-          en: Fuyuan Zhang
-          jp: 章 甫源
-      title: sensei
-      title_alt:
-          en: Specially Appointed Assistant Professor
-          jp: 特任助教
-      pic_url: fuyuan.zhang.jpg
-      details:
-          en:
-          jp:
+  - name:
+      native: 章甫源
+      en: Fuyuan Zhang
+      jp: 章 甫源
+    title: sensei
+    title_alt:
+      en: Specially Appointed Assistant Professor
+      jp: 特任助教
+    pic_url: fuyuan.zhang.jpg
+    details:
+      en:
+      jp:
 
-    # students
-    - name:
-          native: 孙吉元
-          en: Jiyuan Sun
-          jp: 孫 吉元
-      title: grad_yr_2021
-      title_alt:
-          prev: phd
-      email: 'jiyuan.sun6@gmail.com'
-      pic_url: jiyuan.sun.png
+  # students
+  - name:
+      native: 孙吉元
+      en: Jiyuan Sun
+      jp: 孫 吉元
+    title: grad_yr_2021
+    title_alt:
+      prev: phd
+    email: 'jiyuan.sun6@gmail.com'
+    pic_url: jiyuan.sun.png
 
-    - name:
-          native: 董泽铭
-          en: Zeming Dong
-          jp: 董 沢銘
-      title: phd
-      email: 'dong.zeming.011@s.kyushu-u.ac.jp'
-      pic_url: zeming.dong.png
+  - name:
+      native: 董泽铭
+      en: Zeming Dong
+      jp: 董 沢銘
+    title: phd
+    email: 'dong.zeming.011@s.kyushu-u.ac.jp'
+    pic_url: zeming.dong.png
 
-    - name:
-          native: 程子一
-          en: Ziyi Cheng
-      title: phd
-      email: 'cheng.ziyi.548@s.kyushu-u.ac.jp'
-      pic_url: ziyi.cheng.png
+  - name:
+      native: 程子一
+      en: Ziyi Cheng
+    title: phd
+    email: 'cheng.ziyi.548@s.kyushu-u.ac.jp'
+    pic_url: ziyi.cheng.png
 
-    - name:
-          native: 赵鹏展
-          en: Pengzhan Zhao
-          jp: 趙 鵬展
-      title: phd
-      email: 'zhao.pengzhan.813@s.kyushu-u.ac.jp'
-      pic_url: pengzhan.zhao.png
+  - name:
+      native: 赵鹏展
+      en: Pengzhan Zhao
+      jp: 趙 鵬展
+    title: phd
+    email: 'zhao.pengzhan.813@s.kyushu-u.ac.jp'
+    pic_url: pengzhan.zhao.png
 
-    - name:
-          native: 吴雄飞
-          en: Xiongfei Wu
-          jp: 呉 雄飛
-      title: phd
-      email: 'xiongfei.wu.a94@s.kyushu-u.ac.jp'
-      url: 'https://x1on9f31.github.io/'
-      github: 'https://github.com/x1on9f31'
-      pic_url: xiongfei.wu.png
+  - name:
+      native: 吴雄飞
+      en: Xiongfei Wu
+      jp: 呉 雄飛
+    title: phd
+    email: 'xiongfei.wu.a94@s.kyushu-u.ac.jp'
+    url: 'https://x1on9f31.github.io/'
+    github: 'https://github.com/x1on9f31'
+    pic_url: xiongfei.wu.png
 
-    - name:
-          native: 叶家鸣
-          en: Jiaming Ye
-          jp: 葉 家鳴
-      title: phd
-      email: 'ye.jiaming.852@s.kyushu-u.ac.jp'
-      url: 'https://www.j1am1n9.com/'
-      pic_url: jiaming.ye.png
+  - name:
+      native: 叶家鸣
+      en: Jiaming Ye
+      jp: 葉 家鳴
+    title: phd
+    email: 'ye.jiaming.852@s.kyushu-u.ac.jp'
+    url: 'https://www.j1am1n9.com/'
+    pic_url: jiaming.ye.png
 
-    - name:
-          native: 吕德运
-          en: Deyun Lyu
-          jp: 呂 徳運
-      title: phd
-      pic_url: denyun.lv.png
-      url: 'https://lyudeyun.github.io/'
-      email: 'lyu.deyun.107@s.kyushu-u.ac.jp'
-      github: 'https://github.com/lyudeyun'
+  - name:
+      native: 吕德运
+      en: Deyun Lyu
+      jp: 呂 徳運
+    title: phd
+    pic_url: denyun.lv.png
+    url: 'https://lyudeyun.github.io/'
+    email: 'lyu.deyun.107@s.kyushu-u.ac.jp'
+    github: 'https://github.com/lyudeyun'
 
-    - name:
-          native: 齐桦
-          en: Hua Qi
-          jp: 斉 樺
-      title: phd
-      email: 'qi.hua.677@s.kyushu-u.ac.jp'
-      github: 'https://github.com/SaikaQH'
-      scholar: 'https://dblp.org/pid/87/4406.html'
-      pic_url: hua.qi.png
+  - name:
+      native: 齐桦
+      en: Hua Qi
+      jp: 斉 樺
+    title: phd
+    email: 'qi.hua.677@s.kyushu-u.ac.jp'
+    github: 'https://github.com/SaikaQH'
+    scholar: 'https://dblp.org/pid/87/4406.html'
+    pic_url: hua.qi.png
 
-    - name:
-          native: 候阳
-          en: Yang hou
-          jp: 侯 陽
-      title: phd
-      email: 'hou.yang.549@s.kyushu-u.ac.jp'
-      pic_url: yang.hou.jpg
+  - name:
+      native: 候阳
+      en: Yang hou
+      jp: 侯 陽
+    title: phd
+    email: 'hou.yang.549@s.kyushu-u.ac.jp'
+    pic_url: yang.hou.jpg
 
-    # TODO:
-    # - name:
-    #       native: 栗田 拓弥
-    #       en: Takuya Kurita
-    #   title: master
+  # TODO:
+  # - name:
+  #       native: 栗田 拓弥
+  #       en: Takuya Kurita
+  #   title: master
 
-    - name:
-          native: 李焯
-          en: Zhuo Li
-          jp: 李 タク
-      title: phd
-      email: 'li.zhuo.786@s.kyushu-u.ac.jp'
-      pic_url: zhuo.li.png
+  - name:
+      native: 李焯
+      en: Zhuo Li
+      jp: 李 タク
+    title: phd
+    email: 'li.zhuo.786@s.kyushu-u.ac.jp'
+    pic_url: zhuo.li.png
 
-    - name:
-          native: 孙景阳
-          en: Jingyang Sun
-          jp: 孫 景陽
-      title: grad_yr_2022
-      title_alt:
-          prev: master
-      email: 'sun.jingyang.487@s.kyushu-u.ac.jp'
-      pic_url: jingyang.sun.png
+  - name:
+      native: 孙景阳
+      en: Jingyang Sun
+      jp: 孫 景陽
+    title: grad_yr_2022
+    title_alt:
+      prev: master
+    email: 'sun.jingyang.487@s.kyushu-u.ac.jp'
+    pic_url: jingyang.sun.png
 
-    - name:
-          native: 畑江 耕平
-          en: Kouhei Hatae
-      title: grad_yr_2022
-      title_alt:
-          prev: master
-      email: 'hatae.kohei.462@s.kyushu-u.ac.jp'
+  - name:
+      native: 畑江 耕平
+      en: Kouhei Hatae
+    title: grad_yr_2022
+    title_alt:
+      prev: master
+    email: 'hatae.kohei.462@s.kyushu-u.ac.jp'
 
-    - name:
-          native: 村上 研多郎
-          en: Kentarou Murakami
-      title: grad_yr_2022
-      title_alt:
-          prev: master
-      email: 'murakami.kentaro.624@s.kyushu-u.ac.jp'
+  - name:
+      native: 村上 研多郎
+      en: Kentarou Murakami
+    title: grad_yr_2022
+    title_alt:
+      prev: master
+    email: 'murakami.kentaro.624@s.kyushu-u.ac.jp'
 
-    - name:
-          native: 马健淞
-          en: Jiansong Ma
-          jp: 馬 健淞
-      title: grad_yr_2022
-      title_alt:
-          prev: master
-      email: 'ma.jiansong.074@s.kyushu-u.ac.jp'
-      pic_url: jiansong.ma.png
+  - name:
+      native: 马健淞
+      en: Jiansong Ma
+      jp: 馬 健淞
+    title: grad_yr_2022
+    title_alt:
+      prev: master
+    email: 'ma.jiansong.074@s.kyushu-u.ac.jp'
+    pic_url: jiansong.ma.png
 
-    - name:
-          native: 金天成
-          en: Tiancheng Jin
-          jp: 金 天成（きん てんせい）
-      title: phd
-      email: 'jin.tiancheng.932@s.kyushu-u.ac.jp'
-      pic_url: tiancheng.jin.jpg
+  - name:
+      native: 金天成
+      en: Tiancheng Jin
+      jp: 金 天成（きん てんせい）
+    title: phd
+    email: 'jin.tiancheng.932@s.kyushu-u.ac.jp'
+    pic_url: tiancheng.jin.jpg
 
-    - name:
-          native: 待鳥 洸之介
-          en: Konosuke Machitori
-      title: master
+  - name:
+      native: 待鳥 洸之介
+      en: Konosuke Machitori
+    title: master
 
-    - name:
-          native: 栗田 俊介
-          en: Shunsuke Kurita
-      title: grad_yr_2022
-      title_alt:
-          prev: master
-      email: 'kurita.shunsuke.583@s.kyushu-u.ac.jp'
+  - name:
+      native: 栗田 俊介
+      en: Shunsuke Kurita
+    title: grad_yr_2022
+    title_alt:
+      prev: master
+    email: 'kurita.shunsuke.583@s.kyushu-u.ac.jp'
 
-    - name:
-          native: 陈健朗
-          en: Jianlang Chen
-          jp: チン ケンロウ
-      title: master
-      email: 'chen.jianlang.396@s.kyushu-u.ac.jp'
-      github: 'https://github.com/MamoruDS'
-      pic_url: jianlang.chen.png
+  - name:
+      native: 陈健朗
+      en: Jianlang Chen
+      jp: チン ケンロウ
+    title: master
+    email: 'chen.jianlang.396@s.kyushu-u.ac.jp'
+    github: 'https://github.com/MamoruDS'
+    pic_url: jianlang.chen.png
 
-    - name:
-          native: 牟田 隆弘
-          en: Takahiro Muta
-      title: master
-      email: 'muta.takahiro.494@s.kyushu-u.ac.jp'
-      pic_url: takahiro.muta.png
+  - name:
+      native: 牟田 隆弘
+      en: Takahiro Muta
+    title: master
+    email: 'muta.takahiro.494@s.kyushu-u.ac.jp'
+    pic_url: takahiro.muta.png
 
-    - name:
-          native: 掛下 真通
-          en: Masamichi Kakeshita
-      title: grad_yr_2022
-      title_alt:
-          prev: master
-      email: 'kakeshita.masamichi.922@s.kyushu-u.ac.jp'
+  - name:
+      native: 掛下 真通
+      en: Masamichi Kakeshita
+    title: grad_yr_2022
+    title_alt:
+      prev: master
+    email: 'kakeshita.masamichi.922@s.kyushu-u.ac.jp'
 
-    - name:
-          en: Juba Simon Mduduzi
-          jp: ジュバ サイモン ムドゥドゥジ
-      title: grad_yr_2022
-      title_alt:
-          prev: master
-      email: 'juba.simon.646@s.kyushu-u.ac.jp'
+  - name:
+      en: Juba Simon Mduduzi
+      jp: ジュバ サイモン ムドゥドゥジ
+    title: grad_yr_2022
+    title_alt:
+      prev: master
+    email: 'juba.simon.646@s.kyushu-u.ac.jp'
 
-    - name:
-          native: 山下 俊
-          en: Shun Yamshita
-      title: grad_yr_2022
-      title_alt:
-          prev: ugrd
-      email: 'yamashita.shun.693@s.kyushu-u.ac.jp'
+  - name:
+      native: 山下 俊
+      en: Shun Yamshita
+    title: grad_yr_2022
+    title_alt:
+      prev: ugrd
+    email: 'yamashita.shun.693@s.kyushu-u.ac.jp'
 
-    - name:
-          native: 古賀 勇大
-          en: Yudai Koga
-      title: ugrd
+  - name:
+      native: 古賀 勇大
+      en: Yudai Koga
+    title: ugrd
 
-    - name:
-          native: 福田 晃大
-          en: Kota Fukuda
-      title: ugrd
+  - name:
+      native: 福田 晃大
+      en: Kota Fukuda
+    title: ugrd
 
-    - name:
-          native: 末永 唯人
-          en: Yuito Suenaga
-      title: ugrd
+  - name:
+      native: 末永 唯人
+      en: Yuito Suenaga
+    title: ugrd
 
-    - name:
-          native: 藤井 樹
-          en: Tatsuki Fujii
-      title: grad_yr_2022
-      title_alt:
-          prev: ugrd
-      email: 'fujii.tatsuki.522@s.kyushu-u.ac.jp'
+  - name:
+      native: 藤井 樹
+      en: Tatsuki Fujii
+    title: grad_yr_2022
+    title_alt:
+      prev: ugrd
+    email: 'fujii.tatsuki.522@s.kyushu-u.ac.jp'
 
-    - name:
-          native: 苗中涛
-          en: Zhongtao Miao
-      title: grad_yr_2022
-      title_alt:
-          prev: research
-      email: 'miao.zhongtao.915@s.kyushu-u.ac.jp'
+  - name:
+      native: 苗中涛
+      en: Zhongtao Miao
+    title: grad_yr_2022
+    title_alt:
+      prev: research
+    email: 'miao.zhongtao.915@s.kyushu-u.ac.jp'
 
-    - name:
-          native: 陈思远
-          en: Siyuan Chen
-          jp: チン シエン
-      title: master
-      email: 'chen.siyuan.388@s.kyushu-u.ac.jp'
-      pic_url: siyuan.chen.png
-      # 2022
+  - name:
+      native: 陈思远
+      en: Siyuan Chen
+      jp: チン シエン
+    title: master
+    email: 'chen.siyuan.388@s.kyushu-u.ac.jp'
+    pic_url: siyuan.chen.png
+    # 2022
 
-    - name:
-          native: 兰书涵
-          en: Shuhan Lan
-          jp: 蘭 書涵
-      title: master
-      email: 'lan.shuhan.197@s.kyushu-u.ac.jp'
-      pic_url: shuhan.lan.png
+  - name:
+      native: 兰书涵
+      en: Shuhan Lan
+      jp: 蘭 書涵
+    title: master
+    email: 'lan.shuhan.197@s.kyushu-u.ac.jp'
+    pic_url: shuhan.lan.png
 
-    - name:
-          native: 夏商周
-          en: Shangzhou Xia
-          jp: カ ショウシュウ
-      title: master
-      email: 'xia.shangzhou.218@s.kyushu-u.ac.jp'
+  - name:
+      native: 夏商周
+      en: Shangzhou Xia
+      jp: カ ショウシュウ
+    title: master
+    email: 'xia.shangzhou.218@s.kyushu-u.ac.jp'
 
-    - name:
-          native: 罗俊杰
-          en: Junjie Luo
-          jp: 羅 俊傑
-      title: phd
-      pic_url: junjie.luo.png
+  - name:
+      native: 罗俊杰
+      en: Junjie Luo
+      jp: 羅 俊傑
+    title: phd
+    pic_url: junjie.luo.png
 
-    - name:
-          native: 王明古
-          en: Minggu Wang
-      title: phd
+  - name:
+      native: 王明古
+      en: Minggu Wang
+    title: phd
 
-    - name:
-          native: 王齐琛
-          en: Qichen Wang
-      title: research
+  - name:
+      native: 王齐琛
+      en: Qichen Wang
+    title: research
 
-    - name:
-          native: 傅海韬
-          en: Haitao Fu
-      title: research
+  - name:
+      native: 傅海韬
+      en: Haitao Fu
+    title: research
 
-    - name:
-          native: 郭笑雨
-          en: Xiaoyu Guo
-      title: research
+  - name:
+      native: 郭笑雨
+      en: Xiaoyu Guo
+    title: research
 
-    - name:
-          native: 吴子毅
-          en: Ziyi Wu
-      title: research
+  - name:
+      native: 吴子毅
+      en: Ziyi Wu
+    title: research
 
-    - name:
-          native: 大岡 秀徳
-          en: Hidenori Ooka
-      title: grad_yr_2021
-      title_alt:
-          prev: master
+  - name:
+      native: 大岡 秀徳
+      en: Hidenori Ooka
+    title: grad_yr_2021
+    title_alt:
+      prev: master
 
-    - name:
-          native: 古竹 香貴
-          en: Koki Furutake
-      title: grad_yr_2021 # TODO:
-      title_alt:
-          prev: ugrd
+  - name:
+      native: 古竹 香貴
+      en: Koki Furutake
+    title: grad_yr_2021 # TODO:
+    title_alt:
+      prev: ugrd
 
-    - name:
-          native: 濱田 翔馬
-          en: Shoma Hamada
-      title: grad_yr_2021 # TODO:
-      title_alt:
-          prev: ugrd
+  - name:
+      native: 濱田 翔馬
+      en: Shoma Hamada
+    title: grad_yr_2021 # TODO:
+    title_alt:
+      prev: ugrd
 
-    - name:
-          en: Le Duc Manh
-          jp: レ マン ドク
-      title: grad_yr_2021 # TODO:
-      title_alt:
-          prev: ugrd
+  - name:
+      en: Le Duc Manh
+      jp: レ マン ドク
+    title: grad_yr_2021 # TODO:
+    title_alt:
+      prev: ugrd
 
-    - name:
-          native: 张文馨
-          en: Wenxin Zhang
-          jp: 張 文馨
-      title: grad_yr_2021
-      title_alt:
-          prev: research
-      pic_url: wenxin.zhang.png
+  - name:
+      native: 张文馨
+      en: Wenxin Zhang
+      jp: 張 文馨
+    title: grad_yr_2021
+    title_alt:
+      prev: research
+    pic_url: wenxin.zhang.png
 
-    - name:
-          native: 于冰
-          en: Bing Yu
-      title: grad_yr_2020
-      title_alt:
-          prev: phd
+  - name:
+      native: 于冰
+      en: Bing Yu
+    title: grad_yr_2020
+    title_alt:
+      prev: phd
 
-    - name:
-          native: 李文韬
-          en: Wentao Li
-      title: grad_yr_2020
-      title_alt:
-          prev: master
-      pic_url: wentao.li.png
+  - name:
+      native: 李文韬
+      en: Wentao Li
+    title: grad_yr_2020
+    title_alt:
+      prev: master
+    pic_url: wentao.li.png
 
-    - name:
-          native: 中村 友海
-          en: Tomomi Nakamura
-      title: grad_yr_2020
-      title_alt:
-          prev: master
-      pic_url: tomomi.nakamura.png
+  - name:
+      native: 中村 友海
+      en: Tomomi Nakamura
+    title: grad_yr_2020
+    title_alt:
+      prev: master
+    pic_url: tomomi.nakamura.png
 
-    - name:
-          native: 芮瑞
-          en: Rui Rui
-      title: grad_yr_2020
-      title_alt:
-          prev: master
-      github: 'https://github.com/KrogRR'
-      pic_url: rui.rui.png
+  - name:
+      native: 芮瑞
+      en: Rui Rui
+    title: grad_yr_2020
+    title_alt:
+      prev: master
+    github: 'https://github.com/KrogRR'
+    pic_url: rui.rui.png
 
-    - name:
-          native: 王思源
-          en: Siyuan Wang
-      title: grad_yr_2020
-      title_alt:
-          prev: master
-      pic_url: siyuan.wang.png
+  - name:
+      native: 王思源
+      en: Siyuan Wang
+    title: grad_yr_2020
+    title_alt:
+      prev: master
+    pic_url: siyuan.wang.png
 
-    - name:
-          native: 谢超
-          en: Chao Xie
-          jp: 謝 超
-      title: grad_yr_2020
-      title_alt:
-          prev: master
-      pic_url: chao.xie.png
+  - name:
+      native: 谢超
+      en: Chao Xie
+      jp: 謝 超
+    title: grad_yr_2020
+    title_alt:
+      prev: master
+    pic_url: chao.xie.png
 
-    - name:
-          native: 胡强
-          en: Qiang Hu
-          jp: 胡 強
-      title: grad_yr_2020
-      title_alt:
-          prev: master
-      github: 'https://github.com/wellido'
-      pic_url: qiang.hu.png
+  - name:
+      native: 胡强
+      en: Qiang Hu
+      jp: 胡 強
+    title: grad_yr_2020
+    title_alt:
+      prev: master
+    github: 'https://github.com/wellido'
+    pic_url: qiang.hu.png
 
-    - name:
-          native: 山本 大祐
-          en: Daisuke Yamamoto
-      title: grad_yr_2019
-      title_alt:
-          prev: master
+  - name:
+      native: 山本 大祐
+      en: Daisuke Yamamoto
+    title: grad_yr_2019
+    title_alt:
+      prev: master
 
-    - name:
-          native: 中原 和希
-          en: Kazuki Nakahara
-      title: grad_yr_2019
-      title_alt:
-          prev: ugrd
+  - name:
+      native: 中原 和希
+      en: Kazuki Nakahara
+    title: grad_yr_2019
+    title_alt:
+      prev: ugrd
 
-    - name:
-          native: 大森 洋一
-          en: Yoichi Omori
-      title: grad_yr_2018
-      title_alt:
-          en: Assistant Professor
-          jp: 助教
-      url: 'https://hyoka.ofc.kyushu-u.ac.jp/search/details/K002427/'
+  - name:
+      native: 大森 洋一
+      en: Yoichi Omori
+    title: grad_yr_2018
+    title_alt:
+      en: Assistant Professor
+      jp: 助教
+    url: 'https://hyoka.ofc.kyushu-u.ac.jp/search/details/K002427/'
 
-    - name:
-          native: 文海辰
-          en: Haichen Wen
-          jp: 文 海辰
-      title: grad_yr_2018
-      title_alt:
-          prev: master
-      pic_url: chenhai.wen.png
+  - name:
+      native: 文海辰
+      en: Haichen Wen
+      jp: 文 海辰
+    title: grad_yr_2018
+    title_alt:
+      prev: master
+    pic_url: chenhai.wen.png
 
-    - name:
-          native: 梶原 大悟
-          en: Daigo Kajiwara
-      title: grad_yr_2018
-      title_alt:
-          prev: ugrd
+  - name:
+      native: 梶原 大悟
+      en: Daigo Kajiwara
+    title: grad_yr_2018
+    title_alt:
+      prev: ugrd
