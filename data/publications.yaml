@@ -1,4 +1,225 @@
 - title: >-
+    ArchRepair: Block-Level Architecture-Oriented Repairing for Deep Neural Networks
+  authors:
+    - Hua Qi
+    - Zhijie Wang
+    - Qing Guo
+    - Jianlang Chen
+    - Felix Juefei-Xu
+    - Fuyuan Zhang
+    - Lei Ma
+    - Jianjun Zhao
+  publish: >-
+    In ACM Transactions on Software Engineering and Methodology, 2023.
+- title: >-
+    Widget Detection-based Testing for Industrial Mobile Games
+  authors:
+    - Xiongfei Wu
+    - Jiaming Ye
+    - Ke Chen
+    - Xiaofei Xie
+    - Yujing Hu
+    - Ruochen Huang
+    - Lei Ma
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 45th International Conference on Software Engineering (ICSE 2023), SEIP Track, Melbourne, Australia, 14-20 May 2023.
+- title: >-
+    Neural Episodic Control with State Abstraction
+  authors:
+    - Zhuo Li
+    - Derui Zhu
+    - Yujing Hu
+    - Xiaofei Xie
+    - Lei Ma
+    - Yan Zheng
+    - Yan Song
+    - YingFeng Chen
+    - Jianjun Zhao
+  publish: >-
+    In Proc. The 11th International Conference on Learning Representations (ICLR 2023), Kigali, Rwanda, May 1-5, 2023.
+- title: >-
+    MixCode: Enhancing Code Classification by Mixup-Based Data Augmentation
+  authors:
+    - Zeming Dong
+    - Qiang Hu
+    - Yuejun Guo
+    - Maxime Cordy
+    - Mike Papadakis
+    - Zhenya Zhang
+    - Yves Le Traon
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 30th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2023), Macao SAR, China, March 21st-24th, 2023.
+- title: >-
+    Automated Synthesis of Quantum Circuits Using Neural Network
+  authors:
+    - Kentaro Murakami
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 2022 IEEE 22nd International Conference on Software Quality, Reliability and Security (QRS 2022), pp.694-672, December 2022. (Virtually)
+- title: >-
+    On the usage and development of deep learning compilers: an empirical study on TVM
+  authors:
+    - Xiongfei Wu
+    - Jinqiu Yang
+    - Lei Ma
+    - Yinxing Xue
+    - Jianjun Zhao
+  publish: >-
+    In Empirical Software Engineering, Vol.27, No.7, Springer, December 2022.
+- title: >-
+    DARTSRepair: Core-failure-set guided DARTS for network robustness to common corruptions
+  authors:
+    - Xuhong Ren
+    - Jianlang Chen
+    - Felix Juefei-Xu
+    - Wanli Xue
+    - Qing Guo
+    - Lei Ma
+    - Jianjun Zhao
+    - Shengyong Chen
+  publish: >-
+    In Pattern Recognition, Vol.131, Elsevier, November 2022.
+- title: >-
+    Vulpedia: Detecting vulnerable ethereum smart contracts via abstracted vulnerability signatures
+  authors:
+    - Jiaming Ye
+    - Mingliang Ma
+    - Yun Lin
+    - Lei Ma
+    - Yinxing Xue
+    - Jianjun Zhao
+  publish: >-
+    In Journal of Systems and Software, Vol.192, Elsevier, October 2022.
+- title: >-
+    FalsifAI: Falsification of AI-Enabled Hybrid Control Systems Guided by Time-Aware Coverage Criteria
+  authors:
+    - Zhenya Zhang
+    - Deyun Lyu
+    - Paolo Arcaini
+    - Lei Ma
+    - Ichiro Hasuo
+    - Jianjun Zhao
+  publish: >-
+    In IEEE Transactions on Software Engineering, July 2022.
+- title: >-
+    xFuzz: Machine Learning Guided Cross-Contract Fuzzing
+  authors:
+    - Yinxing Xue
+    - Jiaming Ye
+    - Wei Zhang
+    - Jun Sun
+    - Lei Ma
+    - Haijun Wang
+    - Jianjun Zhao
+  publish: >-
+    In IEEE Transactions on Dependable and Secure Computing, June 2022.
+- title: >-
+    A Comprehensive Study of Bug Fixes in Quantum Programs
+  authors:
+    - Junjie Luo
+    - Pengzhan Zhao
+    - Zhongtao Miao
+    - Shuhan Lan
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 1st International Workshop on Quantum Software Analysis, Evolution and Reengineering (Q-SANER 2022) co-located with SANER 2022, pp.1228-1235, Match 18, 2022.
+- title: >-
+    Bugs4Q: A Benchmark of Real Bugs for Quantum Programs
+  authors:
+    - Pengzhan Zhao
+    - Jianjun Zhao
+    - Zhongtao Miao
+    - Shuhan Lan
+  publish: >-
+    In Proc. 36th IEEE/ACM International Conference on Automated Software Engineering (ASE 2021), NIER Track, 1373-1376, November 2021.
+- title: >-
+    DeepRepair: Style-Guided Repairing for Deep Neural Networks in the Real-World Operational Environment
+  authors:
+    - Bing Yu
+    - Hua Qi
+    - Qing Guo
+    - Felix Juefei-Xu
+    - Xiaofei Xie
+    - Lei Ma
+    - Jianjun Zhao
+  publish: >-
+    In IEEE Transactions on Reliability, 2021.
+- title: >-
+    Learning to Adversarially Blur Visual Object Tracking
+  authors:
+    - Qing Guo
+    - Ziyi Cheng
+    - Felix Juefei-Xu
+    - Lei Ma
+    - Xiaofei Xie
+    - Yang Liu
+    - Jianjun Zhao
+  publish: >-
+    In Proc. International Conference on Computer Vision, (ICCV 2021), October 11-17, Montreal, Canada, 2021.
+- title: >-
+    An Empirical Study of GUI Widget Detection for Industrial Mobile Games
+  authors:
+    - Jiaming Ye
+    - Ke Chen
+    - Xiaofei Xie
+    - Lei Ma
+    - Ruochen Huang
+    - Yingfeng Chen
+    - Yinxing Xue
+    - Jianjun Zhao
+  publish: >-
+    In Proc. ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2021), Industry Track, Athens, Greece, August 23-28, 2021.
+- title: >-
+    Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness
+  authors:
+    - Zhenya Zhang
+    - Deyun Lyu
+    - Paolo Arcaini
+    - Lei Ma
+    - Ichiro Hasuo
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 33rd International Conference on Computer-Aided Verification, 2021 (CAV 2021), July 18-24, 2021.
+- title: >-
+    Deepmix: Online auto data augmentation for robust visual object tracking
+  authors:
+    - Ziyi Cheng
+    - Xuhong Ren
+    - Felix Juefei-Xu
+    - Wanli Xue
+    - Qing Guo
+    - Lei Ma
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 2021 IEEE International Conference on Multimedia and Expo (ICME 2021), July 5-9, 2021.
+- title: >-
+    On the Effectiveness of Signal Rescaling in Hybrid System Falsification
+  authors:
+    - Zhenya Zhang
+    - Deyun Lyu
+    - Paolo Arcaini
+    - Lei Ma
+    - Ichiro Hasuo
+    - Jianjun Zhao
+  publish: >-
+    In Proc. 13th NASA Formal Methods Symposium (NFM 2021), May 24-28, 2021.
+- title: >-
+    Some Size and Structure Metrics for Quantum Software
+  authors:
+    - Jianjun Zhao
+  publish: >-
+    In Proc. Second International Workshop on Quantum Software Engineering (Q-SE 2021), June 1-2, 2021.
+- title: >-
+    Identifying Bug Patterns in Quantum Programs
+  authors:
+    - Pengzhan Zhao
+    - Jianjun Zhao
+    - Lei Ma
+  publish: >-
+    In Proc. Second International Workshop on Quantum Software Engineering (Q-SE 2021), June 1-2, 2021.
+- title: >-
     EfficientDeRain: Learning Pixel-wise Dilation Filtering for
     High-Efficiency Single-Image Deraining
   url: https://arxiv.org/pdf/2009.09238.pdf
