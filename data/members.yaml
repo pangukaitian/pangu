@@ -19,6 +19,14 @@ titles:
     en: Research Student
     jp: 研究生
     cn: 研修生
+  grad_yr_2024:
+    en: 2022
+    jp: 2022 令和6年
+    cn: 2022年
+  grad_yr_2023:
+    en: 2022
+    jp: 2022 令和5年
+    cn: 2022年
   grad_yr_2022:
     en: 2022
     jp: 2022 令和4年
@@ -199,7 +207,7 @@ members:
       native: 吕德运
       en: Deyun Lyu
       jp: 呂 徳運
-    title: phd
+    title: grad_yr_2022
     pic_url: denyun.lv.png
     url: 'https://lyudeyun.github.io/'
     email: 'lyu.deyun.107@s.kyushu-u.ac.jp'
