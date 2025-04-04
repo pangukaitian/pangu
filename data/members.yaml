@@ -137,6 +137,7 @@ members:
       jp: 助教
     url: 'https://choshina.github.io/'
     email: 'zhang@ait.kyushu-u.ac.jp'
+    scholar: 'https://scholar.google.com/citations?user=4CtRW_MAAAAJ&hl=en'
     pic_url: zhenya.zhang.png
     details:
       en:
@@ -156,6 +157,46 @@ members:
       jp:
 
   # students
+  - name:
+      native: 吴薇
+      en: Wei Wu
+    title: phd
+
+  - name:
+      native: 李溪源
+      en: Xiyuan Li
+    title: phd
+    
+  - name:
+      native: 王肩鸿
+      en: Jianhong Wang
+    title: phd
+  
+  - name:
+      native: 刘恒杰
+      en: Hengjie Liu
+    title: phd
+    
+  - name:
+      native: 朱露露
+      en: Lulu Zhu
+    title: phd
+    
+  - name:
+      native: 李启明
+      en: Qiming Li
+    title: phd
+
+  - name:
+      native: 李乐津
+      en: Lejin Li
+    title: phd
+
+  - name:
+      native: 潘宇
+      en: Yu Pan
+    title: phd
+    
   - name:
       native: 孙吉元
       en: Jiyuan Sun
@@ -297,7 +338,7 @@ members:
   - name:
       native: 待鳥 洸之介
       en: Konosuke Machitori
-    title: master
+    title: grad_yr_2023
 
   - name:
       native: 栗田 俊介
@@ -319,7 +360,7 @@ members:
   - name:
       native: 牟田 隆弘
       en: Takahiro Muta
-    title: master
+    title: grad_yr_2023
     email: 'muta.takahiro.494@s.kyushu-u.ac.jp'
     pic_url: takahiro.muta.png
 
@@ -382,7 +423,7 @@ members:
       native: 陈思远
       en: Siyuan Chen
       jp: チン シエン
-    title: master
+    title: grad_yr_2024
     email: 'chen.siyuan.388@s.kyushu-u.ac.jp'
     pic_url: siyuan.chen.png
     # 2022
@@ -391,7 +432,7 @@ members:
       native: 兰书涵
       en: Shuhan Lan
       jp: 蘭 書涵
-    title: master
+    title: grad_yr_2024
     email: 'lan.shuhan.197@s.kyushu-u.ac.jp'
     pic_url: shuhan.lan.png
 
@@ -427,7 +468,7 @@ members:
   - name:
       native: 郭笑雨
       en: Xiaoyu Guo
-    title: master
+    title: phd
 
   - name:
       native: 吴子毅
