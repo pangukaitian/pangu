@@ -19,14 +19,18 @@ titles:
     en: Research Student
     jp: 研究生
     cn: 研修生
+  grad_yr_2025:
+    en: 2025
+    jp: 2025 令和7年
+    cn: 2025年
   grad_yr_2024:
-    en: 2022
-    jp: 2022 令和6年
-    cn: 2022年
+    en: 2024
+    jp: 2024 令和6年
+    cn: 2024年
   grad_yr_2023:
-    en: 2022
-    jp: 2022 令和5年
-    cn: 2022年
+    en: 2023
+    jp: 2023 令和5年
+    cn: 2023年
   grad_yr_2022:
     en: 2022
     jp: 2022 令和4年
@@ -141,7 +145,7 @@ members:
       native: 章甫源
       en: Fuyuan Zhang
       jp: 章 甫源
-    title: sensei
+    title: grad_yr_2024
     title_alt:
       en: Specially Appointed Assistant Professor
       jp: 特任助教
@@ -172,7 +176,7 @@ members:
   - name:
       native: 程子一
       en: Ziyi Cheng
-    title: phd
+    title: grad_yr_2023
     email: 'cheng.ziyi.548@s.kyushu-u.ac.jp'
     pic_url: ziyi.cheng.png
 
@@ -180,7 +184,7 @@ members:
       native: 赵鹏展
       en: Pengzhan Zhao
       jp: 趙 鵬展
-    title: phd
+    title: grad_yr_2023
     email: 'zhao.pengzhan.813@s.kyushu-u.ac.jp'
     pic_url: pengzhan.zhao.png
 
@@ -188,7 +192,7 @@ members:
       native: 吴雄飞
       en: Xiongfei Wu
       jp: 呉 雄飛
-    title: phd
+    title: grad_yr_2025
     email: 'xiongfei.wu.a94@s.kyushu-u.ac.jp'
     url: 'https://x1on9f31.github.io/'
     github: 'https://github.com/x1on9f31'
@@ -198,7 +202,7 @@ members:
       native: 叶家鸣
       en: Jiaming Ye
       jp: 葉 家鳴
-    title: phd
+    title: grad_yr_2023
     email: 'ye.jiaming.852@s.kyushu-u.ac.jp'
     url: 'https://www.j1am1n9.com/'
     pic_url: jiaming.ye.png
@@ -207,7 +211,7 @@ members:
       native: 吕德运
       en: Deyun Lyu
       jp: 呂 徳運
-    title: grad_yr_2022
+    title: grad_yr_2025
     pic_url: denyun.lv.png
     url: 'https://lyudeyun.github.io/'
     email: 'lyu.deyun.107@s.kyushu-u.ac.jp'
@@ -241,7 +245,7 @@ members:
       native: 李焯
       en: Zhuo Li
       jp: 李 タク
-    title: phd
+    title: grad_yr_2025
     email: 'li.zhuo.786@s.kyushu-u.ac.jp'
     pic_url: zhuo.li.png
 
@@ -306,7 +310,7 @@ members:
       native: 陈健朗
       en: Jianlang Chen
       jp: チン ケンロウ
-    title: master
+    title: phd
     email: 'chen.jianlang.396@s.kyushu-u.ac.jp'
     github: 'https://github.com/MamoruDS'
     pic_url: jianlang.chen.png
@@ -345,17 +349,17 @@ members:
   - name:
       native: 古賀 勇大
       en: Yudai Koga
-    title: ugrd
+    title: grad_yr_2023
 
   - name:
       native: 福田 晃大
       en: Kota Fukuda
-    title: ugrd
+    title: phd
 
   - name:
       native: 末永 唯人
       en: Yuito Suenaga
-    title: ugrd
+    title: grad_yr_2025
 
   - name:
       native: 藤井 樹
@@ -394,7 +398,7 @@ members:
       native: 夏商周
       en: Shangzhou Xia
       jp: カ ショウシュウ
-    title: master
+    title: phd
     email: 'xia.shangzhou.218@s.kyushu-u.ac.jp'
 
   - name:
@@ -412,22 +416,22 @@ members:
   - name:
       native: 王齐琛
       en: Qichen Wang
-    title: research
+    title: master
 
   - name:
       native: 傅海韬
       en: Haitao Fu
-    title: research
+    title: master
 
   - name:
       native: 郭笑雨
       en: Xiaoyu Guo
-    title: research
+    title: master
 
   - name:
       native: 吴子毅
       en: Ziyi Wu
-    title: research
+    title: master
 
   - name:
       native: 大岡 秀徳
