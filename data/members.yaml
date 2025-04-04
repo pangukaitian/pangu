@@ -135,7 +135,8 @@ members:
     title_alt:
       en: Assistant Professor
       jp: 助教
-    url: 'https://group-mmm.org/~zhenya/'
+    url: 'https://choshina.github.io/'
+	email: 'zhang@ait.kyushu-u.ac.jp'
     pic_url: zhenya.zhang.png
     details:
       en:
@@ -436,6 +437,11 @@ members:
   - name:
       native: 李翼
       en: Yi Li
+    title: grad_yr_2025
+
+  - name:
+      native: 闫宜培
+      en: Yipei Yan
     title: grad_yr_2025
 
   - name:
