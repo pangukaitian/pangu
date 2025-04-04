@@ -431,7 +431,12 @@ members:
   - name:
       native: 吴子毅
       en: Ziyi Wu
-    title: master
+    title: grad_yr_2025
+
+  - name:
+      native: 李翼
+      en: Yi Li
+    title: grad_yr_2025
 
   - name:
       native: 大岡 秀徳
