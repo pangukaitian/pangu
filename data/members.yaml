@@ -158,6 +158,16 @@ members:
 
   # students
   - name:
+      native: 福田 晃大
+      en: Kota Fukuda
+    title: phd
+  
+  - name:
+      native: 郭笑雨
+      en: Xiaoyu Guo
+    title: phd
+    
+  - name:
       native: 吴薇
       en: Wei Wu
     title: phd
@@ -270,12 +280,39 @@ members:
     pic_url: hua.qi.png
 
   - name:
+      native: 夏商周
+      en: Shangzhou Xia
+      jp: カ ショウシュウ
+    title: phd
+    email: 'xia.shangzhou.218@s.kyushu-u.ac.jp'
+
+  - name:
       native: 候阳
       en: Yang hou
       jp: 侯 陽
     title: phd
     email: 'hou.yang.549@s.kyushu-u.ac.jp'
     pic_url: yang.hou.jpg
+
+  - name:
+      native: 钟俊彦
+      en: Junyan Zhong
+    title: master
+
+  - name:
+      native: 张博睿
+      en: Borui Zhang
+    title: master
+
+  - name:
+      native: 张昊钰
+      en: Haoyu Zhang
+    title: master
+
+  - name:
+      native: 邵旻祺
+      en: Minqi Shao
+    title: master
 
   # TODO:
   # - name:
@@ -394,11 +431,6 @@ members:
     title: grad_yr_2023
 
   - name:
-      native: 福田 晃大
-      en: Kota Fukuda
-    title: phd
-
-  - name:
       native: 末永 唯人
       en: Yuito Suenaga
     title: grad_yr_2025
@@ -437,13 +469,6 @@ members:
     pic_url: shuhan.lan.png
 
   - name:
-      native: 夏商周
-      en: Shangzhou Xia
-      jp: カ ショウシュウ
-    title: phd
-    email: 'xia.shangzhou.218@s.kyushu-u.ac.jp'
-
-  - name:
       native: 罗俊杰
       en: Junjie Luo
       jp: 羅 俊傑
@@ -464,11 +489,6 @@ members:
       native: 傅海韬
       en: Haitao Fu
     title: master
-
-  - name:
-      native: 郭笑雨
-      en: Xiaoyu Guo
-    title: phd
 
   - name:
       native: 吴子毅
