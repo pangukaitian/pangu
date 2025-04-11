@@ -367,7 +367,7 @@ members:
   - name:
       native: 金天成
       en: Tiancheng Jin
-      jp: 金 天成（きん てんせい）
+      jp: 金 天成
     title: phd
     email: 'jin.tiancheng.932@s.kyushu-u.ac.jp'
     pic_url: tiancheng.jin.jpg
@@ -489,6 +489,7 @@ members:
       native: 傅海韬
       en: Haitao Fu
     title: master
+    pic_url: haitao.fu.jpg
 
   - name:
       native: 吴子毅
