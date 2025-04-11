@@ -492,6 +492,13 @@ members:
     pic_url: haitao.fu.jpg
 
   - name:
+      native: 陳純楷
+      en: Chunkai CHEN
+      jp: 陳純楷
+    title: master
+    pic_url: chunkai.chen.jpg
+
+  - name:
       native: 吴子毅
       en: Ziyi Wu
     title: grad_yr_2025
