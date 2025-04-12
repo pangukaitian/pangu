@@ -308,15 +308,14 @@ members:
   - name:
       native: 王晨畅
       en: Chenchang Wang
+      jp: オウ シンチョウ
+    email: wangchenchang0916@gmail.com
+    github: https://github.com/wangchenchang
     title: master
   - name:
       native: 汪立人
       en: Liren Wang
     title: master
-
-
-
-  
   
   - name:
       native: 苏桐
@@ -325,7 +324,6 @@ members:
     title: research
     email: su.tong.497@s.kyushu-u.ac.jp
     pic_url: tong.su.jpg
-
   - name:
       native: 胡耀华
       en: Yaohua Hu
