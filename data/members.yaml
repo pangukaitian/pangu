@@ -225,6 +225,8 @@ members:
       native: 李启明
       en: Qiming Li
     title: phd
+    email: li.qiming.913@s.kyushu-u.ac.jp
+
 
   - name:
       native: 福田 晃大
@@ -283,6 +285,7 @@ members:
       jp: 陳純楷
     title: master
     pic_url: chunkai.chen.jpg
+    email: chen.chunkai.430@s.kyushu-u.ac.jp
   - name:
       native: 张天越
       en: Tianyue Zhang
@@ -290,6 +293,28 @@ members:
     title: master
     email: hato_tsubame@outlook.com
     pic_url: tianyue.zhang.jpg
+  - name:
+      native: 焦士扬
+      en: Shiyang Jiao
+    title: master
+    email: jiao.shiyang.048@s.kyushu-u.ac.jp
+    pic_url: chunkai.chen.jpg
+  - name:
+      native: 李子达
+      en: Zida Li
+    title: master
+  - name:
+      native: 王晨畅
+      en: Chenchang Chen
+    title: master
+  - name:
+      native: 汪立人
+      en: Liren Wang
+    title: master
+
+
+
+  
   
   - name:
       native: 苏桐
@@ -299,13 +324,13 @@ members:
     email: su.tong.497@s.kyushu-u.ac.jp
     pic_url: tong.su.jpg
 
-  # - name:
-  #     native: 胡耀华
-  #     en: Yaohua Hu
-  #     jp: コ ヨウカ
-  #   title: master
-  #   email: hu.yaohua.009@s.kyushu-u.ac.jp
-  #   pic_url: yaohua.hu.jpeg
+  - name:
+      native: 胡耀华
+      en: Yaohua Hu
+      jp: コ ヨウカ
+    title: research
+    email: hu.yaohua.009@s.kyushu-u.ac.jp
+    pic_url: yaohua.hu.jpeg
 
   
 # pre students
