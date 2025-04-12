@@ -246,6 +246,8 @@ members:
   - name:
       native: 钟俊彦
       en: Junyan Zhong
+      jp: ショウ シュンゲン
+    email: syou.syungen.zjy@gmail.com
     title: master
   - name:
       native: 张博睿
@@ -254,6 +256,8 @@ members:
   - name:
       native: 张昊钰
       en: Haoyu Zhang
+      jp: チョウ コウギョク
+    email: zhang.haoyu.604@s.kyushu-u.ac.jp
     title: master
   - name:
       native: 邵旻祺
@@ -293,9 +297,16 @@ members:
     email: su.tong.497@s.kyushu-u.ac.jp
     pic_url: tong.su.jpg
 
-    
-  
+  # - name:
+  #     native: 胡耀华
+  #     en: Yaohua Hu
+  #     jp: コ ヨウカ
+  #   title: master
+  #   email: hu.yaohua.009@s.kyushu-u.ac.jp
+  #   pic_url: yaohua.hu.jpeg
 
+  
+# pre students
   - name:
       native: 畑江 耕平
       en: Kouhei Hatae
