@@ -304,7 +304,10 @@ members:
   - name:
       native: 李子达
       en: Zida Li
+      jp: 李子達 
+    email: li.zida.380@s.kyushu-u.ac.jp
     title: master
+    pic_url: zida.li.png
   - name:
       native: 王晨畅
       en: Chenchang Wang
