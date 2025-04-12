@@ -231,7 +231,10 @@ members:
   - name:
       native: 福田 晃大
       en: Kota Fukuda
+      jp: 福田 晃大
+    email: fukuda.kota.527@s.kyushu-u.ac.jp 
     title: phd
+    pic_url: kota.fukuda.jpg
   - name:
       native: 郭笑雨
       en: Xiaoyu Guo
