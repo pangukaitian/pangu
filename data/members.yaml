@@ -221,6 +221,8 @@ members:
       native: 朱露露
       en: Lulu Zhu
     title: phd
+    email: zhu.lulu.501@s.kyushu-u.ac.jp
+    pic_url: lulu.zhu.jpeg
   - name:
       native: 李启明
       en: Qiming Li
@@ -319,6 +321,7 @@ members:
       native: 汪立人
       en: Liren Wang
     title: master
+    email: wang.liren.687@s.kyushu-u.ac.jp
   
   - name:
       native: 苏桐
@@ -328,12 +331,26 @@ members:
     email: su.tong.497@s.kyushu-u.ac.jp
     pic_url: tong.su.jpg
   - name:
+      native: 張展赫
+      en: Zhanhe Zhang
+      jp: チョウ テンカク
+    title: research
+    email: zhanhe.422@s.kyushu-u.ac.jp
+    pic_url: zhanhe.zhang.jpg
+  - name:
       native: 胡耀华
       en: Yaohua Hu
       jp: コ ヨウカ
     title: research
     email: hu.yaohua.009@s.kyushu-u.ac.jp
     pic_url: yaohua.hu.jpeg
+  - name:
+      native: 張博友
+      en: Boyou Zhang
+      jp: チョウ ヒロトモ
+    title: research
+    email: Z149059169@outlook.com
+    pic_url: boyou.zhang.jpg
 
   
 # pre students
